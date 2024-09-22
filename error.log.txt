@@ -1,0 +1,13 @@
+ ○ Compiling / ...
+ ⨯ ./pages/index.js:2:1
+Module not found: Can't resolve '../components/TexasBinStores'
+  1 | import Head from 'next/head'
+> 2 | import TexasBinStores from '../components/TexasBinStores'
+    | ^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 500 in 4940ms

@@ -1,0 +1,50 @@
+// pages/api/texas-bin-stores.js
+export default function handler(req, res) {
+    const storesData = {
+      "status": "OK",
+      "request_id": "5f59ef81-58bfp-402a-9e05-e7d66f802885",
+      "parameters": {
+        "query": "Bin stores in texas",
+        "language": "en",
+        "region": "us",
+        "lat": 37.359428,
+        "lng": -121.925337,
+        "zoom": 13,
+        "limit": 20,
+        "offset": 0,
+        "extract_emails_and_contacts": false
+      },
+      "data": [
+        {
+          "business_id": "0x8640a31fe3a76ae7:0xd9f7bfab1a2fd02",
+          "google_id": "0x8640a31fe3a76ae7:0xd9f7bfab1a2fd02",
+          "place_id": "ChIJ52qn4x-jQIYRAv2isfp7nw0",
+          "google_mid": "/g/11pyykz4xb",
+          "phone_number": "+12815018631",
+          "name": "Big Box Bins",
+          "latitude": 29.690263299999998,
+          "longitude": -95.2208814,
+          "full_address": "Big Box Bins, 1306 Richey St, Pasadena, TX 77502",
+          "review_count": 471,
+          "rating": 4.9,
+          "timezone": "America/Chicago",
+          "opening_status": "Closed ⋅ Opens 8 AM",
+          "working_hours": {
+            "Thursday": ["8 AM–8 PM"],
+            "Friday": ["8 AM–5 PM"],
+            "Saturday": ["8 AM–8 PM"],
+            "Sunday": ["8 AM–8 PM"],
+            "Monday": ["8 AM–8 PM"],
+            "Tuesday": ["8 AM–8 PM"],
+            "Wednesday": ["8 AM–8 PM"]
+          },
+          "website": "http://www.bigboxbins.com",
+          "verified": true,
+          "place_link": "https://www.google.com/maps/place/?q=place_id:ChIJ52qn4x-jQIYRAv2isfp7nw0"
+        }
+        // Add more store data here if available
+      ]
+    };
+  
+    res.status(200).json(storesData);
+  }
