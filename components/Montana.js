@@ -24,7 +24,7 @@ export default function Montana() {
   }, []);
 
   if (loading) {
-    return <div className="text-center text-xl font-bold mt-8">Loading Texas Bin Stores...</div>;
+    return <div className="text-center text-xl font-bold mt-8">Loading Montana Bin Stores...</div>;
   }
 
   if (error) {
@@ -33,7 +33,7 @@ export default function Montana() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Bin Stores in Texas</h1>
+      <h1 className="text-3xl font-bold mb-6">Bin Stores in Montana</h1>
       {storesData && storesData.data && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {storesData.data.map((store) => (
