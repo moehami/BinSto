@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Colorado from '../components/StatesList'
+import StatesList from '../components/StatesList'
 
 export default function Home() {
   return (
