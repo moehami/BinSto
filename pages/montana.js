@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import ErrorBoundary from '../components/ErrorBoundary'
 import Montana from '../components/Montana'
 
 export default function Home() {
