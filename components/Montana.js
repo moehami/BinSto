@@ -10,7 +10,7 @@ export default function Montana() {
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch store data');
-          console.log({ error, errorInfo });
+          console.log({ error, errorInfo });// i added this
         }
         return response.json();
       })
