@@ -1,0 +1,4603 @@
+export default function handler(req, res) {
+  const storesData = {
+    "status": "OK",
+    "request_id": "99a8b6e9-884a-4f9c-859a-af857fbb76e9",
+    "parameters": {
+        "query": "bin stores in alabama",
+        "language": "en",
+        "region": "us",
+        "lat": 37.09024,
+        "lng": -95.712891,
+        "zoom": 13,
+        "limit": 40,
+        "offset": 0,
+        "extract_emails_and_contacts": true
+    },
+    "data": [
+        {
+            "business_id": "0x888bb1a70a12d825:0xa74e27ffa0bc59b7",
+            "google_id": "0x888bb1a70a12d825:0xa74e27ffa0bc59b7",
+            "place_id": "ChIJJdgSCqexi4gRt1m8oP8nTqc",
+            "google_mid": "/g/11m7mhwxlk",
+            "phone_number": "+12568453340",
+            "name": "Bargain Bins",
+            "latitude": 33.6282912,
+            "longitude": -85.80402629999999,
+            "full_address": "Bargain Bins, 1556 Greenbrier Dear Rd, Anniston, AL 36207",
+            "review_count": 408,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20137 PM"
+                ],
+                "Monday": [
+                    "12\u20137 PM"
+                ],
+                "Tuesday": [
+                    "12\u20137 PM"
+                ],
+                "Wednesday": [
+                    "12\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://m.facebook.com/bargainbinsanniston",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888bb1a70a12d825:0xa74e27ffa0bc59b7",
+            "cid": "12055617231384238519",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJJdgSCqexi4gRt1m8oP8nTqc&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "109686074212329178534",
+            "owner_link": "https://maps.google.com/maps/contrib/109686074212329178534",
+            "owner_name": "Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPORhajvsLfOUbQ7AkLiaEmfs9QyLf132EulwMd",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPORhajvsLfOUbQ7AkLiaEmfs9QyLf132EulwMd",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPORhajvsLfOUbQ7AkLiaEmfs9QyLf132EulwMd=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.6283795,
+                    "longitude": -85.80417539999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-01-24T00:00:00.000Z",
+                    "photo_timestamp": 1611446400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 251,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1556 Greenbrier Dear Rd, Anniston, AL 36207",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1556 Greenbrier Dear Rd",
+            "city": "Anniston",
+            "zipcode": "36207",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88621b2a9ce0ed97:0xb1f2369c58802313",
+            "google_id": "0x88621b2a9ce0ed97:0xb1f2369c58802313",
+            "place_id": "ChIJl-3gnCobYogREyOAWJw28rE",
+            "google_mid": "/g/11pkc_hwdb",
+            "phone_number": null,
+            "name": "High Five Bargain Bins",
+            "latitude": 34.6995248,
+            "longitude": -86.38230759999999,
+            "full_address": "High Five Bargain Bins, 6025 Hwy 72 E, Gurley, AL 35748",
+            "review_count": 40,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88621b2a9ce0ed97:0xb1f2369c58802313",
+            "cid": "12822371134204814099",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJl-3gnCobYogREyOAWJw28rE&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "114025331710039481640",
+            "owner_link": "https://maps.google.com/maps/contrib/114025331710039481640",
+            "owner_name": "High Five Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPnzdbYrqyngKFtVijJgLrU-9HU2AwUBOX69Mnt",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPnzdbYrqyngKFtVijJgLrU-9HU2AwUBOX69Mnt",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPnzdbYrqyngKFtVijJgLrU-9HU2AwUBOX69Mnt=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.699543999999996,
+                    "longitude": -86.3823874,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-02-24T00:00:00.000Z",
+                    "photo_timestamp": 1645660800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "6025 Hwy 72 E, Gurley, AL 35748",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "6025 Hwy 72 E",
+            "city": "Gurley",
+            "zipcode": "35748",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8861ef79a66dae85:0x8c5b802e50db1142",
+            "google_id": "0x8861ef79a66dae85:0x8c5b802e50db1142",
+            "place_id": "ChIJha5tpnnvYYgRQhHbUC6AW4w",
+            "google_mid": "/g/11rq9pbhhj",
+            "phone_number": null,
+            "name": "High Five Bargain Bins",
+            "latitude": 34.6612718,
+            "longitude": -86.0149103,
+            "full_address": "High Five Bargain Bins, 184 Micah Way, Scottsboro, AL 35769",
+            "review_count": 60,
+            "rating": 4.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8861ef79a66dae85:0x8c5b802e50db1142",
+            "cid": "10113818324603965762",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJha5tpnnvYYgRQhHbUC6AW4w&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "113054164533810368546",
+            "owner_link": "https://maps.google.com/maps/contrib/113054164533810368546",
+            "owner_name": "High Five Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNPYHF0603SBju29TFv1RfMhLFLAgjCtz_v5rNt",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNPYHF0603SBju29TFv1RfMhLFLAgjCtz_v5rNt",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNPYHF0603SBju29TFv1RfMhLFLAgjCtz_v5rNt=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.6613572,
+                    "longitude": -86.01509779999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-08-01T00:00:00.000Z",
+                    "photo_timestamp": 1659312000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "184 Micah Way, Scottsboro, AL 35769",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "184 Micah Way",
+            "city": "Scottsboro",
+            "zipcode": "35769",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8889f991ae18f5d9:0x29dcb6a652449d46",
+            "google_id": "0x8889f991ae18f5d9:0x29dcb6a652449d46",
+            "place_id": "ChIJ2fUYrpH5iYgRRp1EUqa23Ck",
+            "google_mid": "/g/11p5jsq79c",
+            "phone_number": "+12565820098",
+            "name": "Mike's Bins",
+            "latitude": 34.339446699999996,
+            "longitude": -86.30986209999999,
+            "full_address": "Mike's Bins, 1801 Gunter Ave Suite A, Guntersville, AL 35976",
+            "review_count": 101,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 1\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "1\u20135 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20131 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20131 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.ebay.com/str/mikesmerchandise",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8889f991ae18f5d9:0x29dcb6a652449d46",
+            "cid": "3016486675892444486",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ2fUYrpH5iYgRRp1EUqa23Ck&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "110726467733603438357",
+            "owner_link": "https://maps.google.com/maps/contrib/110726467733603438357",
+            "owner_name": "Mike's Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMZB0MQQ3xVXAad3RHa5B2q2l5ET9eBT94XZstk",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMZB0MQQ3xVXAad3RHa5B2q2l5ET9eBT94XZstk",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMZB0MQQ3xVXAad3RHa5B2q2l5ET9eBT94XZstk=w3120-h2018-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.339446699999996,
+                    "longitude": -86.30986209999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-12-22T00:00:00.000Z",
+                    "photo_timestamp": 1671667200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1801 Gunter Ave Suite A, Guntersville, AL 35976",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1801 Gunter Ave Suite A",
+            "city": "Guntersville",
+            "zipcode": "35976",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8888e09eee37abdd:0x71e0301ec8edb02d",
+            "google_id": "0x8888e09eee37abdd:0x71e0301ec8edb02d",
+            "place_id": "ChIJ3as37p7giIgRLbDtyB4w4HE",
+            "google_mid": "/g/11fz7q0d8m",
+            "phone_number": "+12054258234",
+            "name": "Bin Depot Bessemer",
+            "latitude": 33.4049611,
+            "longitude": -86.9591161,
+            "full_address": "Bin Depot Bessemer, 700 19th St N, Bessemer, AL 35020",
+            "review_count": 936,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20137 PM"
+                ]
+            },
+            "website": "http://www.fresh-value.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8888e09eee37abdd:0x71e0301ec8edb02d",
+            "cid": "8205611429847216173",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ3as37p7giIgRLbDtyB4w4HE&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "113422809772637354811",
+            "owner_link": "https://maps.google.com/maps/contrib/113422809772637354811",
+            "owner_name": "Bin Depot Bessemer",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Liquidator",
+            "subtypes": [
+                "Liquidator",
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOJUZ_dKVeYCNkaCd7qsKKwG8XX6ujZp_bt-0oo",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOJUZ_dKVeYCNkaCd7qsKKwG8XX6ujZp_bt-0oo",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOJUZ_dKVeYCNkaCd7qsKKwG8XX6ujZp_bt-0oo=w3120-h4160-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.404977599999995,
+                    "longitude": -86.9588136,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-10-22T00:00:00.000Z",
+                    "photo_timestamp": 1634860800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 71,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "700 19th St N, Bessemer, AL 35020",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "700 19th St N",
+            "city": "Bessemer",
+            "zipcode": "35020",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "2054246625",
+                    "2056554427",
+                    "2054258234"
+                ],
+                "facebook": "https://www.facebook.com/freshvaluettown",
+                "instagram": "https://www.instagram.com/freshvalue_",
+                "yelp": "https://www.yelp.com/biz/fresh-value-gadsden",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/fresh-value-inc",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a1b6b27583d45:0x26b9a986072fbcf5",
+            "google_id": "0x888a1b6b27583d45:0x26b9a986072fbcf5",
+            "place_id": "ChIJRT1YJ2sbiogR9bwvB4apuSY",
+            "google_mid": "/g/11jz_sk05p",
+            "phone_number": null,
+            "name": "High Five Bargain Bins",
+            "latitude": 34.1977222,
+            "longitude": -86.156165,
+            "full_address": "High Five Bargain Bins, 104 S McCleskey St, Boaz, AL 35957",
+            "review_count": 32,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": "https://m.facebook.com/471522983613525",
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a1b6b27583d45:0x26b9a986072fbcf5",
+            "cid": "2790447837244013813",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJRT1YJ2sbiogR9bwvB4apuSY&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "110119899502211534149",
+            "owner_link": "https://maps.google.com/maps/contrib/110119899502211534149",
+            "owner_name": "High Five Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMsy_nRfVIGaMn4-4qk6Gin5vnd5NGjszOqZ89b",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMsy_nRfVIGaMn4-4qk6Gin5vnd5NGjszOqZ89b",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMsy_nRfVIGaMn4-4qk6Gin5vnd5NGjszOqZ89b=w3120-h4160-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.1977304,
+                    "longitude": -86.1566586,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-04-18T00:00:00.000Z",
+                    "photo_timestamp": 1713398400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "104 S McCleskey St, Boaz, AL 35957",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "104 S McCleskey St",
+            "city": "Boaz",
+            "zipcode": "35957",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8861d745cb7de06f:0x57d4926a2b4e91e8",
+            "google_id": "0x8861d745cb7de06f:0x57d4926a2b4e91e8",
+            "place_id": "ChIJb-B9y0XXYYgR6JFOK2qS1Fc",
+            "google_mid": "/g/11gy1phjjb",
+            "phone_number": "+12569791950",
+            "name": "Bargain Bins LLC",
+            "latitude": 34.461634,
+            "longitude": -85.7052928,
+            "full_address": "Bargain Bins LLC, 2000 Gault Ave N Suite C, Fort Payne, AL 35967",
+            "review_count": 200,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8861d745cb7de06f:0x57d4926a2b4e91e8",
+            "cid": "6328844361053147624",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJb-B9y0XXYYgR6JFOK2qS1Fc&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "105033837561433193414",
+            "owner_link": "https://maps.google.com/maps/contrib/105033837561433193414",
+            "owner_name": "Bargain Bins LLC",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNfTMJ5L31jtYbWppthTv6l9_cD4ZcPTYuzZFpD",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNfTMJ5L31jtYbWppthTv6l9_cD4ZcPTYuzZFpD",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNfTMJ5L31jtYbWppthTv6l9_cD4ZcPTYuzZFpD=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.4618962,
+                    "longitude": -85.7057741,
+                    "type": "photo",
+                    "photo_datetime_utc": "2019-03-01T00:00:00.000Z",
+                    "photo_timestamp": 1551398400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2000 Gault Ave N Suite C, Fort Payne, AL 35967",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2000 Gault Ave N Suite C",
+            "city": "Fort Payne",
+            "zipcode": "35967",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x886213006b53a5f3:0x556124229ea8cf98",
+            "google_id": "0x886213006b53a5f3:0x556124229ea8cf98",
+            "place_id": "ChIJ86VTawATYogRmM-oniIkYVU",
+            "google_mid": "/g/11vqjf401l",
+            "phone_number": null,
+            "name": "Bargain Bins of Huntsville",
+            "latitude": 34.6914817,
+            "longitude": -86.5068398,
+            "full_address": "Bargain Bins of Huntsville, 5549 US-431, Brownsboro, AL 35741",
+            "review_count": 15,
+            "rating": 4.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Opens soon \u22c5 11\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "11 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x886213006b53a5f3:0x556124229ea8cf98",
+            "cid": "6152238297074159512",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ86VTawATYogRmM-oniIkYVU&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "102917511101786578371",
+            "owner_link": "https://maps.google.com/maps/contrib/102917511101786578371",
+            "owner_name": "Bargain Bins of Huntsville",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPRfIMN9px6CcQREjPYC4ndtiV7IuDR9IRb8-Oz",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPRfIMN9px6CcQREjPYC4ndtiV7IuDR9IRb8-Oz",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPRfIMN9px6CcQREjPYC4ndtiV7IuDR9IRb8-Oz=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.6914999,
+                    "longitude": -86.506986,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-04-25T00:00:00.000Z",
+                    "photo_timestamp": 1714003200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "5549 US-431, Brownsboro, AL 35741",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "5549 US-431",
+            "city": "Brownsboro",
+            "zipcode": "35741",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a1b48135b5c47:0x448f21d842b998a0",
+            "google_id": "0x888a1b48135b5c47:0x448f21d842b998a0",
+            "place_id": "ChIJR1xbE0gbiogRoJi5Qtghj0Q",
+            "google_mid": "/g/11n0xlgqss",
+            "phone_number": "+12568453340",
+            "name": "Bargain Bins Albertville",
+            "latitude": 34.2359399,
+            "longitude": -86.1648441,
+            "full_address": "Bargain Bins Albertville, 3520 US-431, Albertville, AL 35950",
+            "review_count": 39,
+            "rating": 3.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20137 PM"
+                ],
+                "Monday": [
+                    "12\u20137 PM"
+                ],
+                "Tuesday": [
+                    "12\u20137 PM"
+                ],
+                "Wednesday": [
+                    "12\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://www.bargainbins.net",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a1b48135b5c47:0x448f21d842b998a0",
+            "cid": "4940204528964835488",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJR1xbE0gbiogRoJi5Qtghj0Q&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "101754343887600985599",
+            "owner_link": "https://maps.google.com/maps/contrib/101754343887600985599",
+            "owner_name": "Bargain Bins Albertville",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOcZBpgTZDvGMDFghvtDd-cEO3j1B6EWK8ulbbB",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOcZBpgTZDvGMDFghvtDd-cEO3j1B6EWK8ulbbB",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOcZBpgTZDvGMDFghvtDd-cEO3j1B6EWK8ulbbB=w1920-h1080-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.2356273,
+                    "longitude": -86.1654155,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-07-30T00:00:00.000Z",
+                    "photo_timestamp": 1722297600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "3520 US-431, Albertville, AL 35950",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3520 US-431",
+            "city": "Albertville",
+            "zipcode": "35950",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "kdh@bargainbins.net"
+                ],
+                "phone_numbers": [
+                    "2568453340"
+                ],
+                "facebook": "https://www.facebook.com/bargainbinsanniston",
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a3bb32afb2449:0xf082eb417f1ef06",
+            "google_id": "0x888a3bb32afb2449:0xf082eb417f1ef06",
+            "place_id": "ChIJSST7KrM7iogRBu_xF7QuCA8",
+            "google_mid": "/g/11tgd5dnnz",
+            "phone_number": "+12564385344",
+            "name": "Buddy Bins",
+            "latitude": 33.968755099999996,
+            "longitude": -85.945244,
+            "full_address": "Buddy Bins, 702 A Chastain Blvd W, Glencoe, AL 35905",
+            "review_count": 30,
+            "rating": 4.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://buddybinsllc.godaddysites.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a3bb32afb2449:0xf082eb417f1ef06",
+            "cid": "1083167061413326598",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJSST7KrM7iogRBu_xF7QuCA8&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103654106059356948284",
+            "owner_link": "https://maps.google.com/maps/contrib/103654106059356948284",
+            "owner_name": "Buddy Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOXSKYGA5vvu39mEzrk3iCF3d9ynDTrzi287R6J",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOXSKYGA5vvu39mEzrk3iCF3d9ynDTrzi287R6J",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOXSKYGA5vvu39mEzrk3iCF3d9ynDTrzi287R6J=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.9684358,
+                    "longitude": -85.9456146,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-25T00:00:00.000Z",
+                    "photo_timestamp": 1682380800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "702 A Chastain Blvd W, Glencoe, AL 35905",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "702 A Chastain Blvd W",
+            "city": "Glencoe",
+            "zipcode": "35905",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "9499661724",
+                    "2144488233",
+                    "8155736417",
+                    "07779241650",
+                    "07794337321"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/godaddysites_com",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/antennatowercommunications-godaddysites-com",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a3db080fb9b87:0x3e4a9e57731063f6",
+            "google_id": "0x888a3db080fb9b87:0x3e4a9e57731063f6",
+            "place_id": "ChIJh5v7gLA9iogR9mMQc1eeSj4",
+            "google_mid": "/g/11vcw4xbnx",
+            "phone_number": "+12568453340",
+            "name": "Bargain Bins Gadsden",
+            "latitude": 34.0235276,
+            "longitude": -86.0202911,
+            "full_address": "Bargain Bins Gadsden, 301 N 12th St Suite L, Gadsden, AL 35901",
+            "review_count": 19,
+            "rating": 3.5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20137 PM"
+                ],
+                "Monday": [
+                    "12\u20137 PM"
+                ],
+                "Tuesday": [
+                    "12\u20137 PM"
+                ],
+                "Wednesday": [
+                    "12\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://www.bargainbins.net",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a3db080fb9b87:0x3e4a9e57731063f6",
+            "cid": "4488574077057917942",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJh5v7gLA9iogR9mMQc1eeSj4&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103872056006163830097",
+            "owner_link": "https://maps.google.com/maps/contrib/103872056006163830097",
+            "owner_name": "Bargain Bins Gadsden",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPx55Nw4AgRG0xBu76-pklLmmavNmxl8HyM-yGL",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPx55Nw4AgRG0xBu76-pklLmmavNmxl8HyM-yGL",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPx55Nw4AgRG0xBu76-pklLmmavNmxl8HyM-yGL=w1286-h965-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0235249,
+                    "longitude": -86.0206245,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-09-26T00:00:00.000Z",
+                    "photo_timestamp": 1695686400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "301 N 12th St Suite L, Gadsden, AL 35901",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "301 N 12th St Suite L",
+            "city": "Gadsden",
+            "zipcode": "35901",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "kdh@bargainbins.net"
+                ],
+                "phone_numbers": [
+                    "2568453340"
+                ],
+                "facebook": "https://www.facebook.com/bargainbinsanniston",
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x886287002458391d:0xc3225343e544ebcd",
+            "google_id": "0x886287002458391d:0xc3225343e544ebcd",
+            "place_id": "ChIJHTlYJACHYogRzetE5UNTIsM",
+            "google_mid": "/g/11vqyz39jw",
+            "phone_number": "+12566860940",
+            "name": "Amazing Deals & Bin Treasures",
+            "latitude": 34.5832252,
+            "longitude": -86.97825019999999,
+            "full_address": "Amazing Deals & Bin Treasures, 6th Ave SE, Decatur, AL 35601",
+            "review_count": 3,
+            "rating": 3.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x886287002458391d:0xc3225343e544ebcd",
+            "cid": "14060892537678523341",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJHTlYJACHYogRzetE5UNTIsM&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "102523919537171046868",
+            "owner_link": "https://maps.google.com/maps/contrib/102523919537171046868",
+            "owner_name": "Amazing Deals & Bin Treasures",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Market",
+            "subtypes": [
+                "Market"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNoWKrRXK25CfyqeiCHjzXtb3HvzSHqnJDOA4co",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNoWKrRXK25CfyqeiCHjzXtb3HvzSHqnJDOA4co",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNoWKrRXK25CfyqeiCHjzXtb3HvzSHqnJDOA4co=w1284-h1728-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.583227199999996,
+                    "longitude": -86.978335,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-03-25T00:00:00.000Z",
+                    "photo_timestamp": 1711324800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "6th Ave SE, Decatur, AL 35601",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "6th Ave SE",
+            "city": "Decatur",
+            "zipcode": "35601",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8889cb0fbd386147:0x65f9c8b197b1fe3b",
+            "google_id": "0x8889cb0fbd386147:0x65f9c8b197b1fe3b",
+            "place_id": "ChIJR2E4vQ_LiYgRO_6xl7HI-WU",
+            "google_mid": "/g/11kjdnf97m",
+            "phone_number": null,
+            "name": "Bin Frenzy",
+            "latitude": 34.1611504,
+            "longitude": -86.837001,
+            "full_address": "Bin Frenzy, 1644 Town Square S W, Cullman, AL 35055",
+            "review_count": 35,
+            "rating": 2.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20131 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8889cb0fbd386147:0x65f9c8b197b1fe3b",
+            "cid": "7348124932111466043",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJR2E4vQ_LiYgRO_6xl7HI-WU&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "105855136388577610921",
+            "owner_link": "https://maps.google.com/maps/contrib/105855136388577610921",
+            "owner_name": "Bin Frenzy",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": null,
+            "reviews_per_rating": null,
+            "photo_count": 0,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1644 Town Square S W, Cullman, AL 35055",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1644 Town Square S W",
+            "city": "Cullman",
+            "zipcode": "35055",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x889293d57d72bd25:0xc9acf053c91cb17d",
+            "google_id": "0x889293d57d72bd25:0xc9acf053c91cb17d",
+            "place_id": "ChIJJb1yfdWTkogRfbEcyVPwrMk",
+            "google_mid": "/g/11vb3cqppz",
+            "phone_number": "+13346994222",
+            "name": "Wiregrass Bargains",
+            "latitude": 31.227885399999998,
+            "longitude": -85.4292555,
+            "full_address": "Wiregrass Bargains, 2701 W Main St, Dothan, AL 36301",
+            "review_count": 75,
+            "rating": 4.4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x889293d57d72bd25:0xc9acf053c91cb17d",
+            "cid": "14532254340264800637",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJJb1yfdWTkogRfbEcyVPwrMk&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103238182864142584591",
+            "owner_link": "https://maps.google.com/maps/contrib/103238182864142584591",
+            "owner_name": "Wiregrass Bargains",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPmK_0r56s7PNoJ6IAYdwg9RQhzUlfAEXJXgr-9",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPmK_0r56s7PNoJ6IAYdwg9RQhzUlfAEXJXgr-9",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPmK_0r56s7PNoJ6IAYdwg9RQhzUlfAEXJXgr-9=w2448-h3264-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 31.228197599999998,
+                    "longitude": -85.4291306,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-09-18T00:00:00.000Z",
+                    "photo_timestamp": 1726617600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2701 W Main St, Dothan, AL 36301",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2701 W Main St",
+            "city": "Dothan",
+            "zipcode": "36301",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8892930fbf5424a3:0xf9bcd6325d7c13e5",
+            "google_id": "0x8892930fbf5424a3:0xf9bcd6325d7c13e5",
+            "place_id": "ChIJoyRUvw-TkogR5RN8XTLWvPk",
+            "google_mid": "/g/11l2qpjr0d",
+            "phone_number": null,
+            "name": "Bin Diggin",
+            "latitude": 31.2430533,
+            "longitude": -85.4190979,
+            "full_address": "Bin Diggin, 2497 Montgomery Hwy, Dothan, AL 36303",
+            "review_count": 21,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8892930fbf5424a3:0xf9bcd6325d7c13e5",
+            "cid": "17995493722870780901",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJoyRUvw-TkogR5RN8XTLWvPk&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "107614091478213727235",
+            "owner_link": "https://maps.google.com/maps/contrib/107614091478213727235",
+            "owner_name": "Bin Diggin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN-eFmDMy_aekmnRJdUdxvoRu_BEKsCEHrZVFXJ",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN-eFmDMy_aekmnRJdUdxvoRu_BEKsCEHrZVFXJ",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN-eFmDMy_aekmnRJdUdxvoRu_BEKsCEHrZVFXJ=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 31.243316099999998,
+                    "longitude": -85.41910920000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-10-18T00:00:00.000Z",
+                    "photo_timestamp": 1729209600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2497 Montgomery Hwy, Dothan, AL 36303",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2497 Montgomery Hwy",
+            "city": "Dothan",
+            "zipcode": "36303",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x886217ca7965a1a3:0x2f708bc616f5fbb4",
+            "google_id": "0x886217ca7965a1a3:0x2f708bc616f5fbb4",
+            "place_id": "ChIJo6FlecoXYogRtPv1FsaLcC8",
+            "google_mid": "/g/11ldvhnlv7",
+            "phone_number": "+12568856171",
+            "name": "Blessed Bargains",
+            "latitude": 34.7659804,
+            "longitude": -86.486903,
+            "full_address": "Blessed Bargains, 2817 US-72, Huntsville, AL 35811",
+            "review_count": 3,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20132 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x886217ca7965a1a3:0x2f708bc616f5fbb4",
+            "cid": "3418385800079211444",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJo6FlecoXYogRtPv1FsaLcC8&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "113784394995570998024",
+            "owner_link": "https://maps.google.com/maps/contrib/113784394995570998024",
+            "owner_name": "Blessed Bargains",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN6SPDP-cljgVT2WTDl-j5BO6rb3hJwOZle_uZV",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN6SPDP-cljgVT2WTDl-j5BO6rb3hJwOZle_uZV",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN6SPDP-cljgVT2WTDl-j5BO6rb3hJwOZle_uZV=w3201-h2971-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7655725,
+                    "longitude": -86.4872271,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-04-20T00:00:00.000Z",
+                    "photo_timestamp": 1713571200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    }
+                }
+            },
+            "address": "2817 US-72, Huntsville, AL 35811",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2817 US-72",
+            "city": "Huntsville",
+            "zipcode": "35811",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8861d9846376d227:0xc94230ca91c8aaa2",
+            "google_id": "0x8861d9846376d227:0xc94230ca91c8aaa2",
+            "place_id": "ChIJJ9J2Y4TZYYgRoqrIkcowQsk",
+            "google_mid": "/g/11h71ncgqc",
+            "phone_number": null,
+            "name": "High Five",
+            "latitude": 34.474510099999996,
+            "longitude": -85.794815,
+            "full_address": "High Five, 3322 Main St E, Fort Payne, AL 35968",
+            "review_count": 220,
+            "rating": 4.4,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": "http://high-five.poi.place",
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8861d9846376d227:0xc94230ca91c8aaa2",
+            "cid": "14502207396673792674",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJJ9J2Y4TZYYgRoqrIkcowQsk&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103466185826954550103",
+            "owner_link": "https://maps.google.com/maps/contrib/103466185826954550103",
+            "owner_name": "High Five",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPUU4gV4YUEXG5oyt7aySJwZWcnK0zyeaNyWnlc",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPUU4gV4YUEXG5oyt7aySJwZWcnK0zyeaNyWnlc",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPUU4gV4YUEXG5oyt7aySJwZWcnK0zyeaNyWnlc=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.4749548,
+                    "longitude": -85.7947523,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-09-23T00:00:00.000Z",
+                    "photo_timestamp": 1632355200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "3322 Main St E, Fort Payne, AL 35968",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3322 Main St E",
+            "city": "Fort Payne",
+            "zipcode": "35968",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "2403422728",
+                    "8173068989",
+                    "5619676688",
+                    "8042300058",
+                    "5093618318",
+                    "7327211525",
+                    "2812275964",
+                    "9037291156",
+                    "7602528833",
+                    "7602528832",
+                    "1932061038310",
+                    "2411227666620",
+                    "3732742355433",
+                    "1422171668844",
+                    "19056878887",
+                    "2948684387112",
+                    "9362981342",
+                    "7145731835217",
+                    "2370175750234",
+                    "498634688406",
+                    "3776642343789",
+                    "9703154138617"
+                ],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8862cd9f74198435:0x7b1cf6bb8f9849e6",
+            "google_id": "0x8862cd9f74198435:0x7b1cf6bb8f9849e6",
+            "place_id": "ChIJNYQZdJ_NYogR5kmYj7v2HHs",
+            "google_mid": "/g/11kk1j341d",
+            "phone_number": "+12562721973",
+            "name": "North Alabama Liquidation",
+            "latitude": 34.953635999999996,
+            "longitude": -87.52858239999999,
+            "full_address": "North Alabama Liquidation, 7370 US-43, Florence, AL 35634",
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 8\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "8 AM\u20133 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20133 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20133 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20133 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20132 PM"
+                ]
+            },
+            "website": "https://northalabamaliquidation.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8862cd9f74198435:0x7b1cf6bb8f9849e6",
+            "cid": "8871236651441474022",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJNYQZdJ_NYogR5kmYj7v2HHs&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "113233875297552682545",
+            "owner_link": "https://maps.google.com/maps/contrib/113233875297552682545",
+            "owner_name": "North Alabama Liquidation",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Home goods store",
+                "Pallet supplier",
+                "Thrift store",
+                "Wholesaler"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNTgIsrE7Qy-Cata2b57z3-TZlRWR8L0qpQjltd",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNTgIsrE7Qy-Cata2b57z3-TZlRWR8L0qpQjltd",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNTgIsrE7Qy-Cata2b57z3-TZlRWR8L0qpQjltd=w2000-h1500-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.9537707,
+                    "longitude": -87.5290727,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-09T00:00:00.000Z",
+                    "photo_timestamp": 1686268800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "7370 US-43, Florence, AL 35634",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "7370 US-43",
+            "city": "Florence",
+            "zipcode": "35634",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/northalabamaliquidation",
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888975831b058ae9:0xe01df9690eeada01",
+            "google_id": "0x888975831b058ae9:0xe01df9690eeada01",
+            "place_id": "ChIJ6YoFG4N1iYgRAdrqDmn5HeA",
+            "google_mid": "/g/11rn5j96f5",
+            "phone_number": "+12055083902",
+            "name": "Hometown Bargain Hut, LLC",
+            "latitude": 33.6938645,
+            "longitude": -86.5250636,
+            "full_address": "Hometown Bargain Hut, LLC, 8925 Gadsden Hwy, Trussville, AL 35173",
+            "review_count": 20,
+            "rating": 4.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20132 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888975831b058ae9:0xe01df9690eeada01",
+            "cid": "16149338068437621249",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ6YoFG4N1iYgRAdrqDmn5HeA&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "100572133523569898603",
+            "owner_link": "https://maps.google.com/maps/contrib/100572133523569898603",
+            "owner_name": "Hometown Bargain Hut, LLC",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNCEkgO6ZfLRuKSga6eAWJBpIn4YEkSDQb4qurI",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNCEkgO6ZfLRuKSga6eAWJBpIn4YEkSDQb4qurI",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNCEkgO6ZfLRuKSga6eAWJBpIn4YEkSDQb4qurI=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.694116,
+                    "longitude": -86.52540549999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-02-14T00:00:00.000Z",
+                    "photo_timestamp": 1644796800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Checks": true,
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "8925 Gadsden Hwy, Trussville, AL 35173",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "8925 Gadsden Hwy",
+            "city": "Trussville",
+            "zipcode": "35173",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88628b5b37ed2511:0xa9222adb28419532",
+            "google_id": "0x88628b5b37ed2511:0xa9222adb28419532",
+            "place_id": "ChIJESXtN1uLYogRMpVBKNsqIqk",
+            "google_mid": "/g/11rmzy1kcc",
+            "phone_number": "+12569985114",
+            "name": "Crazy Prices",
+            "latitude": 34.7883402,
+            "longitude": -86.9775418,
+            "full_address": "Crazy Prices, 629 US Hwy 72 W, Athens, AL 35611",
+            "review_count": 88,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.crazyprices.biz",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88628b5b37ed2511:0xa9222adb28419532",
+            "cid": "12187350662379574578",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJESXtN1uLYogRMpVBKNsqIqk&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "117422451335747164166",
+            "owner_link": "https://maps.google.com/maps/contrib/117422451335747164166",
+            "owner_name": "Crazy Prices",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOoDwn4NZrXPf-XnjTUaHMN-4vcf4JpJ9rvlQzp",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOoDwn4NZrXPf-XnjTUaHMN-4vcf4JpJ9rvlQzp",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOoDwn4NZrXPf-XnjTUaHMN-4vcf4JpJ9rvlQzp=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7885989,
+                    "longitude": -86.9775382,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-02-03T00:00:00.000Z",
+                    "photo_timestamp": 1643846400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "629 US Hwy 72 W, Athens, AL 35611",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "629 US Hwy 72 W",
+            "city": "Athens",
+            "zipcode": "35611",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/CrazyPricesAthens",
+                "instagram": "https://www.instagram.com/crazyprices17",
+                "yelp": "https://www.yelp.com/biz/crazy-prices-usa-hollywood",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/in/crazy-prices-66790b150",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8890c1ad73702d07:0x66adfefd77723aab",
+            "google_id": "0x8890c1ad73702d07:0x66adfefd77723aab",
+            "place_id": "ChIJBy1wc63BkIgRqzpyd_3-rWY",
+            "google_mid": "/g/11tjl60qyf",
+            "phone_number": null,
+            "name": "Where Ya Bin Pensacola",
+            "latitude": 30.4813363,
+            "longitude": -87.2168061,
+            "full_address": "Where Ya Bin Pensacola, 1210 Airport Blvd #600, Pensacola, FL 32504",
+            "review_count": 262,
+            "rating": 3.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "http://www.whereyabinstores.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8890c1ad73702d07:0x66adfefd77723aab",
+            "cid": "7398850127423748779",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJBy1wc63BkIgRqzpyd_3-rWY&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "109235498166163698448",
+            "owner_link": "https://maps.google.com/maps/contrib/109235498166163698448",
+            "owner_name": "Where Ya Bin Pensacola",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOe_hgG0oYwXpI4eZL8px2X7ycSd_MO1du-ZYzg",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOe_hgG0oYwXpI4eZL8px2X7ycSd_MO1du-ZYzg",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOe_hgG0oYwXpI4eZL8px2X7ycSd_MO1du-ZYzg=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 30.481232400000003,
+                    "longitude": -87.2164923,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-07T00:00:00.000Z",
+                    "photo_timestamp": 1686096000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 65,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1210 Airport Blvd #600, Pensacola, FL 32504",
+            "order_link": null,
+            "price_level": null,
+            "district": "The Cordova Crossing",
+            "street_address": "1210 Airport Blvd #600",
+            "city": "Pensacola",
+            "zipcode": "32504",
+            "state": "Florida",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "hr@whereyabinstores.com"
+                ],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/whereyabincolumbia",
+                "instagram": "https://www.instagram.com/whereyabinstore",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/where-ya-bin",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a5985605f99a5:0x9a1af79f4964e902",
+            "google_id": "0x888a5985605f99a5:0x9a1af79f4964e902",
+            "place_id": "ChIJpZlfYIVZiogRAulkSZ_3Gpo",
+            "google_mid": "/g/11nxn_7p3v",
+            "phone_number": "+12567929026",
+            "name": "Bargain Shack",
+            "latitude": 33.925840199999996,
+            "longitude": -85.6107876,
+            "full_address": "Bargain Shack, 105 E Alabama St, Piedmont, AL 36272",
+            "review_count": 35,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a5985605f99a5:0x9a1af79f4964e902",
+            "cid": "11104460094738589954",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJpZlfYIVZiogRAulkSZ_3Gpo&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "104274188803727370770",
+            "owner_link": "https://maps.google.com/maps/contrib/104274188803727370770",
+            "owner_name": "Bargain Shack",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMaBCp9bCdIWdtTTu5VNp3iAXfSo07qFryI4Pbc",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMaBCp9bCdIWdtTTu5VNp3iAXfSo07qFryI4Pbc",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMaBCp9bCdIWdtTTu5VNp3iAXfSo07qFryI4Pbc=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.925624,
+                    "longitude": -85.6107986,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-05-10T00:00:00.000Z",
+                    "photo_timestamp": 1652140800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "105 E Alabama St, Piedmont, AL 36272",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "105 E Alabama St",
+            "city": "Piedmont",
+            "zipcode": "36272",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888c2b3604513771:0x219160b9d6e7892a",
+            "google_id": "0x888c2b3604513771:0x219160b9d6e7892a",
+            "place_id": "ChIJcTdRBDYrjIgRKonn1rlgkSE",
+            "google_mid": "/g/11kqmqlbzf",
+            "phone_number": "+13347816494",
+            "name": "Bargain Hunt",
+            "latitude": 32.3849952,
+            "longitude": -86.183202,
+            "full_address": "Bargain Hunt, 6543 Atlanta Hwy, Montgomery, AL 36117",
+            "review_count": 35,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888c2b3604513771:0x219160b9d6e7892a",
+            "cid": "2418820826165381418",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJcTdRBDYrjIgRKonn1rlgkSE&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103642905025801347686",
+            "owner_link": "https://maps.google.com/maps/contrib/103642905025801347686",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPOmUTezZ3Yhik3xo6kjrVCBOtH75O_45nbBndS",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPOmUTezZ3Yhik3xo6kjrVCBOtH75O_45nbBndS",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPOmUTezZ3Yhik3xo6kjrVCBOtH75O_45nbBndS=w3072-h4080-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.3845824,
+                    "longitude": -86.18340219999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-07-10T00:00:00.000Z",
+                    "photo_timestamp": 1720569600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "6543 Atlanta Hwy, Montgomery, AL 36117",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "6543 Atlanta Hwy",
+            "city": "Montgomery",
+            "zipcode": "36117",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x889bc7b46d433915:0xec8da1af09ea8886",
+            "google_id": "0x889bc7b46d433915:0xec8da1af09ea8886",
+            "place_id": "ChIJFTlDbbTHm4gRhojqCa-hjew",
+            "google_mid": "/g/11bwpyg4g1",
+            "phone_number": "+12518654477",
+            "name": "Bargain Barn",
+            "latitude": 30.475678499999997,
+            "longitude": -88.3475796,
+            "full_address": "Bargain Barn, 12851 US-90, Grand Bay, AL 36541",
+            "review_count": 149,
+            "rating": 4.5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "http://www.facebook.com/shopbargainbarn",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x889bc7b46d433915:0xec8da1af09ea8886",
+            "cid": "17045457937824909446",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJFTlDbbTHm4gRhojqCa-hjew&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "118296154972603011589",
+            "owner_link": "https://maps.google.com/maps/contrib/118296154972603011589",
+            "owner_name": "Bargain Barn",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNQp6jgBYRBdymeKjChuvGslmBqKPz7kcOhbcrv",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNQp6jgBYRBdymeKjChuvGslmBqKPz7kcOhbcrv",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNQp6jgBYRBdymeKjChuvGslmBqKPz7kcOhbcrv=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 30.475983799999995,
+                    "longitude": -88.34778899999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-07-27T00:00:00.000Z",
+                    "photo_timestamp": 1722038400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 65,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "12851 US-90, Grand Bay, AL 36541",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "12851 US-90",
+            "city": "Grand Bay",
+            "zipcode": "36541",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x886287dc6f5d77fb:0xef22c71a2f968f1d",
+            "google_id": "0x886287dc6f5d77fb:0xef22c71a2f968f1d",
+            "place_id": "ChIJ-3ddb9yHYogRHY-WLxrHIu8",
+            "google_mid": "/g/11c75x8_q5",
+            "phone_number": "+12563517304",
+            "name": "Bargain Hunt",
+            "latitude": 34.573679299999995,
+            "longitude": -86.9764502,
+            "full_address": "Bargain Hunt, 2019 6th Ave SE, Decatur, AL 35601",
+            "review_count": 743,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x886287dc6f5d77fb:0xef22c71a2f968f1d",
+            "cid": "17231554039554412317",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ-3ddb9yHYogRHY-WLxrHIu8&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "105789117457289576579",
+            "owner_link": "https://maps.google.com/maps/contrib/105789117457289576579",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMhEJ7qtkB4IcbjThrlW8mzws--9YOkQ6T0FAyR",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMhEJ7qtkB4IcbjThrlW8mzws--9YOkQ6T0FAyR",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMhEJ7qtkB4IcbjThrlW8mzws--9YOkQ6T0FAyR=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.573690899999995,
+                    "longitude": -86.9762358,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-04-10T00:00:00.000Z",
+                    "photo_timestamp": 1618012800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 56,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "2019 6th Ave SE, Decatur, AL 35601",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2019 6th Ave SE",
+            "city": "Decatur",
+            "zipcode": "35601",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a61e858654e4b:0x474fa2f6a862e43c",
+            "google_id": "0x888a61e858654e4b:0x474fa2f6a862e43c",
+            "place_id": "ChIJS05lWOhhiogRPORiqPaiT0c",
+            "google_mid": "/g/11tg8ptxts",
+            "phone_number": null,
+            "name": "Bargain Centre",
+            "latitude": 34.1613878,
+            "longitude": -85.6660402,
+            "full_address": "Bargain Centre, 750 AL-9, Centre, AL 35960",
+            "review_count": 10,
+            "rating": 4.5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/bargaincentreUSA?mibextid=ZbWKwL",
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a61e858654e4b:0x474fa2f6a862e43c",
+            "cid": "5138504880123733052",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJS05lWOhhiogRPORiqPaiT0c&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "101832561911606615178",
+            "owner_link": "https://maps.google.com/maps/contrib/101832561911606615178",
+            "owner_name": "Bargain Centre",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": null,
+            "reviews_per_rating": null,
+            "photo_count": 0,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "750 AL-9, Centre, AL 35960",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "750 AL-9",
+            "city": "Centre",
+            "zipcode": null,
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88891088365c0b3d:0x5322b85e08c759f3",
+            "google_id": "0x88891088365c0b3d:0x5322b85e08c759f3",
+            "place_id": "ChIJPQtcNogQiYgR81nHCF64IlM",
+            "google_mid": "/g/12hlptb6m",
+            "phone_number": "+12055950460",
+            "name": "Bargain Hunt",
+            "latitude": 33.5277738,
+            "longitude": -86.7312438,
+            "full_address": "Bargain Hunt, 7001 Crestwood Blvd #300, Birmingham, AL 35210",
+            "review_count": 462,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88891088365c0b3d:0x5322b85e08c759f3",
+            "cid": "5990553168369900019",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJPQtcNogQiYgR81nHCF64IlM&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "104197456417228887688",
+            "owner_link": "https://maps.google.com/maps/contrib/104197456417228887688",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMYQ6i7bZXrx7PRCH9oG0wMZ3bEcpsjcWSzCGaU",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMYQ6i7bZXrx7PRCH9oG0wMZ3bEcpsjcWSzCGaU",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMYQ6i7bZXrx7PRCH9oG0wMZ3bEcpsjcWSzCGaU=w800-h600-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.5277826,
+                    "longitude": -86.7313448,
+                    "type": "photo",
+                    "photo_datetime_utc": "2015-01-11T00:00:00.000Z",
+                    "photo_timestamp": 1420934400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 123,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "7001 Crestwood Blvd #300, Birmingham, AL 35210",
+            "order_link": null,
+            "price_level": null,
+            "district": "Crestwood South",
+            "street_address": "7001 Crestwood Blvd #300",
+            "city": "Birmingham",
+            "zipcode": "35210",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88892525d4a26579:0xa64be7df08d40da8",
+            "google_id": "0x88892525d4a26579:0xa64be7df08d40da8",
+            "place_id": "ChIJeWWi1CUliYgRqA3UCN_nS6Y",
+            "google_mid": "/g/11kqbxmft2",
+            "phone_number": null,
+            "name": "Crazy liquidation",
+            "latitude": 33.3049123,
+            "longitude": -86.80740139999999,
+            "full_address": "Crazy liquidation, 2844 Pelham Pkwy, Pelham, AL 35124",
+            "review_count": 25,
+            "rating": 4.4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20131 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88892525d4a26579:0xa64be7df08d40da8",
+            "cid": "11982926178661174696",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJeWWi1CUliYgRqA3UCN_nS6Y&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "103613585971777604915",
+            "owner_link": "https://maps.google.com/maps/contrib/103613585971777604915",
+            "owner_name": "Crazy liquidation",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "General store",
+            "subtypes": [
+                "General store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOusqNHALRhY7mQv7HVqs-jEqxGdy7F6m86zYgC",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOusqNHALRhY7mQv7HVqs-jEqxGdy7F6m86zYgC",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOusqNHALRhY7mQv7HVqs-jEqxGdy7F6m86zYgC=w6048-h8064-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.304808099999995,
+                    "longitude": -86.80706049999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-17T00:00:00.000Z",
+                    "photo_timestamp": 1689552000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2844 Pelham Pkwy, Pelham, AL 35124",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2844 Pelham Pkwy",
+            "city": "Pelham",
+            "zipcode": "35124",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a3eb153df2379:0x98d1264ec9889ae8",
+            "google_id": "0x888a3eb153df2379:0x98d1264ec9889ae8",
+            "place_id": "ChIJeSPfU7E-iogR6JqIyU4m0Zg",
+            "google_mid": "/g/11bxjb811l",
+            "phone_number": "+12565492893",
+            "name": "Bargain Hunt",
+            "latitude": 34.0053611,
+            "longitude": -85.99745109999999,
+            "full_address": "Bargain Hunt, 401 George Wallace Dr, Gadsden, AL 35903",
+            "review_count": 501,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a3eb153df2379:0x98d1264ec9889ae8",
+            "cid": "11011624683728050920",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJeSPfU7E-iogR6JqIyU4m0Zg&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "111542183115511323519",
+            "owner_link": "https://maps.google.com/maps/contrib/111542183115511323519",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPxWBCo24R8L14f40MJnpmUb8zbzMLjxRRA7jYc",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPxWBCo24R8L14f40MJnpmUb8zbzMLjxRRA7jYc",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPxWBCo24R8L14f40MJnpmUb8zbzMLjxRRA7jYc=w3096-h4128-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0052,
+                    "longitude": -85.9968363,
+                    "type": "photo",
+                    "photo_datetime_utc": "2019-06-09T00:00:00.000Z",
+                    "photo_timestamp": 1560038400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "401 George Wallace Dr, Gadsden, AL 35903",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "401 George Wallace Dr",
+            "city": "Gadsden",
+            "zipcode": "35903",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8889b1cb8d6ab2c1:0x8aff007f3e279be2",
+            "google_id": "0x8889b1cb8d6ab2c1:0x8aff007f3e279be2",
+            "place_id": "ChIJwbJqjcuxiYgR4psnPn8A_4o",
+            "google_mid": "/g/11j4vvq_0d",
+            "phone_number": null,
+            "name": "Treasures By Hea",
+            "latitude": 34.0144837,
+            "longitude": -86.748041,
+            "full_address": "Treasures By Hea, 106 1st Ave S, Hanceville, AL 35077",
+            "review_count": 145,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 8\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "8 AM\u20132 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20132 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20132 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u20132 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20132 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20132 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/113229380195878",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8889b1cb8d6ab2c1:0x8aff007f3e279be2",
+            "cid": "10015724642798902242",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJwbJqjcuxiYgR4psnPn8A_4o&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "117049926235262262399",
+            "owner_link": "https://maps.google.com/maps/contrib/117049926235262262399",
+            "owner_name": "Treasures By Hea",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO_E-rMw2bY6r-p3iNA7mFinax9cJ0sapwMEIHW",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO_E-rMw2bY6r-p3iNA7mFinax9cJ0sapwMEIHW",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO_E-rMw2bY6r-p3iNA7mFinax9cJ0sapwMEIHW=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0145063,
+                    "longitude": -86.74844209999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-11-05T00:00:00.000Z",
+                    "photo_timestamp": 1636070400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "106 1st Ave S, Hanceville, AL 35077",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "106 1st Ave S",
+            "city": "Hanceville",
+            "zipcode": "35077",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88642ff0424d2797:0x34e885de35f8c59c",
+            "google_id": "0x88642ff0424d2797:0x34e885de35f8c59c",
+            "place_id": "ChIJlydNQvAvZIgRnMX4Nd6F6DQ",
+            "google_mid": "/g/11fll6h3n_",
+            "phone_number": "+18007970385",
+            "name": "BuyLow Warehouse",
+            "latitude": 33.5224501,
+            "longitude": -86.7869905,
+            "full_address": "BuyLow Warehouse, 3313 1st Ave N Bay C, Birmingham, AL 35222",
+            "review_count": 196,
+            "rating": 4.9,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20132 PM"
+                ]
+            },
+            "website": "https://buylowwarehouse.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88642ff0424d2797:0x34e885de35f8c59c",
+            "cid": "3812444274003854748",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJlydNQvAvZIgRnMX4Nd6F6DQ&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "113649329632814193356",
+            "owner_link": "https://maps.google.com/maps/contrib/113649329632814193356",
+            "owner_name": "BuyLow Warehouse",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Liquidator",
+            "subtypes": [
+                "Liquidator",
+                "Store",
+                "Warehouse"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPqbeBC_2l-zukihU5kLgUBX3UleCCXYjtD0BKw",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPqbeBC_2l-zukihU5kLgUBX3UleCCXYjtD0BKw",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPqbeBC_2l-zukihU5kLgUBX3UleCCXYjtD0BKw=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.5231145,
+                    "longitude": -86.787462,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-05-14T00:00:00.000Z",
+                    "photo_timestamp": 1684022400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 110,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": false
+                    }
+                }
+            },
+            "address": "3313 1st Ave N Bay C, Birmingham, AL 35222",
+            "order_link": null,
+            "price_level": null,
+            "district": "North Avondale",
+            "street_address": "3313 1st Ave N Bay C",
+            "city": "Birmingham",
+            "zipcode": "35222",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "support@buylowwarehouse.com"
+                ],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/buylowwarehouse",
+                "instagram": "https://www.instagram.com/buylowwarehouse",
+                "yelp": "https://www.yelp.com/biz/buy-low-warehouse-long-beach",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/buylowwarehouse",
+                "linkedin": "https://www.linkedin.com/company/buy-low-warehouse",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888913122e00098f:0xbd333644206c9a79",
+            "google_id": "0x888913122e00098f:0xbd333644206c9a79",
+            "place_id": "ChIJjwkALhITiYgReZpsIEQ2M70",
+            "google_mid": "/g/11r9b5c8gl",
+            "phone_number": "+12057900666",
+            "name": "Birmingham Bargains",
+            "latitude": 33.5496499,
+            "longitude": -86.5955778,
+            "full_address": "Birmingham Bargains, 6200 Grand River Blvd E #526, Leeds, AL 35094",
+            "review_count": 17,
+            "rating": 2.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20136 PM"
+                ],
+                "Monday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "11 AM\u20137 PM"
+                ]
+            },
+            "website": "https://bargain-store-app.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888913122e00098f:0xbd333644206c9a79",
+            "cid": "13633300163210287737",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJjwkALhITiYgReZpsIEQ2M70&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "102624691504829074710",
+            "owner_link": "https://maps.google.com/maps/contrib/102624691504829074710",
+            "owner_name": "Birmingham Bargains",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOMxRs0ghBT_FedzUKvBsAKQsj6r3wI7BC1ZyvM",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOMxRs0ghBT_FedzUKvBsAKQsj6r3wI7BC1ZyvM",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOMxRs0ghBT_FedzUKvBsAKQsj6r3wI7BC1ZyvM=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.5496498622985,
+                    "longitude": -86.59557783416003,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-05-19T00:00:00.000Z",
+                    "photo_timestamp": 1621382400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "6200 Grand River Blvd E #526, Leeds, AL 35094",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "6200 Grand River Blvd E #526",
+            "city": "Leeds",
+            "zipcode": "35094",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/bargain-store-clinton",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/birmingham-bargains",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8861b5dd85431dbb:0xc4214f1bdfbfab19",
+            "google_id": "0x8861b5dd85431dbb:0xc4214f1bdfbfab19",
+            "place_id": "ChIJux1Dhd21YYgRGau_3xtPIcQ",
+            "google_mid": "/g/11vj9963c8",
+            "phone_number": null,
+            "name": "J&S Bargain Bins",
+            "latitude": 34.8576812,
+            "longitude": -85.6138977,
+            "full_address": "J&S Bargain Bins, 30255 AL-71, Bryant, AL 35958",
+            "review_count": 0,
+            "rating": null,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20133 PM",
+                    "5\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20133 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8861b5dd85431dbb:0xc4214f1bdfbfab19",
+            "cid": "14132664086801918745",
+            "reviews_link": null,
+            "owner_id": "112948797848675450860",
+            "owner_link": "https://maps.google.com/maps/contrib/112948797848675450860",
+            "owner_name": "J&S Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "2NUc9vuTLkB27TcTsFF6eA",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2NUc9vuTLkB27TcTsFF6eA&cb_client=search.gws-prod.gps&w=86&h=86&yaw=291.81052&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 34.857581021032225,
+                    "longitude": -85.61359263085448,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-19T00:00:00.000Z",
+                    "photo_timestamp": 1729296000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Debit cards": true,
+                        "NFC mobile payments": true,
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "30255 AL-71, Bryant, AL 35958",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "30255 AL-71",
+            "city": "Bryant",
+            "zipcode": "35958",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x8861d933bbc333e1:0xe49fe0ac08495865",
+            "google_id": "0x8861d933bbc333e1:0xe49fe0ac08495865",
+            "place_id": "ChIJ4TPDuzPZYYgRZVhJCKzgn-Q",
+            "google_mid": "/g/11cmn0hjq_",
+            "phone_number": "+12566389232",
+            "name": "Bargain's 4 U",
+            "latitude": 34.497775499999996,
+            "longitude": -85.8452417,
+            "full_address": "Bargain's 4 U, 285C McCurdy Ave N, Rainsville, AL 35986",
+            "review_count": 52,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9:30\u202fAM Wed",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "9:30 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9:30 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "9:30 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9:30 AM\u20134 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8861d933bbc333e1:0xe49fe0ac08495865",
+            "cid": "16474132991422584933",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4TPDuzPZYYgRZVhJCKzgn-Q&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "117544643352986894587",
+            "owner_link": "https://maps.google.com/maps/contrib/117544643352986894587",
+            "owner_name": "Bargain's 4 U",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Consignment shop",
+            "subtypes": [
+                "Consignment shop",
+                "Clothing store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN81-zAUX6afO6RPjiWUrbPsicmfbbmR6dHRZFd",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN81-zAUX6afO6RPjiWUrbPsicmfbbmR6dHRZFd",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN81-zAUX6afO6RPjiWUrbPsicmfbbmR6dHRZFd=w5988-h3938-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.497594299999996,
+                    "longitude": -85.84484739999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-05-07T00:00:00.000Z",
+                    "photo_timestamp": 1683417600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "285C McCurdy Ave N, Rainsville, AL 35986",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "285C McCurdy Ave N",
+            "city": "Rainsville",
+            "zipcode": "35986",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88603f4f9e8fd6b3:0xae228714410d96d",
+            "google_id": "0x88603f4f9e8fd6b3:0xae228714410d96d",
+            "place_id": "ChIJs9aPnk8_YIgRbdkQRHEo4go",
+            "google_mid": "/g/11rgbv06l3",
+            "phone_number": null,
+            "name": "Bargain Barn",
+            "latitude": 34.7041889,
+            "longitude": -85.2855282,
+            "full_address": "Bargain Barn, 307 W Patton St, LaFayette, GA 30728",
+            "review_count": 14,
+            "rating": 3.5,
+            "timezone": "America/New_York",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Wed",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20134 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88603f4f9e8fd6b3:0xae228714410d96d",
+            "cid": "784233752054258029",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJs9aPnk8_YIgRbdkQRHEo4go&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "100681886552172737516",
+            "owner_link": "https://maps.google.com/maps/contrib/100681886552172737516",
+            "owner_name": "Bargain Barn",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Outlet store",
+            "subtypes": [
+                "Outlet store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNwbYNcMc_ovLrM8PxHXnkudnEookOjmAOuiIBU",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNwbYNcMc_ovLrM8PxHXnkudnEookOjmAOuiIBU",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNwbYNcMc_ovLrM8PxHXnkudnEookOjmAOuiIBU=w3096-h4128-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7043743,
+                    "longitude": -85.2854934,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-08-18T00:00:00.000Z",
+                    "photo_timestamp": 1629244800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "307 W Patton St, LaFayette, GA 30728",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "307 W Patton St",
+            "city": "LaFayette",
+            "zipcode": "30728",
+            "state": "Georgia",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888a0deaa4f154d1:0x5917dbeafc70bbf7",
+            "google_id": "0x888a0deaa4f154d1:0x5917dbeafc70bbf7",
+            "place_id": "ChIJ0VTxpOoNiogR97tw_OrbF1k",
+            "google_mid": "/g/11bc745xr6",
+            "phone_number": "+12569252025",
+            "name": "The Bargain Barn",
+            "latitude": 34.2875066,
+            "longitude": -85.9924832,
+            "full_address": "The Bargain Barn, 14516 AL-68, Crossville, AL 35962",
+            "review_count": 3,
+            "rating": 4.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20134 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888a0deaa4f154d1:0x5917dbeafc70bbf7",
+            "cid": "6419841596144008183",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ0VTxpOoNiogR97tw_OrbF1k&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "109757917588574929688",
+            "owner_link": "https://maps.google.com/maps/contrib/109757917588574929688",
+            "owner_name": "The Bargain Barn",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Department store",
+            "subtypes": [
+                "Department store",
+                "Cell phone store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPo1WAwVhEdzbdgWvVIvE8DY0k7M44uk_R-85Uv",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPo1WAwVhEdzbdgWvVIvE8DY0k7M44uk_R-85Uv",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPo1WAwVhEdzbdgWvVIvE8DY0k7M44uk_R-85Uv=w3264-h2448-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.28750657650838,
+                    "longitude": -85.99248318658441,
+                    "type": "photo",
+                    "photo_datetime_utc": "2015-06-02T00:00:00.000Z",
+                    "photo_timestamp": 1433203200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "14516 AL-68, Crossville, AL 35962",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "14516 AL-68",
+            "city": "Crossville",
+            "zipcode": "35962",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x888c27fc90d121c3:0x659f67634f26d9f",
+            "google_id": "0x888c27fc90d121c3:0x659f67634f26d9f",
+            "place_id": "ChIJwyHRkPwnjIgRn23yNHb2WQY",
+            "google_mid": "/g/11nxs8_n44",
+            "phone_number": "+13343803332",
+            "name": "Discount Central Liquidation",
+            "latitude": 32.4606002,
+            "longitude": -86.404765,
+            "full_address": "Discount Central Liquidation, 2257 Cobbs Ford Rd, Prattville, AL 36066",
+            "review_count": 60,
+            "rating": 4.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.discountcentralprattville.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x888c27fc90d121c3:0x659f67634f26d9f",
+            "cid": "457667824709692831",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJwyHRkPwnjIgRn23yNHb2WQY&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "110049834356296042005",
+            "owner_link": "https://maps.google.com/maps/contrib/110049834356296042005",
+            "owner_name": "Discount Central Liquidation",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Electronics store",
+                "Furniture store",
+                "Lighting store",
+                "Liquidator",
+                "Outdoor furniture store",
+                "Thrift store",
+                "Tool store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMZT4q0Nvt0_9oH0WRcLExhIhLbGZxOjS1hYIPC",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMZT4q0Nvt0_9oH0WRcLExhIhLbGZxOjS1hYIPC",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMZT4q0Nvt0_9oH0WRcLExhIhLbGZxOjS1hYIPC=w960-h720-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.4606048,
+                    "longitude": -86.4046341,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-08-24T00:00:00.000Z",
+                    "photo_timestamp": 1629763200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 83,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2257 Cobbs Ford Rd, Prattville, AL 36066",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2257 Cobbs Ford Rd",
+            "city": "Prattville",
+            "zipcode": "36066",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "3614273693509"
+                ],
+                "facebook": "https://www.facebook.com/DiscountCentralPrattville",
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x887d476263924c9d:0x7fa57fde6c660ec2",
+            "google_id": "0x887d476263924c9d:0x7fa57fde6c660ec2",
+            "place_id": "ChIJnUySY2JHfYgRwg5mbN5_pX8",
+            "google_mid": "/g/11fs6j34kw",
+            "phone_number": "+12569785836",
+            "name": "Jacks Dollar Deals",
+            "latitude": 34.754365899999996,
+            "longitude": -87.7006341,
+            "full_address": "Jacks Dollar Deals, 500 S Montgomery Ave #132, Sheffield, AL 35660",
+            "review_count": 250,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://jacksdollardeals.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x887d476263924c9d:0x7fa57fde6c660ec2",
+            "cid": "9197898407252201154",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJnUySY2JHfYgRwg5mbN5_pX8&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "110637038482321874825",
+            "owner_link": "https://maps.google.com/maps/contrib/110637038482321874825",
+            "owner_name": "Jacks Dollar Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO60JOSdaZIVAZ2-_FWyj4lNhjuCfC69efQYuNh",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO60JOSdaZIVAZ2-_FWyj4lNhjuCfC69efQYuNh",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO60JOSdaZIVAZ2-_FWyj4lNhjuCfC69efQYuNh=w3024-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7541915,
+                    "longitude": -87.70055909999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-02-15T00:00:00.000Z",
+                    "photo_timestamp": 1644883200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4039,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "500 S Montgomery Ave #132, Sheffield, AL 35660",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "500 S Montgomery Ave #132",
+            "city": "Sheffield",
+            "zipcode": "35660",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/jacks_dollar_deals",
+                "yelp": "https://www.yelp.com/biz/jacks-dollar-deals-huntsville",
+                "tiktok": "https://www.tiktok.com/@jacksdollardeals",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88f523d4df16f717:0x1b08e2ac720ffa33",
+            "google_id": "0x88f523d4df16f717:0x1b08e2ac720ffa33",
+            "place_id": "ChIJF_cW39Qj9YgRM_oPcqziCBs",
+            "google_mid": "/g/11scpmssz5",
+            "phone_number": "+14044328717",
+            "name": "Atlanta Bin Store Discount and Liquidation",
+            "latitude": 33.7922209,
+            "longitude": -84.6324609,
+            "full_address": "Atlanta Bin Store Discount and Liquidation, 351 Thornton Rd suite 109, Lithia Springs, GA 30122",
+            "review_count": 35,
+            "rating": 3.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 4\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "http://atlantabinstore.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88f523d4df16f717:0x1b08e2ac720ffa33",
+            "cid": "1948056069113641523",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJF_cW39Qj9YgRM_oPcqziCBs&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "112891256578259192931",
+            "owner_link": "https://maps.google.com/maps/contrib/112891256578259192931",
+            "owner_name": "Atlanta Bin Store Discount and Liquidation",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNK54Z6Lh9_5a23Bo5Pqu8NzL1VoYB_hZoNmr6r",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNK54Z6Lh9_5a23Bo5Pqu8NzL1VoYB_hZoNmr6r",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNK54Z6Lh9_5a23Bo5Pqu8NzL1VoYB_hZoNmr6r=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7925053,
+                    "longitude": -84.63229249999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-10T00:00:00.000Z",
+                    "photo_timestamp": 1686355200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    },
+                    "Parking": {
+                        "Free parking garage": true,
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "351 Thornton Rd suite 109, Lithia Springs, GA 30122",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "351 Thornton Rd suite 109",
+            "city": "Lithia Springs",
+            "zipcode": "30122",
+            "state": "Georgia",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/atlantabinstore",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/atlanta-bin-store-lithia-springs",
+                "tiktok": "https://www.tiktok.com/@atlantabinstore",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        },
+        {
+            "business_id": "0x88897566e8ffe17d:0x5206cd55ddeca610",
+            "google_id": "0x88897566e8ffe17d:0x5206cd55ddeca610",
+            "place_id": "ChIJfeH_6GZ1iYgREKbs3VXNBlI",
+            "google_mid": "/g/11t1h7mckf",
+            "phone_number": "+12054522441",
+            "name": "Shop Bob's Unclaimed Freight",
+            "latitude": 33.7201228,
+            "longitude": -86.5110644,
+            "full_address": "Shop Bob's Unclaimed Freight, 1947 US-11, Trussville, AL 35173",
+            "review_count": 82,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "Closed"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88897566e8ffe17d:0x5206cd55ddeca610",
+            "cid": "5910637329649542672",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJfeH_6GZ1iYgREKbs3VXNBlI&q=bin+stores+in+alabama&authuser=0&hl=en&gl=US",
+            "owner_id": "106902187158365804235",
+            "owner_link": "https://maps.google.com/maps/contrib/106902187158365804235",
+            "owner_name": "Shop Bob's Unclaimed Freight",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN9LpGwoFsqaclBPQBFgJQJXor8yNWP9eX2usan",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN9LpGwoFsqaclBPQBFgJQJXor8yNWP9eX2usan",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN9LpGwoFsqaclBPQBFgJQJXor8yNWP9eX2usan=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.71999400000001,
+                    "longitude": -86.5110035,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-05-16T00:00:00.000Z",
+                    "photo_timestamp": 1652659200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1947 US-11, Trussville, AL 35173",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1947 US-11",
+            "city": "Trussville",
+            "zipcode": "35173",
+            "state": "Alabama",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 238
+        }
+    ]
+};
+  res.status(200).json(storesData);
+}

@@ -1,0 +1,4503 @@
+export default function handler(req, res) {
+  const storesData = {
+    "status": "OK",
+    "request_id": "0bdf188c-ee39-43d5-842e-4b575812ce55",
+    "parameters": {
+        "query": "bin stores in arkansas",
+        "language": "en",
+        "region": "us",
+        "lat": 37.09024,
+        "lng": -95.712891,
+        "zoom": 13,
+        "limit": 40,
+        "offset": 0,
+        "extract_emails_and_contacts": true
+    },
+    "data": [
+        {
+            "business_id": "0x87c9175403e0c951:0x57a288a517c44a54",
+            "google_id": "0x87c9175403e0c951:0x57a288a517c44a54",
+            "place_id": "ChIJUcngA1QXyYcRVErEF6WIolc",
+            "google_mid": "/g/11px9zn9yp",
+            "phone_number": "+18168072588",
+            "name": "Daily deals Bargain bins",
+            "latitude": 36.3541222,
+            "longitude": -94.13910609999999,
+            "full_address": "Daily deals Bargain bins, 2207 N 17th St, Rogers, AR 72756",
+            "review_count": 309,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=100063748073372",
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c9175403e0c951:0x57a288a517c44a54",
+            "cid": "6314759870176578132",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJUcngA1QXyYcRVErEF6WIolc&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "117746408655798698602",
+            "owner_link": "https://maps.google.com/maps/contrib/117746408655798698602",
+            "owner_name": "Daily deals Bargain bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNy0IqmTh0cwExFbbcV9a4Spf9ENhMAcf3718IX",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNy0IqmTh0cwExFbbcV9a4Spf9ENhMAcf3718IX",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNy0IqmTh0cwExFbbcV9a4Spf9ENhMAcf3718IX=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.3542051,
+                    "longitude": -94.1398365,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-05-29T00:00:00.000Z",
+                    "photo_timestamp": 1685318400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 43,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2207 N 17th St, Rogers, AR 72756",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2207 N 17th St",
+            "city": "Rogers",
+            "zipcode": "72756",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87ce616c81cfa0df:0xcbb2bb7d43f510d1",
+            "google_id": "0x87ce616c81cfa0df:0xcbb2bb7d43f510d1",
+            "place_id": "ChIJ36DPgWxhzocR0RD1Q327sss",
+            "google_mid": "/g/11r_gm4y05",
+            "phone_number": "+18705175029",
+            "name": "Discount Bins",
+            "latitude": 36.219019599999996,
+            "longitude": -93.0786559,
+            "full_address": "Discount Bins, 701 US-65 Suite A, Harrison, AR 72601",
+            "review_count": 250,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "http://facebook.com/100785362380633",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87ce616c81cfa0df:0xcbb2bb7d43f510d1",
+            "cid": "14678000282239307985",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ36DPgWxhzocR0RD1Q327sss&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "111188300753852353473",
+            "owner_link": "https://maps.google.com/maps/contrib/111188300753852353473",
+            "owner_name": "Discount Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipObEMtkZY9f_PyjuzAjpAAcvGRTrGVeKikFs2Dr",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipObEMtkZY9f_PyjuzAjpAAcvGRTrGVeKikFs2Dr",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipObEMtkZY9f_PyjuzAjpAAcvGRTrGVeKikFs2Dr=w3574-h1696-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.2187967,
+                    "longitude": -93.07863619999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-04-09T00:00:00.000Z",
+                    "photo_timestamp": 1649462400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "701 US-65 Suite A, Harrison, AR 72601",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "701 US-65 Suite A",
+            "city": "Harrison",
+            "zipcode": "72601",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c96b2b994064b5:0x83a6fd262e0fbe84",
+            "google_id": "0x87c96b2b994064b5:0x83a6fd262e0fbe84",
+            "place_id": "ChIJtWRAmStryYcRhL4PLib9poM",
+            "google_mid": "/g/11t0qztmfb",
+            "phone_number": "+14793342203",
+            "name": "Discount Bins",
+            "latitude": 36.126830999999996,
+            "longitude": -94.1428124,
+            "full_address": "Discount Bins, 4166 N College Ave, Fayetteville, AR 72703",
+            "review_count": 184,
+            "rating": 3.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/discountbinsfayar",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c96b2b994064b5:0x83a6fd262e0fbe84",
+            "cid": "9486548005525896836",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtWRAmStryYcRhL4PLib9poM&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "101046289316989177042",
+            "owner_link": "https://maps.google.com/maps/contrib/101046289316989177042",
+            "owner_name": "Discount Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO6BZQl6rLUwuBs8LMXwIXgdpIULseEzR1MymtF",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO6BZQl6rLUwuBs8LMXwIXgdpIULseEzR1MymtF",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO6BZQl6rLUwuBs8LMXwIXgdpIULseEzR1MymtF=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.126831019603664,
+                    "longitude": -94.14281236306485,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-07-03T00:00:00.000Z",
+                    "photo_timestamp": 1656806400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "4166 N College Ave, Fayetteville, AR 72703",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "4166 N College Ave",
+            "city": "Fayetteville",
+            "zipcode": "72703",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d2ebd689863a0f:0xcb607ad2d2062904",
+            "google_id": "0x87d2ebd689863a0f:0xcb607ad2d2062904",
+            "place_id": "ChIJDzqGidbr0ocRBCkG0tJ6YMs",
+            "google_mid": "/g/11s5shrj7p",
+            "phone_number": "+15019832476",
+            "name": "Discount Bins",
+            "latitude": 34.8665212,
+            "longitude": -92.1196334,
+            "full_address": "Discount Bins, 915 W Main St, Jacksonville, AR 72076",
+            "review_count": 72,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/discountbinsjacksonvillear",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d2ebd689863a0f:0xcb607ad2d2062904",
+            "cid": "14654848233348933892",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJDzqGidbr0ocRBCkG0tJ6YMs&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114655159430130138089",
+            "owner_link": "https://maps.google.com/maps/contrib/114655159430130138089",
+            "owner_name": "Discount Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipP4vPfBay7BKoPan_iyeQzujKtZ5OxB5RA35JE_",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipP4vPfBay7BKoPan_iyeQzujKtZ5OxB5RA35JE_",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipP4vPfBay7BKoPan_iyeQzujKtZ5OxB5RA35JE_=w2316-h1080-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.8667582,
+                    "longitude": -92.1196767,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-02-15T00:00:00.000Z",
+                    "photo_timestamp": 1676419200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "915 W Main St, Jacksonville, AR 72076",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "915 W Main St",
+            "city": "Jacksonville",
+            "zipcode": "72076",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c9a34e0b99c755:0x7d777619ebae35ac",
+            "google_id": "0x87c9a34e0b99c755:0x7d777619ebae35ac",
+            "place_id": "ChIJVceZC06jyYcRrDWu6xl2d30",
+            "google_mid": "/g/11whg0csbq",
+            "phone_number": "+14795491301",
+            "name": "Blazin Bins",
+            "latitude": 36.1770555,
+            "longitude": -94.55964639999999,
+            "full_address": "Blazin Bins, 1701 US-412 wesr #40, Siloam Springs, AR 72761",
+            "review_count": 2,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9:30\u202fAM Wed",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "9:30 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "9:30 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "9:30 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9:30 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c9a34e0b99c755:0x7d777619ebae35ac",
+            "cid": "9040824630669882796",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJVceZC06jyYcRrDWu6xl2d30&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "111514359432723836877",
+            "owner_link": "https://maps.google.com/maps/contrib/111514359432723836877",
+            "owner_name": "Blazin Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Surplus store",
+            "subtypes": [
+                "Surplus store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPYleUXGVax5VfhIbMVpfIgDim2QV50Nz22wDy1",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPYleUXGVax5VfhIbMVpfIgDim2QV50Nz22wDy1",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPYleUXGVax5VfhIbMVpfIgDim2QV50Nz22wDy1=w4000-h1868-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.1770305,
+                    "longitude": -94.5593754,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-10-12T00:00:00.000Z",
+                    "photo_timestamp": 1728691200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": null,
+            "address": "1701 US-412 wesr #40, Siloam Springs, AR 72761",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1701 US-412 wesr #40",
+            "city": "Siloam Springs",
+            "zipcode": "72761",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cbb511bf324437:0xd278992b0d9863ed",
+            "google_id": "0x87cbb511bf324437:0xd278992b0d9863ed",
+            "place_id": "ChIJN0QyvxG1y4cR7WOYDSuZeNI",
+            "google_mid": "/g/11rs2plczm",
+            "phone_number": null,
+            "name": "Good Deal Bins",
+            "latitude": 35.454701199999995,
+            "longitude": -94.30124339999999,
+            "full_address": "Good Deal Bins, 4515 Alma Hwy, Van Buren, AR 72956",
+            "review_count": 124,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "10 AM\u20132 PM",
+                    "3\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cbb511bf324437:0xd278992b0d9863ed",
+            "cid": "15166040155360879597",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJN0QyvxG1y4cR7WOYDSuZeNI&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "115464388026701883923",
+            "owner_link": "https://maps.google.com/maps/contrib/115464388026701883923",
+            "owner_name": "Good Deal Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPIsqrjsoe59vF9OV4-aisP-x1JVf_QUwPBCiBD",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPIsqrjsoe59vF9OV4-aisP-x1JVf_QUwPBCiBD",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPIsqrjsoe59vF9OV4-aisP-x1JVf_QUwPBCiBD=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.4544374,
+                    "longitude": -94.3011102,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-09-03T00:00:00.000Z",
+                    "photo_timestamp": 1630627200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 317,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "4515 Alma Hwy, Van Buren, AR 72956",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "4515 Alma Hwy",
+            "city": "Van Buren",
+            "zipcode": "72956",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cb8b0029b2e671:0xaefa55f5014ad4e7",
+            "google_id": "0x87cb8b0029b2e671:0xaefa55f5014ad4e7",
+            "place_id": "ChIJceayKQCLy4cR59RKAfVV-q4",
+            "google_mid": "/g/11y5pmmg01",
+            "phone_number": null,
+            "name": "Altus Bin Store",
+            "latitude": 35.4450649,
+            "longitude": -93.7633175,
+            "full_address": "Altus Bin Store, 1504 Hendrix St, Altus, AR 72821",
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 9\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cb8b0029b2e671:0xaefa55f5014ad4e7",
+            "cid": "12608484617554154727",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJceayKQCLy4cR59RKAfVV-q4&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "101017037345902529123",
+            "owner_link": "https://maps.google.com/maps/contrib/101017037345902529123",
+            "owner_name": "Altus Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "UWGv9eHk2UdgOz0TH43zkQ",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UWGv9eHk2UdgOz0TH43zkQ&cb_client=search.gws-prod.gps&w=86&h=86&yaw=84.819664&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 35.445045330266424,
+                    "longitude": -93.76358246050266,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-24T00:00:00.000Z",
+                    "photo_timestamp": 1729728000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "1504 Hendrix St, Altus, AR 72821",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1504 Hendrix St",
+            "city": "Altus",
+            "zipcode": "72821",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d281e5ed2311b7:0x70e6f604f4aa5ced",
+            "google_id": "0x87d281e5ed2311b7:0x70e6f604f4aa5ced",
+            "place_id": "ChIJtxEj7eWB0ocR7Vyq9AT25nA",
+            "google_mid": "/g/11nffcf3gn",
+            "phone_number": "+15016444757",
+            "name": "Bargain Brothers",
+            "latitude": 35.0689375,
+            "longitude": -92.4205873,
+            "full_address": "Bargain Brothers, 700 S Exchange Ave, Conway, AR 72032",
+            "review_count": 361,
+            "rating": 4.4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://bargainbrosconway.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d281e5ed2311b7:0x70e6f604f4aa5ced",
+            "cid": "8135460278036487405",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtxEj7eWB0ocR7Vyq9AT25nA&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "109403049738122070143",
+            "owner_link": "https://maps.google.com/maps/contrib/109403049738122070143",
+            "owner_name": "Bargain Brothers",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipP7KjLfEA0Rbx_9lt7_6KrnF2CplvPAPjmNFzHY",
+                    "photo_url": "https://lh3.googleusercontent.com/ggs/AF1QipP7KjLfEA0Rbx_9lt7_6KrnF2CplvPAPjmNFzHY=m18",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": "https://lh5.googleusercontent.com/p/AF1QipP7KjLfEA0Rbx_9lt7_6KrnF2CplvPAPjmNFzHY=w312-h640-k-no",
+                    "latitude": 35.0686529,
+                    "longitude": -92.4204599,
+                    "type": "video",
+                    "photo_datetime_utc": "2022-07-29T00:00:00.000Z",
+                    "photo_timestamp": 1659052800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "700 S Exchange Ave, Conway, AR 72032",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "700 S Exchange Ave",
+            "city": "Conway",
+            "zipcode": "72032",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/bargainbrosconway",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/bargain-brothers-conway",
+                "tiktok": "https://www.tiktok.com/@bargainbrosconway",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cbb5f8fd2f3b2d:0xa9ac7c4d8aca160f",
+            "google_id": "0x87cbb5f8fd2f3b2d:0xa9ac7c4d8aca160f",
+            "place_id": "ChIJLTsv_fi1y4cRDxbKik18rKk",
+            "google_mid": "/g/11t_vj3pxp",
+            "phone_number": null,
+            "name": "JK Bins and Bargains",
+            "latitude": 35.4153638,
+            "longitude": -94.3860437,
+            "full_address": "JK Bins and Bargains, 3734 Midland Blvd, Fort Smith, AR 72904",
+            "review_count": 15,
+            "rating": 3.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Thu",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cbb5f8fd2f3b2d:0xa9ac7c4d8aca160f",
+            "cid": "12226283760886879759",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJLTsv_fi1y4cRDxbKik18rKk&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "113806027080248378167",
+            "owner_link": "https://maps.google.com/maps/contrib/113806027080248378167",
+            "owner_name": "JK Bins and Bargains",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNHI0RLIwSggWIgHrQcePjVnaQmP8NBktpo5e_Y",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNHI0RLIwSggWIgHrQcePjVnaQmP8NBktpo5e_Y",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNHI0RLIwSggWIgHrQcePjVnaQmP8NBktpo5e_Y=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.415549,
+                    "longitude": -94.3861622,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-15T00:00:00.000Z",
+                    "photo_timestamp": 1686787200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "3734 Midland Blvd, Fort Smith, AR 72904",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3734 Midland Blvd",
+            "city": "Fort Smith",
+            "zipcode": "72904",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d2bdb26f23d8eb:0xce68ee7c20728ffa",
+            "google_id": "0x87d2bdb26f23d8eb:0xce68ee7c20728ffa",
+            "place_id": "ChIJ69gjb7K90ocR-o9yIHzuaM4",
+            "google_mid": "/g/11td5m_74y",
+            "phone_number": "+15015630067",
+            "name": "Bargain Brothers NLR",
+            "latitude": 34.7936164,
+            "longitude": -92.2594453,
+            "full_address": "Bargain Brothers NLR, 4135 John F Kennedy Blvd, North Little Rock, AR 72116",
+            "review_count": 202,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/bargainbrosnlr",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d2bdb26f23d8eb:0xce68ee7c20728ffa",
+            "cid": "14873399986278797306",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ69gjb7K90ocR-o9yIHzuaM4&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "116920271976342039745",
+            "owner_link": "https://maps.google.com/maps/contrib/116920271976342039745",
+            "owner_name": "Bargain Brothers NLR",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNA19wBqdHZ204H7QstU8-CGIe0pLjDPistknxL",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNA19wBqdHZ204H7QstU8-CGIe0pLjDPistknxL",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNA19wBqdHZ204H7QstU8-CGIe0pLjDPistknxL=w2000-h1500-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7934498,
+                    "longitude": -92.25920529999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-10-27T00:00:00.000Z",
+                    "photo_timestamp": 1666828800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "4135 John F Kennedy Blvd, North Little Rock, AR 72116",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "4135 John F Kennedy Blvd",
+            "city": "North Little Rock",
+            "zipcode": "72116",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c96b4c6b79a173:0x66d5b422df356f0f",
+            "google_id": "0x87c96b4c6b79a173:0x66d5b422df356f0f",
+            "place_id": "ChIJc6F5a0xryYcRD2813yK01WY",
+            "google_mid": "/g/11svt7gzvv",
+            "phone_number": "+14799002757",
+            "name": "Bargain Brothers Fayetteville",
+            "latitude": 36.1123918,
+            "longitude": -94.1432995,
+            "full_address": "Bargain Brothers Fayetteville, 3340 N College Ave #3, Fayetteville, AR 72703",
+            "review_count": 42,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/bargainbrosfayetteville",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c96b4c6b79a173:0x66d5b422df356f0f",
+            "cid": "7410026823774727951",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJc6F5a0xryYcRD2813yK01WY&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "111810563014164021771",
+            "owner_link": "https://maps.google.com/maps/contrib/111810563014164021771",
+            "owner_name": "Bargain Brothers Fayetteville",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPKlDkNUunpPIWtwTwDiwsHhFd__3gfq9NTJQYG",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPKlDkNUunpPIWtwTwDiwsHhFd__3gfq9NTJQYG",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPKlDkNUunpPIWtwTwDiwsHhFd__3gfq9NTJQYG=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.1121593,
+                    "longitude": -94.14361489999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-08-22T00:00:00.000Z",
+                    "photo_timestamp": 1692662400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "3340 N College Ave #3, Fayetteville, AR 72703",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3340 N College Ave #3",
+            "city": "Fayetteville",
+            "zipcode": "72703",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d3a9fdec3ad631:0x2ea8221096331850",
+            "google_id": "0x87d3a9fdec3ad631:0x2ea8221096331850",
+            "place_id": "ChIJMdY67P2p04cRUBgzlhAiqC4",
+            "google_mid": "/g/11vhgplz1g",
+            "phone_number": "+15012030610",
+            "name": "Discount Bins",
+            "latitude": 35.2522002,
+            "longitude": -91.70564069999999,
+            "full_address": "Discount Bins, 2706 E Race Ave, Searcy, AR 72143",
+            "review_count": 20,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d3a9fdec3ad631:0x2ea8221096331850",
+            "cid": "3361974576466827344",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJMdY67P2p04cRUBgzlhAiqC4&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "104992032653899998157",
+            "owner_link": "https://maps.google.com/maps/contrib/104992032653899998157",
+            "owner_name": "Discount Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOvBmjrSquyOwOkUiFT7TfGLhgdsLOK4qkKsiog",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOvBmjrSquyOwOkUiFT7TfGLhgdsLOK4qkKsiog",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOvBmjrSquyOwOkUiFT7TfGLhgdsLOK4qkKsiog=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.2519513,
+                    "longitude": -91.7055728,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-08-05T00:00:00.000Z",
+                    "photo_timestamp": 1722816000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2706 E Race Ave, Searcy, AR 72143",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2706 E Race Ave",
+            "city": "Searcy",
+            "zipcode": "72143",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87ca4b26542e77f3:0x3e7fef09b07cc319",
+            "google_id": "0x87ca4b26542e77f3:0x3e7fef09b07cc319",
+            "place_id": "ChIJ83cuVCZLyocRGcN8sAnvfz4",
+            "google_mid": "/g/11nmpxhh64",
+            "phone_number": "+14793095740",
+            "name": "1440 Wholesale Fort Smith",
+            "latitude": 35.393820399999996,
+            "longitude": -94.4245541,
+            "full_address": "1440 Wholesale Fort Smith, 506 N 2nd St, Fort Smith, AR 72901",
+            "review_count": 126,
+            "rating": 4.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 11:30\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "11:30 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.1440binstorefortsmith.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87ca4b26542e77f3:0x3e7fef09b07cc319",
+            "cid": "4503580977288495897",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ83cuVCZLyocRGcN8sAnvfz4&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114568338453391846296",
+            "owner_link": "https://maps.google.com/maps/contrib/114568338453391846296",
+            "owner_name": "1440 Wholesale Fort Smith",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Discount store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOtPYJPDDBBb6if59dizQaCXa4QadjsYkLYT5k",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOtPYJPDDBBb6if59dizQaCXa4QadjsYkLYT5k",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOtPYJPDDBBb6if59dizQaCXa4QadjsYkLYT5k=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.393970599999996,
+                    "longitude": -94.4247741,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-12-17T00:00:00.000Z",
+                    "photo_timestamp": 1671235200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 60,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "506 N 2nd St, Fort Smith, AR 72901",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "506 N 2nd St",
+            "city": "Fort Smith",
+            "zipcode": "72901",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/1440-wholesale-fort-smith-fort-smith-2",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c8355bfa46c887:0xbe06821d44429a1",
+            "google_id": "0x87c8355bfa46c887:0xbe06821d44429a1",
+            "place_id": "ChIJh8hG-ls1yIcRoSlE1CFo4As",
+            "google_mid": "/g/11vcclpw0s",
+            "phone_number": "+19183148850",
+            "name": "Moonie Bins",
+            "latitude": 36.5756673,
+            "longitude": -94.76953689999999,
+            "full_address": "Moonie Bins, 2068 S Main St, Grove, OK 74344",
+            "review_count": 7,
+            "rating": 4.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 4\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20131 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=100092738273192",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c8355bfa46c887:0xbe06821d44429a1",
+            "cid": "855798423704840609",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJh8hG-ls1yIcRoSlE1CFo4As&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "108041087355572366221",
+            "owner_link": "https://maps.google.com/maps/contrib/108041087355572366221",
+            "owner_name": "Moonie Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMmkLeVcej8vsWgpg5jKSr5XFvKcJO6ArDkuA4",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMmkLeVcej8vsWgpg5jKSr5XFvKcJO6ArDkuA4",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMmkLeVcej8vsWgpg5jKSr5XFvKcJO6ArDkuA4=w1080-h1920-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.5757209,
+                    "longitude": -94.7695334,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-03-16T00:00:00.000Z",
+                    "photo_timestamp": 1710547200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2068 S Main St, Grove, OK 74344",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2068 S Main St",
+            "city": "Grove",
+            "zipcode": "74344",
+            "state": "Oklahoma",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cbb7e447ea76b1:0x1fafc979e2c23a01",
+            "google_id": "0x87cbb7e447ea76b1:0x1fafc979e2c23a01",
+            "place_id": "ChIJsXbqR-S3y4cRATrC4nnJrx8",
+            "google_mid": "/g/11vkrgl5y0",
+            "phone_number": null,
+            "name": "Big R's Bargain Bin and More Store",
+            "latitude": 35.460296899999996,
+            "longitude": -94.2861807,
+            "full_address": "Big R's Bargain Bin and More Store, 5407b Alma Hwy, Van Buren, AR 72956",
+            "review_count": 1,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cbb7e447ea76b1:0x1fafc979e2c23a01",
+            "cid": "2283265061432736257",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJsXbqR-S3y4cRATrC4nnJrx8&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "118174098307357491928",
+            "owner_link": "https://maps.google.com/maps/contrib/118174098307357491928",
+            "owner_name": "Big R's Bargain Bin and More Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipM0Et_HkrTAi8c5IQhpg9vOMCQbncb8YuOG-0Sp",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipM0Et_HkrTAi8c5IQhpg9vOMCQbncb8YuOG-0Sp",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipM0Et_HkrTAi8c5IQhpg9vOMCQbncb8YuOG-0Sp=w3264-h1836-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.4599255,
+                    "longitude": -94.2859769,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-11-27T00:00:00.000Z",
+                    "photo_timestamp": 1701043200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    }
+                }
+            },
+            "address": "5407b Alma Hwy, Van Buren, AR 72956",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "5407b Alma Hwy",
+            "city": "Van Buren",
+            "zipcode": "72956",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cbb3b38f30d887:0xc584df584c012ed5",
+            "google_id": "0x87cbb3b38f30d887:0xc584df584c012ed5",
+            "place_id": "ChIJh9gwj7Ozy4cR1S4BTFjfhMU",
+            "google_mid": "/g/11vfb326lk",
+            "phone_number": null,
+            "name": "Bin shop\u2019n",
+            "latitude": 35.365758299999996,
+            "longitude": -94.3751546,
+            "full_address": "Bin shop\u2019n, 5111 Rogers Ave, Fort Smith, AR 72903",
+            "review_count": 16,
+            "rating": 3.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20136 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20136:30 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20136:30 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20136:30 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20136:30 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "9 AM\u20136:30 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cbb3b38f30d887:0xc584df584c012ed5",
+            "cid": "14232746292722872021",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJh9gwj7Ozy4cR1S4BTFjfhMU&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "113268977146542889787",
+            "owner_link": "https://maps.google.com/maps/contrib/113268977146542889787",
+            "owner_name": "Bin shop\u2019n",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipM_KExigJftaGffnCRcA5sd-959g2F6D-_2W5M3",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipM_KExigJftaGffnCRcA5sd-959g2F6D-_2W5M3",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipM_KExigJftaGffnCRcA5sd-959g2F6D-_2W5M3=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.3655696,
+                    "longitude": -94.37513100000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-11-15T00:00:00.000Z",
+                    "photo_timestamp": 1700006400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "5111 Rogers Ave, Fort Smith, AR 72903",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "5111 Rogers Ave",
+            "city": "Fort Smith",
+            "zipcode": "72903",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c87b005ab7f2bd:0xa427e1202c2643ce",
+            "google_id": "0x87c87b005ab7f2bd:0xa427e1202c2643ce",
+            "place_id": "ChIJvfK3WgB7yIcRzkMmLCDhJ6Q",
+            "google_mid": "/g/11lp801q_6",
+            "phone_number": "+14172481195",
+            "name": "Sunshine Bin Store and Surplus",
+            "latitude": 37.0559161,
+            "longitude": -94.48665559999999,
+            "full_address": "Sunshine Bin Store and Surplus, 2639 E 32nd St, Joplin, MO 64804",
+            "review_count": 2,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Wed",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.sunshinebinstore.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c87b005ab7f2bd:0xa427e1202c2643ce",
+            "cid": "11828670474607805390",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJvfK3WgB7yIcRzkMmLCDhJ6Q&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "118179588287887840325",
+            "owner_link": "https://maps.google.com/maps/contrib/118179588287887840325",
+            "owner_name": "Sunshine Bin Store and Surplus",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMdt3ZN1zcgeO4HtK7MbOB-l7L4Au8u5YK94_Pv",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMdt3ZN1zcgeO4HtK7MbOB-l7L4Au8u5YK94_Pv",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMdt3ZN1zcgeO4HtK7MbOB-l7L4Au8u5YK94_Pv=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 37.055909799999995,
+                    "longitude": -94.48643539999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-10-21T00:00:00.000Z",
+                    "photo_timestamp": 1729468800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": null,
+            "address": "2639 E 32nd St, Joplin, MO 64804",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2639 E 32nd St",
+            "city": "Joplin",
+            "zipcode": "64804",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87b081002cab9fc3:0xefe801e85fe05512",
+            "google_id": "0x87b081002cab9fc3:0xefe801e85fe05512",
+            "place_id": "ChIJw5-rLACBsIcRElXgX-gB6O8",
+            "google_mid": "/g/11w2mnxt82",
+            "phone_number": null,
+            "name": "Ark city Din Bin",
+            "latitude": 37.0588598,
+            "longitude": -97.0392306,
+            "full_address": "Ark city Din Bin, 327 S Summit St, Arkansas City, KS 67005",
+            "review_count": 4,
+            "rating": 4.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87b081002cab9fc3:0xefe801e85fe05512",
+            "cid": "17287069267214226706",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJw5-rLACBsIcRElXgX-gB6O8&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "117022924213317995332",
+            "owner_link": "https://maps.google.com/maps/contrib/117022924213317995332",
+            "owner_name": "Ark city Din Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "CfD488-Uv63nKfR4wFyM-g",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CfD488-Uv63nKfR4wFyM-g&cb_client=search.gws-prod.gps&w=86&h=86&yaw=272.46927&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 37.058851583120244,
+                    "longitude": -97.03899182991047,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-28T00:00:00.000Z",
+                    "photo_timestamp": 1730073600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "327 S Summit St, Arkansas City, KS 67005",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "327 S Summit St",
+            "city": "Arkansas City",
+            "zipcode": "67005",
+            "state": "Kansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cf1d3985a947c1:0x78d3b5c08694e8ce",
+            "google_id": "0x87cf1d3985a947c1:0x78d3b5c08694e8ce",
+            "place_id": "ChIJwUephTkdz4cRzuiUhsC103g",
+            "google_mid": "/g/11ld46_t1k",
+            "phone_number": null,
+            "name": "The Big Bin Store",
+            "latitude": 36.625897699999996,
+            "longitude": -93.2807229,
+            "full_address": "The Big Bin Store, 3265 Falls Pkwy suite m, Branson, MO 65616",
+            "review_count": 52,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cf1d3985a947c1:0x78d3b5c08694e8ce",
+            "cid": "8706502343133554894",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJwUephTkdz4cRzuiUhsC103g&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "109191617781802031249",
+            "owner_link": "https://maps.google.com/maps/contrib/109191617781802031249",
+            "owner_name": "The Big Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMBLeHUaV8rJsWLeaaMB37kzRlzLTsuJlwiM0gi",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMBLeHUaV8rJsWLeaaMB37kzRlzLTsuJlwiM0gi",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMBLeHUaV8rJsWLeaaMB37kzRlzLTsuJlwiM0gi=w3000-h4000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.6259386,
+                    "longitude": -93.2809596,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-08-26T00:00:00.000Z",
+                    "photo_timestamp": 1724630400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "3265 Falls Pkwy suite m, Branson, MO 65616",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3265 Falls Pkwy suite m",
+            "city": "Branson",
+            "zipcode": "65616",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x863441001757b149:0x5917d999799b6b83",
+            "google_id": "0x863441001757b149:0x5917d999799b6b83",
+            "place_id": "ChIJSbFXFwBBNIYRg2ubeZnZF1k",
+            "google_mid": "/g/11y34pyjw9",
+            "phone_number": "+19037932307",
+            "name": "The Bin Store & More",
+            "latitude": 33.4336213,
+            "longitude": -94.0792175,
+            "full_address": "The Bin Store & More, 2729 New Boston Rd, Texarkana, TX 75501",
+            "review_count": 13,
+            "rating": 4.7,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20135 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u201312 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20134 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x863441001757b149:0x5917d999799b6b83",
+            "cid": "6419839047033383811",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJSbFXFwBBNIYRg2ubeZnZF1k&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "113785399019816029157",
+            "owner_link": "https://maps.google.com/maps/contrib/113785399019816029157",
+            "owner_name": "The Bin Store & More",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "General store",
+            "subtypes": [
+                "General store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMN4EGr1QLcC75L7GyxhUh60TDCitpSQKMVVjBS",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMN4EGr1QLcC75L7GyxhUh60TDCitpSQKMVVjBS",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMN4EGr1QLcC75L7GyxhUh60TDCitpSQKMVVjBS=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.4338464,
+                    "longitude": -94.07925499999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-05-25T00:00:00.000Z",
+                    "photo_timestamp": 1716595200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2729 New Boston Rd, Texarkana, TX 75501",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2729 New Boston Rd",
+            "city": "Texarkana",
+            "zipcode": "75501",
+            "state": "Texas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d2839a57cab761:0x16815231168b026f",
+            "google_id": "0x87d2839a57cab761:0x16815231168b026f",
+            "place_id": "ChIJYbfKV5qD0ocRbwKLFjFSgRY",
+            "google_mid": "/g/11rbywd3pf",
+            "phone_number": "+15013586550",
+            "name": "The Family Flips Bargain Hub",
+            "latitude": 35.0924641,
+            "longitude": -92.41028399999999,
+            "full_address": "The Family Flips Bargain Hub, 1024 Jims Ln, Conway, AR 72032",
+            "review_count": 276,
+            "rating": 4.8,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://www.thefamilyflips.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d2839a57cab761:0x16815231168b026f",
+            "cid": "1621667711615173231",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJYbfKV5qD0ocRbwKLFjFSgRY&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "107459889549260538892",
+            "owner_link": "https://maps.google.com/maps/contrib/107459889549260538892",
+            "owner_name": "The Family Flips Bargain Hub",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPb1friFwg4nDbe2sUDsliGtDoPK13Y_xNogePv",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPb1friFwg4nDbe2sUDsliGtDoPK13Y_xNogePv",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPb1friFwg4nDbe2sUDsliGtDoPK13Y_xNogePv=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.0924488,
+                    "longitude": -92.41070359999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-10-02T00:00:00.000Z",
+                    "photo_timestamp": 1664668800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Passport photos": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1024 Jims Ln, Conway, AR 72032",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1024 Jims Ln",
+            "city": "Conway",
+            "zipcode": "72032",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/TheFamilyFlips",
+                "instagram": "https://www.instagram.com/the.familyflips",
+                "yelp": "https://www.yelp.com/biz/the-family-flips-conway",
+                "tiktok": "https://www.tiktok.com/@thefamilyflips",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87ca4d9fcd33586b:0x6e3f5da924da30f6",
+            "google_id": "0x87ca4d9fcd33586b:0x6e3f5da924da30f6",
+            "place_id": "ChIJa1gzzZ9NyocR9jDaJKldP24",
+            "google_mid": "/g/11kgcn9kr1",
+            "phone_number": "+14795614461",
+            "name": "T&C Bargains Store, Appliances & Mattresses",
+            "latitude": 35.3114387,
+            "longitude": -94.4231621,
+            "full_address": "T&C Bargains Store, Appliances & Mattresses, 7714 US-271, Fort Smith, AR 72908",
+            "review_count": 71,
+            "rating": 4.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 3\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20133 PM"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/TC-Bargains-Store-Appliances-Mattresses-108120445463060",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87ca4d9fcd33586b:0x6e3f5da924da30f6",
+            "cid": "7944171248753979638",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJa1gzzZ9NyocR9jDaJKldP24&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114725079456857169585",
+            "owner_link": "https://maps.google.com/maps/contrib/114725079456857169585",
+            "owner_name": "T&C Bargains Store, Appliances & Mattresses",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOzYLUvfs8302hAkxT_yfDp60596vD1jxdJiMki",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOzYLUvfs8302hAkxT_yfDp60596vD1jxdJiMki",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOzYLUvfs8302hAkxT_yfDp60596vD1jxdJiMki=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.3113124,
+                    "longitude": -94.4226831,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-11-14T00:00:00.000Z",
+                    "photo_timestamp": 1668384000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 50,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "7714 US-271, Fort Smith, AR 72908",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "7714 US-271",
+            "city": "Fort Smith",
+            "zipcode": "72908",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x862e4777d4ea4a63:0xf772530fc799645",
+            "google_id": "0x862e4777d4ea4a63:0xf772530fc799645",
+            "place_id": "ChIJY0rq1HdHLoYRRZZ5_DAldw8",
+            "google_mid": "/g/11jz4p5nfg",
+            "phone_number": "+13188558184",
+            "name": "Bins on Bins",
+            "latitude": 32.5453937,
+            "longitude": -92.0764019,
+            "full_address": "Bins on Bins, 2348 Sterlington Rd, Monroe, LA 71203",
+            "review_count": 96,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "8 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/binsonbins1",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x862e4777d4ea4a63:0xf772530fc799645",
+            "cid": "1114400325121971781",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJY0rq1HdHLoYRRZZ5_DAldw8&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "105490468066026800235",
+            "owner_link": "https://maps.google.com/maps/contrib/105490468066026800235",
+            "owner_name": "Bins on Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNt9wECQpdk-eZzW9OlfsLtts7LK2cO4nQcD-uO",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNt9wECQpdk-eZzW9OlfsLtts7LK2cO4nQcD-uO",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNt9wECQpdk-eZzW9OlfsLtts7LK2cO4nQcD-uO=w1920-h998-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.545322899999995,
+                    "longitude": -92.07673960000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-12T00:00:00.000Z",
+                    "photo_timestamp": 1681257600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 80,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Amenities": {
+                        "Wi-Fi": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "2348 Sterlington Rd, Monroe, LA 71203",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2348 Sterlington Rd",
+            "city": "Monroe",
+            "zipcode": "71203",
+            "state": "Louisiana",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cc53e4cb0db467:0xba8a607f69a15f8",
+            "google_id": "0x87cc53e4cb0db467:0xba8a607f69a15f8",
+            "place_id": "ChIJZ7QNy-RTzIcR-BWa9gemqAs",
+            "google_mid": "/g/11sk53jcgv",
+            "phone_number": null,
+            "name": "Price Break Bargain Store",
+            "latitude": 35.2799753,
+            "longitude": -93.1149234,
+            "full_address": "Price Break Bargain Store, 1509 E Main St Suite 12, Russellville, AR 72801",
+            "review_count": 45,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://pricebreak.us",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cc53e4cb0db467:0xba8a607f69a15f8",
+            "cid": "840103883636872696",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJZ7QNy-RTzIcR-BWa9gemqAs&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "111048806347274710702",
+            "owner_link": "https://maps.google.com/maps/contrib/111048806347274710702",
+            "owner_name": "Price Break Bargain Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO43y3VI2yvMfJ_JGRJElT42Y6UItSOfbt8RLtV",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO43y3VI2yvMfJ_JGRJElT42Y6UItSOfbt8RLtV",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO43y3VI2yvMfJ_JGRJElT42Y6UItSOfbt8RLtV=w3468-h4624-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.27992460000001,
+                    "longitude": -93.1154212,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-25T00:00:00.000Z",
+                    "photo_timestamp": 1682380800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 84,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "1509 E Main St Suite 12, Russellville, AR 72801",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1509 E Main St Suite 12",
+            "city": "Russellville",
+            "zipcode": "72801",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/pricebreakrussellville",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/price-breakers-national-city",
+                "tiktok": "https://www.tiktok.com/@pricebreakar",
+                "snapchat": null,
+                "twitter": "https://twitter.com/pricebreaker",
+                "linkedin": "https://www.linkedin.com/company/price-breaker",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cf0569f4d9f0f5:0xfb1c6addbeaaa027",
+            "google_id": "0x87cf0569f4d9f0f5:0xfb1c6addbeaaa027",
+            "place_id": "ChIJ9fDZ9GkFz4cRJ6Cqvt1qHPs",
+            "google_mid": "/g/11swg7xbw8",
+            "phone_number": "+14179220030",
+            "name": "Branson's Bin Store",
+            "latitude": 36.662704,
+            "longitude": -93.2420155,
+            "full_address": "Branson's Bin Store, 1447 State Hwy 248 Ste A, Branson, MO 65616",
+            "review_count": 30,
+            "rating": 3.9,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://bransonsbinstore.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cf0569f4d9f0f5:0xfb1c6addbeaaa027",
+            "cid": "18094454903486980135",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ9fDZ9GkFz4cRJ6Cqvt1qHPs&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "106667852939694211290",
+            "owner_link": "https://maps.google.com/maps/contrib/106667852939694211290",
+            "owner_name": "Branson's Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNl8QXBcOwLLPC8kWcjdnhLVDjGyhsGHnBrieGB",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNl8QXBcOwLLPC8kWcjdnhLVDjGyhsGHnBrieGB",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNl8QXBcOwLLPC8kWcjdnhLVDjGyhsGHnBrieGB=w4385-h2048-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.6629253,
+                    "longitude": -93.2418421,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-03-23T00:00:00.000Z",
+                    "photo_timestamp": 1679529600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1447 State Hwy 248 Ste A, Branson, MO 65616",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1447 State Hwy 248 Ste A",
+            "city": "Branson",
+            "zipcode": "65616",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "4179220030"
+                ],
+                "facebook": "https://www.facebook.com/bransonsbinstore",
+                "instagram": "https://www.instagram.com/bransonsbinstore",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87ca4de8b1298ead:0xde2f25874c5e3b17",
+            "google_id": "0x87ca4de8b1298ead:0xde2f25874c5e3b17",
+            "place_id": "ChIJrY4psehNyocRFzteTIclL94",
+            "google_mid": "/g/11j3r4lw_g",
+            "phone_number": "+18446267787",
+            "name": "Boss BIns, LLC",
+            "latitude": 35.8134351,
+            "longitude": -94.2799467,
+            "full_address": null,
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Open 24 hours",
+            "working_hours": {
+                "Sunday": [
+                    "Open 24 hours"
+                ],
+                "Monday": [
+                    "Open 24 hours"
+                ],
+                "Tuesday": [
+                    "Open 24 hours"
+                ],
+                "Wednesday": [
+                    "Open 24 hours"
+                ],
+                "Thursday": [
+                    "Open 24 hours"
+                ],
+                "Friday": [
+                    "Open 24 hours"
+                ],
+                "Saturday": [
+                    "Open 24 hours"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87ca4de8b1298ead:0xde2f25874c5e3b17",
+            "cid": "16010056463357459223",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJrY4psehNyocRFzteTIclL94&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "113937977755560673930",
+            "owner_link": "https://maps.google.com/maps/contrib/113937977755560673930",
+            "owner_name": "Boss BIns, LLC",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Moving supply store",
+            "subtypes": [
+                "Moving supply store",
+                "Service establishment"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPX3Je-Gbz41AtBq_7ahcIqTmXQ-LgoZkPfQbol",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPX3Je-Gbz41AtBq_7ahcIqTmXQ-LgoZkPfQbol",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPX3Je-Gbz41AtBq_7ahcIqTmXQ-LgoZkPfQbol=w2848-h4272-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "type": "photo",
+                    "photo_datetime_utc": "2019-12-25T00:00:00.000Z",
+                    "photo_timestamp": 1577232000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": null,
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": null,
+            "city": null,
+            "zipcode": null,
+            "state": null,
+            "country": null,
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c87b47e91e2ffd:0x195ec98118b8e82f",
+            "google_id": "0x87c87b47e91e2ffd:0x195ec98118b8e82f",
+            "place_id": "ChIJ_S8e6Ud7yIcRL-i4GIHJXhk",
+            "google_mid": "/g/11k369hh0s",
+            "phone_number": "+14175534431",
+            "name": "Daily Deals Bargain Bins",
+            "latitude": 37.085317599999996,
+            "longitude": -94.540711,
+            "full_address": "Daily Deals Bargain Bins, 2207 W 7th St, Joplin, MO 64801",
+            "review_count": 405,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c87b47e91e2ffd:0x195ec98118b8e82f",
+            "cid": "1828120055061735471",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ_S8e6Ud7yIcRL-i4GIHJXhk&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114448392896532484540",
+            "owner_link": "https://maps.google.com/maps/contrib/114448392896532484540",
+            "owner_name": "Daily Deals Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMrmIFgUcz5taNGDqD5zBVSgeEzKq28lfhleNc1",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMrmIFgUcz5taNGDqD5zBVSgeEzKq28lfhleNc1",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMrmIFgUcz5taNGDqD5zBVSgeEzKq28lfhleNc1=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 37.0851641,
+                    "longitude": -94.5407764,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-04-03T00:00:00.000Z",
+                    "photo_timestamp": 1648944000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2207 W 7th St, Joplin, MO 64801",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2207 W 7th St",
+            "city": "Joplin",
+            "zipcode": "64801",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x86346baa2d0ee5bb:0x8a4e0da7afb5c181",
+            "google_id": "0x86346baa2d0ee5bb:0x8a4e0da7afb5c181",
+            "place_id": "ChIJu-UOLaprNIYRgcG1r6cNToo",
+            "google_mid": "/g/11ghdjrrwj",
+            "phone_number": "+18703300633",
+            "name": "Krazy Binz Liquidation & Furniture",
+            "latitude": 33.4537432,
+            "longitude": -94.0420388,
+            "full_address": "Krazy Binz Liquidation & Furniture, 3224 N State Line Ave, Texarkana, AR 71854",
+            "review_count": 32,
+            "rating": 4.3,
+            "timezone": "America/Chicago",
+            "opening_status": "Opens soon \u22c5 11\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://reachoutmore.net/pages/krazy-binz-liquidation-furniture",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x86346baa2d0ee5bb:0x8a4e0da7afb5c181",
+            "cid": "9965918039276110209",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJu-UOLaprNIYRgcG1r6cNToo&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "110274820620067428499",
+            "owner_link": "https://maps.google.com/maps/contrib/110274820620067428499",
+            "owner_name": "Krazy Binz Liquidation & Furniture",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Liquidator",
+            "subtypes": [
+                "Liquidator",
+                "Clothing store",
+                "Craft store",
+                "Discount store",
+                "Furniture store",
+                "General store",
+                "Home goods store",
+                "Party store",
+                "School supply store",
+                "Toy store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNC1LIHuuTRZZf12BKehhQ3QBDnggZjqPfD7Rqa",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNC1LIHuuTRZZf12BKehhQ3QBDnggZjqPfD7Rqa",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNC1LIHuuTRZZf12BKehhQ3QBDnggZjqPfD7Rqa=w1080-h1440-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.453714399999996,
+                    "longitude": -94.04220930000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-08-29T00:00:00.000Z",
+                    "photo_timestamp": 1724889600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 76,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "3224 N State Line Ave, Texarkana, AR 71854",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "3224 N State Line Ave",
+            "city": "Texarkana",
+            "zipcode": "71854",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87ca4dc2ed017aad:0x844de7f889971028",
+            "google_id": "0x87ca4dc2ed017aad:0x844de7f889971028",
+            "place_id": "ChIJrXoB7cJNyocRKBCXifjnTYQ",
+            "google_mid": "/g/11p_1zzmtr",
+            "phone_number": "+14792226698",
+            "name": "Warehouse 64",
+            "latitude": 35.337991699999996,
+            "longitude": -94.4142756,
+            "full_address": "Warehouse 64, 1918 Phoenix Ave, Fort Smith, AR 72901",
+            "review_count": 143,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 9\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87ca4dc2ed017aad:0x844de7f889971028",
+            "cid": "9533531040859492392",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJrXoB7cJNyocRKBCXifjnTYQ&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "104554817818862091274",
+            "owner_link": "https://maps.google.com/maps/contrib/104554817818862091274",
+            "owner_name": "Warehouse 64",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMUZTxUJtINrZHL5beDP6LEH-ZPngLbc3pGJ-w_",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMUZTxUJtINrZHL5beDP6LEH-ZPngLbc3pGJ-w_",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMUZTxUJtINrZHL5beDP6LEH-ZPngLbc3pGJ-w_=w3120-h4160-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.338619,
+                    "longitude": -94.41381559999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-07-23T00:00:00.000Z",
+                    "photo_timestamp": 1658534400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1918 Phoenix Ave, Fort Smith, AR 72901",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1918 Phoenix Ave",
+            "city": "Fort Smith",
+            "zipcode": "72901",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d3a98297a5a1dd:0xbbe91388a575baae",
+            "google_id": "0x87d3a98297a5a1dd:0xbbe91388a575baae",
+            "place_id": "ChIJ3aGll4Kp04cRrrp1pYgT6bs",
+            "google_mid": "/g/11sy4jrj65",
+            "phone_number": "+18708108420",
+            "name": "Ozark Liquidation LLC",
+            "latitude": 35.2497408,
+            "longitude": -91.7059922,
+            "full_address": "Ozark Liquidation LLC, 2701-6, E Race Ave, Searcy, AR 72143",
+            "review_count": 33,
+            "rating": 4.5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20135 PM"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d3a98297a5a1dd:0xbbe91388a575baae",
+            "cid": "13540375232278543022",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ3aGll4Kp04cRrrp1pYgT6bs&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "105131072927798469325",
+            "owner_link": "https://maps.google.com/maps/contrib/105131072927798469325",
+            "owner_name": "Ozark Liquidation LLC",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMINF2LiJKAmgypdtbJ1iOPiaGCbIRKEXAh6Yoy",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMINF2LiJKAmgypdtbJ1iOPiaGCbIRKEXAh6Yoy",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMINF2LiJKAmgypdtbJ1iOPiaGCbIRKEXAh6Yoy=w3239-h3239-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.2502688940312,
+                    "longitude": -91.70599477827786,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-05-29T00:00:00.000Z",
+                    "photo_timestamp": 1653782400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2701-6, E Race Ave, Searcy, AR 72143",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2701-6, E Race Ave",
+            "city": "Searcy",
+            "zipcode": "72143",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c8177d54ee55fd:0x2ac82b9358ef25ae",
+            "google_id": "0x87c8177d54ee55fd:0x2ac82b9358ef25ae",
+            "place_id": "ChIJ_VXuVH0XyIcRriXvWJMryCo",
+            "google_mid": "/g/11t2bbrq4d",
+            "phone_number": "+19189193290",
+            "name": "Daily deals",
+            "latitude": 36.8982436,
+            "longitude": -94.8791052,
+            "full_address": "Daily deals, 2023 N Main St, Miami, OK 74354",
+            "review_count": 30,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c8177d54ee55fd:0x2ac82b9358ef25ae",
+            "cid": "3082761856787359150",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ_VXuVH0XyIcRriXvWJMryCo&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "100931874407649222854",
+            "owner_link": "https://maps.google.com/maps/contrib/100931874407649222854",
+            "owner_name": "Daily deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOpenkcRfoehK6g3swYkO_gzRIsqG8b4KvhueXY",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOpenkcRfoehK6g3swYkO_gzRIsqG8b4KvhueXY",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOpenkcRfoehK6g3swYkO_gzRIsqG8b4KvhueXY=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.8982418,
+                    "longitude": -94.87892830000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-09-16T00:00:00.000Z",
+                    "photo_timestamp": 1694822400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2023 N Main St, Miami, OK 74354",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2023 N Main St",
+            "city": "Miami",
+            "zipcode": "74354",
+            "state": "Oklahoma",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cf71b4631f9b67:0x4bf70a034eccf85f",
+            "google_id": "0x87cf71b4631f9b67:0x4bf70a034eccf85f",
+            "place_id": "ChIJZ5sfY7Rxz4cRX_jMTgMK90s",
+            "google_mid": "/g/11v0p6f_vg",
+            "phone_number": "+14175514028",
+            "name": "Bin Diggin'",
+            "latitude": 37.0682326,
+            "longitude": -93.2323279,
+            "full_address": "Bin Diggin', 5313 N Town Centre Dr, Ozark, MO 65721",
+            "review_count": 29,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20131 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.thebindiggin.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cf71b4631f9b67:0x4bf70a034eccf85f",
+            "cid": "5473854881415362655",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJZ5sfY7Rxz4cRX_jMTgMK90s&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "104899346101435360253",
+            "owner_link": "https://maps.google.com/maps/contrib/104899346101435360253",
+            "owner_name": "Bin Diggin'",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNk7IA2sGsM6aTPASg323sTDQp0vCfrHwOlM943",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNk7IA2sGsM6aTPASg323sTDQp0vCfrHwOlM943",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNk7IA2sGsM6aTPASg323sTDQp0vCfrHwOlM943=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 37.0684471,
+                    "longitude": -93.2323195,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-23T00:00:00.000Z",
+                    "photo_timestamp": 1690070400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as veteran-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "5313 N Town Centre Dr, Ozark, MO 65721",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "5313 N Town Centre Dr",
+            "city": "Ozark",
+            "zipcode": "65721",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "4175514028",
+                    "4176193381"
+                ],
+                "facebook": "https://www.facebook.com/bindigginspringfield",
+                "instagram": "https://www.instagram.com/bindigginspringfieldmo",
+                "yelp": "https://www.yelp.com/biz/bin-diggin-springfield",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x863441004941cdb5:0xbb8ec2cd4c7ad194",
+            "google_id": "0x863441004941cdb5:0xbb8ec2cd4c7ad194",
+            "place_id": "ChIJtc1BSQBBNIYRlNF6TM3Cjrs",
+            "google_mid": "/g/11y3hgqy6z",
+            "phone_number": "+14302004861",
+            "name": "Lynda Bargain Bin Store & More",
+            "latitude": 33.434878399999995,
+            "longitude": -94.0797216,
+            "full_address": "Lynda Bargain Bin Store & More, 2729 New Boston Rd #110a, Texarkana, TX 75501",
+            "review_count": 1,
+            "rating": 1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=61556377333711&mibextid=LQQJ4d",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x863441004941cdb5:0xbb8ec2cd4c7ad194",
+            "cid": "13514953718792638868",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtc1BSQBBNIYRlNF6TM3Cjrs&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114710210153835221666",
+            "owner_link": "https://maps.google.com/maps/contrib/114710210153835221666",
+            "owner_name": "Lynda Bargain Bin Store & More",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN8dgh0W3lfqGvlS4LEIJwm6y_7AvcjcE3G9j8H",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN8dgh0W3lfqGvlS4LEIJwm6y_7AvcjcE3G9j8H",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN8dgh0W3lfqGvlS4LEIJwm6y_7AvcjcE3G9j8H=w768-h1024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.4347102,
+                    "longitude": -94.079753,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-05-05T00:00:00.000Z",
+                    "photo_timestamp": 1714867200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2729 New Boston Rd #110a, Texarkana, TX 75501",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2729 New Boston Rd #110a",
+            "city": "Texarkana",
+            "zipcode": "75501",
+            "state": "Texas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d0575451e9463d:0x8584f0d14a5b8000",
+            "google_id": "0x87d0575451e9463d:0x8584f0d14a5b8000",
+            "place_id": "ChIJPUbpUVRX0IcRAIBbStHwhIU",
+            "google_mid": "/g/11ldhv5411",
+            "phone_number": "+14172044109",
+            "name": "Binz Galore",
+            "latitude": 36.7045807,
+            "longitude": -91.8792126,
+            "full_address": "Binz Galore, 1657 US-160, West Plains, MO 65775",
+            "review_count": 10,
+            "rating": 4.9,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10:30 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10:30 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10:30 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=61555411094521&mibextid=LQQJ4d",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d0575451e9463d:0x8584f0d14a5b8000",
+            "cid": "9621079485656563712",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJPUbpUVRX0IcRAIBbStHwhIU&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "104073683679122412063",
+            "owner_link": "https://maps.google.com/maps/contrib/104073683679122412063",
+            "owner_name": "Binz Galore",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMzTWJ3NdXXDX2VTMj9gEJhPXpns7SskQ_RsoIL",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMzTWJ3NdXXDX2VTMj9gEJhPXpns7SskQ_RsoIL",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMzTWJ3NdXXDX2VTMj9gEJhPXpns7SskQ_RsoIL=w1816-h1494-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.7048071,
+                    "longitude": -91.87846619999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-03-21T00:00:00.000Z",
+                    "photo_timestamp": 1710979200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "1657 US-160, West Plains, MO 65775",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1657 US-160",
+            "city": "West Plains",
+            "zipcode": "65775",
+            "state": "Missouri",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d28217b4c735e3:0x3a48879dc0411fcd",
+            "google_id": "0x87d28217b4c735e3:0x3a48879dc0411fcd",
+            "place_id": "ChIJ4zXHtBeC0ocRzR9BwJ2HSDo",
+            "google_mid": "/g/11hcdws068",
+            "phone_number": "+15015042453",
+            "name": "Bargain Hunt",
+            "latitude": 35.1112529,
+            "longitude": -92.4283406,
+            "full_address": "Bargain Hunt, 201 Skyline Dr, Conway, AR 72032",
+            "review_count": 448,
+            "rating": 4.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d28217b4c735e3:0x3a48879dc0411fcd",
+            "cid": "4199755764128096205",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4zXHtBeC0ocRzR9BwJ2HSDo&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "111561897621735784899",
+            "owner_link": "https://maps.google.com/maps/contrib/111561897621735784899",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPSlsqfgLzXI20o6-ow_0EWW8zU09gNCg5qTStl",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPSlsqfgLzXI20o6-ow_0EWW8zU09gNCg5qTStl",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPSlsqfgLzXI20o6-ow_0EWW8zU09gNCg5qTStl=w4608-h2592-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.1116363652043,
+                    "longitude": -92.42907866611706,
+                    "type": "photo",
+                    "photo_datetime_utc": "2020-04-13T00:00:00.000Z",
+                    "photo_timestamp": 1586736000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 74,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "201 Skyline Dr, Conway, AR 72032",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "201 Skyline Dr",
+            "city": "Conway",
+            "zipcode": "72032",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d2eb78aef53eef:0xc202b4ef0c93795b",
+            "google_id": "0x87d2eb78aef53eef:0xc202b4ef0c93795b",
+            "place_id": "ChIJ7z71rnjr0ocRW3mTDO-0AsI",
+            "google_mid": "/g/11g1t41lf0",
+            "phone_number": "+15019831023",
+            "name": "Bargain Hunt",
+            "latitude": 34.8845836,
+            "longitude": -92.1043208,
+            "full_address": "Bargain Hunt, 612 N J P Wright Loop Rd, Jacksonville, AR 72076",
+            "review_count": 319,
+            "rating": 4.2,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 8\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": "https://www.bargainhunt.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d2eb78aef53eef:0xc202b4ef0c93795b",
+            "cid": "13979935132112615771",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ7z71rnjr0ocRW3mTDO-0AsI&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "100740127852076896321",
+            "owner_link": "https://maps.google.com/maps/contrib/100740127852076896321",
+            "owner_name": "Bargain Hunt",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipP7ZIhJIzpRqyAYOJgvJOJnbXlZcaXsZiLbNw6K",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipP7ZIhJIzpRqyAYOJgvJOJnbXlZcaXsZiLbNw6K",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipP7ZIhJIzpRqyAYOJgvJOJnbXlZcaXsZiLbNw6K=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.8846051,
+                    "longitude": -92.1050743,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-19T00:00:00.000Z",
+                    "photo_timestamp": 1689724800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 100,
+            "about": {
+                "summary": "Chain retailer selling brand-name apparel, electronics, housewares & more at discount prices.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "612 N J P Wright Loop Rd, Jacksonville, AR 72076",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "612 N J P Wright Loop Rd",
+            "city": "Jacksonville",
+            "zipcode": "72076",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "customerservice@bargainhunt.com",
+                    "manager.cullman@bargainhunt.com",
+                    "manager.birmingham@bargainhunt.com",
+                    "adavis@bargainhunt.com"
+                ],
+                "phone_numbers": [
+                    "2567365240",
+                    "6158463938"
+                ],
+                "facebook": "https://www.facebook.com/BargainHuntStores",
+                "instagram": "https://www.instagram.com/bargainhuntstores",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbargainhunt",
+                "linkedin": "https://www.linkedin.com/company/bargain-hunt",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x8632d5ac3c6791cf:0xca145db22a88ee51",
+            "google_id": "0x8632d5ac3c6791cf:0xca145db22a88ee51",
+            "place_id": "ChIJz5FnPKzVMoYRUe6IKrJdFMo",
+            "google_mid": "/g/11vzdzj4pt",
+            "phone_number": null,
+            "name": "Prize Break",
+            "latitude": 34.449317199999996,
+            "longitude": -93.0781265,
+            "full_address": "Prize Break, 4501 Central Ave Suite 101, Hot Springs, AR 71913",
+            "review_count": 15,
+            "rating": 3.1,
+            "timezone": "America/Chicago",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://pricebreak.us",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8632d5ac3c6791cf:0xca145db22a88ee51",
+            "cid": "14561366514994835025",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJz5FnPKzVMoYRUe6IKrJdFMo&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "102801510233386834791",
+            "owner_link": "https://maps.google.com/maps/contrib/102801510233386834791",
+            "owner_name": "Prize Break",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMWmXVTepljtsa0PiYHV5DIkDnjzibUeUUlcIXU",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMWmXVTepljtsa0PiYHV5DIkDnjzibUeUUlcIXU",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMWmXVTepljtsa0PiYHV5DIkDnjzibUeUUlcIXU=w1536-h2048-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.4492964,
+                    "longitude": -93.0789684,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-06-07T00:00:00.000Z",
+                    "photo_timestamp": 1717718400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "4501 Central Ave Suite 101, Hot Springs, AR 71913",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "4501 Central Ave Suite 101",
+            "city": "Hot Springs",
+            "zipcode": "71913",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/pricebreakrussellville",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/price-breakers-national-city",
+                "tiktok": "https://www.tiktok.com/@pricebreakar",
+                "snapchat": null,
+                "twitter": "https://twitter.com/pricebreaker",
+                "linkedin": "https://www.linkedin.com/company/price-breaker",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87cc6c805c22030f:0x218cd5e90032cdea",
+            "google_id": "0x87cc6c805c22030f:0x218cd5e90032cdea",
+            "place_id": "ChIJDwMiXIBszIcR6s0yAOnVjCE",
+            "google_mid": "/g/11cn5phfr8",
+            "phone_number": "+14797464674",
+            "name": "JC's Outlet",
+            "latitude": 35.4718331,
+            "longitude": -93.4772145,
+            "full_address": "JC's Outlet, 1304 W Main St, Clarksville, AR 72830",
+            "review_count": 350,
+            "rating": 4.6,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 8\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87cc6c805c22030f:0x218cd5e90032cdea",
+            "cid": "2417542296698539498",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJDwMiXIBszIcR6s0yAOnVjCE&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114947058443235135083",
+            "owner_link": "https://maps.google.com/maps/contrib/114947058443235135083",
+            "owner_name": "JC's Outlet",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Grocery store",
+                "Home goods store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOFQj-us8sbCq5YhKKGvlg6S4QhSsiJ3JQq-j_O",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOFQj-us8sbCq5YhKKGvlg6S4QhSsiJ3JQq-j_O",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOFQj-us8sbCq5YhKKGvlg6S4QhSsiJ3JQq-j_O=w2988-h3984-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.4718509,
+                    "longitude": -93.4774588,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-07-01T00:00:00.000Z",
+                    "photo_timestamp": 1498867200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 40,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": true
+                    },
+                    "Amenities": {
+                        "Gender-neutral restroom": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Checks": true,
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true,
+                        "SNAP/EBT": true
+                    }
+                }
+            },
+            "address": "1304 W Main St, Clarksville, AR 72830",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1304 W Main St",
+            "city": "Clarksville",
+            "zipcode": "72830",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87d463f65de65aa1:0x1cbe779e70e1f2f8",
+            "google_id": "0x87d463f65de65aa1:0x1cbe779e70e1f2f8",
+            "place_id": "ChIJoVrmXfZj1IcR-PLhcJ53vhw",
+            "google_mid": "/g/11jryhz3dz",
+            "phone_number": "+18702087053",
+            "name": "Pippa's Bin",
+            "latitude": 35.2528921,
+            "longitude": -91.03142299999999,
+            "full_address": "Pippa's Bin, 102 US-64, McCrory, AR 72101",
+            "review_count": 3,
+            "rating": 5,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Thu",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20133 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87d463f65de65aa1:0x1cbe779e70e1f2f8",
+            "cid": "2071224401019400952",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJoVrmXfZj1IcR-PLhcJ53vhw&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "114816461778954183669",
+            "owner_link": "https://maps.google.com/maps/contrib/114816461778954183669",
+            "owner_name": "Pippa's Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Antique store",
+            "subtypes": [
+                "Antique store",
+                "Art dealer",
+                "Linens store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOkbRvdri4E49Te-qfS4BKxPA8KG8UnDHiPlDic",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOkbRvdri4E49Te-qfS4BKxPA8KG8UnDHiPlDic",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOkbRvdri4E49Te-qfS4BKxPA8KG8UnDHiPlDic=w1097-h628-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.2519176,
+                    "longitude": -91.0314324,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-05-06T00:00:00.000Z",
+                    "photo_timestamp": 1620259200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Buys used goods": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "102 US-64, McCrory, AR 72101",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "102 US-64",
+            "city": "McCrory",
+            "zipcode": "72101",
+            "state": "Arkansas",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x87c9fb85ad88519b:0x90f9f80cc12f6b88",
+            "google_id": "0x87c9fb85ad88519b:0x90f9f80cc12f6b88",
+            "place_id": "ChIJm1GIrYX7yYcRiGsvwQz4-ZA",
+            "google_mid": "/g/11l5vx7k52",
+            "phone_number": null,
+            "name": "Bins and More",
+            "latitude": 35.901080799999995,
+            "longitude": -94.9731645,
+            "full_address": "Bins and More, 23 S Plaza S St, Tahlequah, OK 74464",
+            "review_count": 2,
+            "rating": 4,
+            "timezone": "America/Chicago",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x87c9fb85ad88519b:0x90f9f80cc12f6b88",
+            "cid": "10446653544326982536",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJm1GIrYX7yYcRiGsvwQz4-ZA&q=bin+stores+in+arkansas&authuser=0&hl=en&gl=US",
+            "owner_id": "109352285296925991054",
+            "owner_link": "https://maps.google.com/maps/contrib/109352285296925991054",
+            "owner_name": "Bins and More",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "General store",
+            "subtypes": [
+                "General store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNOl65IEj5q5KZJaCCyc2g2nUjUI1C_IEwHc691",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNOl65IEj5q5KZJaCCyc2g2nUjUI1C_IEwHc691",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNOl65IEj5q5KZJaCCyc2g2nUjUI1C_IEwHc691=w4032-h2268-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 35.901080799999995,
+                    "longitude": -94.9730744,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-11-27T00:00:00.000Z",
+                    "photo_timestamp": 1701043200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "23 S Plaza S St, Tahlequah, OK 74464",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "23 S Plaza S St",
+            "city": "Tahlequah",
+            "zipcode": "74464",
+            "state": "Oklahoma",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        }
+    ]
+};
+  res.status(200).json(storesData);
+}

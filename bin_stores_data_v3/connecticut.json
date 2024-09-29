@@ -1,0 +1,4727 @@
+export default function handler(req, res) {
+  const storesData = {
+    "status": "OK",
+    "request_id": "4784a415-a3bc-4bdc-b824-3b396f2a79a1",
+    "parameters": {
+        "query": "bin stores in connecticut",
+        "language": "en",
+        "region": "us",
+        "lat": 37.09024,
+        "lng": -95.712891,
+        "zoom": 13,
+        "limit": 40,
+        "offset": 0,
+        "extract_emails_and_contacts": true
+    },
+    "data": [
+        {
+            "business_id": "0x89e7d9aaa9bbad89:0x15c8d380ce8652bb",
+            "google_id": "0x89e7d9aaa9bbad89:0x15c8d380ce8652bb",
+            "place_id": "ChIJia27qarZ54kRu1KGzoDTyBU",
+            "google_mid": "/g/11l6x61d7n",
+            "phone_number": null,
+            "name": "Bargain Bingers",
+            "latitude": 41.278469,
+            "longitude": -72.953992,
+            "full_address": "Bargain Bingers, 719 Campbell Ave, West Haven, CT 06516",
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5:30\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20135:30 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/bargainbingers",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d9aaa9bbad89:0x15c8d380ce8652bb",
+            "cid": "1569737020312801979",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJia27qarZ54kRu1KGzoDTyBU&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "111315637368630671553",
+            "owner_link": "https://maps.google.com/maps/contrib/111315637368630671553",
+            "owner_name": "Bargain Bingers",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNUUiTnuzS0m6b6fZ7hlt5mDvdRfA53OiMQS0Xg",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNUUiTnuzS0m6b6fZ7hlt5mDvdRfA53OiMQS0Xg",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNUUiTnuzS0m6b6fZ7hlt5mDvdRfA53OiMQS0Xg=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.2783379,
+                    "longitude": -72.9543454,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-12-16T00:00:00.000Z",
+                    "photo_timestamp": 1702684800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "719 Campbell Ave, West Haven, CT 06516",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "719 Campbell Ave",
+            "city": "West Haven",
+            "zipcode": "06516",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89c2f36c31a4d23f:0xe2a6ac0795db3342",
+            "google_id": "0x89c2f36c31a4d23f:0xe2a6ac0795db3342",
+            "place_id": "ChIJP9KkMWzzwokRQjPblQespuI",
+            "google_mid": "/g/11s8lzv0y7",
+            "phone_number": "+19144334411",
+            "name": "EMPTY THE BINS",
+            "latitude": 40.934452,
+            "longitude": -73.89903249999999,
+            "full_address": "EMPTY THE BINS, 21 Main St, Yonkers, NY 10701",
+            "review_count": 270,
+            "rating": 4.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89c2f36c31a4d23f:0xe2a6ac0795db3342",
+            "cid": "16331930247284601666",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJP9KkMWzzwokRQjPblQespuI&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "107666035640459681731",
+            "owner_link": "https://maps.google.com/maps/contrib/107666035640459681731",
+            "owner_name": "EMPTY THE BINS",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNXw8RQv_DIEhqw2ZV2OGRO0A-ZNDLkMG8Viq8g",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNXw8RQv_DIEhqw2ZV2OGRO0A-ZNDLkMG8Viq8g",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNXw8RQv_DIEhqw2ZV2OGRO0A-ZNDLkMG8Viq8g=w3510-h3897-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 40.9342906,
+                    "longitude": -73.8990633,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-11-08T00:00:00.000Z",
+                    "photo_timestamp": 1667865600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 49,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": false
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "21 Main St, Yonkers, NY 10701",
+            "order_link": null,
+            "price_level": null,
+            "district": "Getty Square",
+            "street_address": "21 Main St",
+            "city": "Yonkers",
+            "zipcode": "10701",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e6e72d3e390301:0x3709545503af8976",
+            "google_id": "0x89e6e72d3e390301:0x3709545503af8976",
+            "place_id": "ChIJAQM5Pi3n5okRdomvA1VUCTc",
+            "google_mid": "/g/11vbwhpj_n",
+            "phone_number": "+14132414425",
+            "name": "BLACK FRIDAY BIN STORE",
+            "latitude": 42.101959099999995,
+            "longitude": -72.60957479999999,
+            "full_address": "BLACK FRIDAY BIN STORE, 520 Main St, West Springfield, MA 01089",
+            "review_count": 5,
+            "rating": 2.6,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e6e72d3e390301:0x3709545503af8976",
+            "cid": "3965793670987221366",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJAQM5Pi3n5okRdomvA1VUCTc&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "108323186853299664039",
+            "owner_link": "https://maps.google.com/maps/contrib/108323186853299664039",
+            "owner_name": "BLACK FRIDAY BIN STORE",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN00RZeiQvTbUAgPbVurUzKiS5XGaERZyapPWiF",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN00RZeiQvTbUAgPbVurUzKiS5XGaERZyapPWiF",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN00RZeiQvTbUAgPbVurUzKiS5XGaERZyapPWiF=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 42.1021274,
+                    "longitude": -72.60943560000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-12-11T00:00:00.000Z",
+                    "photo_timestamp": 1702252800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "520 Main St, West Springfield, MA 01089",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "520 Main St",
+            "city": "West Springfield",
+            "zipcode": "01089",
+            "state": "Massachusetts",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7d0981153c081:0x5af4e123af0046df",
+            "google_id": "0x89e7d0981153c081:0x5af4e123af0046df",
+            "place_id": "ChIJgcBTEZjQ54kR30YAryPh9Fo",
+            "google_mid": "/g/1tggpnwr",
+            "phone_number": "+12032481600",
+            "name": "Goodwill Outlet Store",
+            "latitude": 41.3599671,
+            "longitude": -72.8879663,
+            "full_address": "Goodwill Outlet Store, 2901 State St, Hamden, CT 06517",
+            "review_count": 250,
+            "rating": 3.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d0981153c081:0x5af4e123af0046df",
+            "cid": "6554110901107050207",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJgcBTEZjQ54kR30YAryPh9Fo&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "113539565044563359767",
+            "owner_link": "https://maps.google.com/maps/contrib/113539565044563359767",
+            "owner_name": "Goodwill Outlet Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Outlet store",
+            "subtypes": [
+                "Outlet store",
+                "Donations center",
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN5GriSHgCEB6BkWmtDCjfF7mkBhtcbRqQDU2oP",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN5GriSHgCEB6BkWmtDCjfF7mkBhtcbRqQDU2oP",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN5GriSHgCEB6BkWmtDCjfF7mkBhtcbRqQDU2oP=w4160-h2340-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.3599034,
+                    "longitude": -72.8888059,
+                    "type": "photo",
+                    "photo_datetime_utc": "2016-01-28T00:00:00.000Z",
+                    "photo_timestamp": 1453939200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 62,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, furniture, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2901 State St, Hamden, CT 06517",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2901 State St",
+            "city": "Hamden",
+            "zipcode": "06517",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e84500630fcd15:0xae01d43f23ba2962",
+            "google_id": "0x89e84500630fcd15:0xae01d43f23ba2962",
+            "place_id": "ChIJFc0PYwBF6IkRYim6Iz_UAa4",
+            "google_mid": "/g/11vqlv470k",
+            "phone_number": null,
+            "name": "Bin 360",
+            "latitude": 40.8743961,
+            "longitude": -72.98085739999999,
+            "full_address": "Bin 360, 55 Middle Country Rd Suite B, Coram, NY 11727",
+            "review_count": 25,
+            "rating": 4.5,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "http://tinyurl.com/BIN360store",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e84500630fcd15:0xae01d43f23ba2962",
+            "cid": "12538536205223602530",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJFc0PYwBF6IkRYim6Iz_UAa4&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "109520038638071491080",
+            "owner_link": "https://maps.google.com/maps/contrib/109520038638071491080",
+            "owner_name": "Bin 360",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Clothing store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOvi1NVBHmMrR1P868mDlb6lKBTgJXmlDuX6hFv",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOvi1NVBHmMrR1P868mDlb6lKBTgJXmlDuX6hFv",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOvi1NVBHmMrR1P868mDlb6lKBTgJXmlDuX6hFv=w3000-h4000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 40.8743062,
+                    "longitude": -72.9808436,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-05-07T00:00:00.000Z",
+                    "photo_timestamp": 1715040000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "55 Middle Country Rd Suite B, Coram, NY 11727",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "55 Middle Country Rd Suite B",
+            "city": "Coram",
+            "zipcode": "11727",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0xb6ee80a595ad7b:0xbd3460be1ba9ab07",
+            "google_id": "0xb6ee80a595ad7b:0xbd3460be1ba9ab07",
+            "place_id": "ChIJe62VpYDutgARB6upG75gNL0",
+            "google_mid": "/g/11scgdhv_x",
+            "phone_number": "+18609643031",
+            "name": "Crazy Hot Deals",
+            "latitude": 41.812160899999995,
+            "longitude": -72.5315639,
+            "full_address": "Crazy Hot Deals, 169 Hale Rd, Manchester, CT 06042",
+            "review_count": 44,
+            "rating": 3.4,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0xb6ee80a595ad7b:0xbd3460be1ba9ab07",
+            "cid": "13633628341581490951",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJe62VpYDutgARB6upG75gNL0&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "100021027624556840517",
+            "owner_link": "https://maps.google.com/maps/contrib/100021027624556840517",
+            "owner_name": "Crazy Hot Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Liquidator",
+            "subtypes": [
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipODSJDYkcTmeWuXhHIFrbQFcan9wlOpP6UFvE4s",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipODSJDYkcTmeWuXhHIFrbQFcan9wlOpP6UFvE4s",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipODSJDYkcTmeWuXhHIFrbQFcan9wlOpP6UFvE4s=w8160-h3672-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.8120659,
+                    "longitude": -72.5319334,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-09-30T00:00:00.000Z",
+                    "photo_timestamp": 1727654400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Language assistance": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    }
+                }
+            },
+            "address": "169 Hale Rd, Manchester, CT 06042",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "169 Hale Rd",
+            "city": "Manchester",
+            "zipcode": "06042",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7c7eb562bfcb3:0x8ab248dd51ef8f57",
+            "google_id": "0x89e7c7eb562bfcb3:0x8ab248dd51ef8f57",
+            "place_id": "ChIJs_wrVuvH54kRV4_vUd1Isoo",
+            "google_mid": "/g/1td730l4",
+            "phone_number": "+18603290027",
+            "name": "I'Deals Surplus Outlets",
+            "latitude": 41.5635616,
+            "longitude": -72.9202298,
+            "full_address": "I'Deals Surplus Outlets, 2165 Meriden-Waterbury Turnpike, Marion, CT 06444",
+            "review_count": 121,
+            "rating": 3.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 3\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7c7eb562bfcb3:0x8ab248dd51ef8f57",
+            "cid": "9994130638488178519",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJs_wrVuvH54kRV4_vUd1Isoo&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "107315625505034785367",
+            "owner_link": "https://maps.google.com/maps/contrib/107315625505034785367",
+            "owner_name": "I'Deals Surplus Outlets",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Home goods store",
+            "subtypes": [
+                "Home goods store",
+                "Furniture store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMmqQMS8Mv6XHborEl7lHWbvIHTxUEccN8lRqh0",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMmqQMS8Mv6XHborEl7lHWbvIHTxUEccN8lRqh0",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMmqQMS8Mv6XHborEl7lHWbvIHTxUEccN8lRqh0=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.563359299999995,
+                    "longitude": -72.92025009999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2020-01-13T00:00:00.000Z",
+                    "photo_timestamp": 1578873600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 46,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2165 Meriden-Waterbury Turnpike, Marion, CT 06444",
+            "order_link": null,
+            "price_level": null,
+            "district": "Marion",
+            "street_address": "2165 Meriden-Waterbury Turnpike",
+            "city": "Marion",
+            "zipcode": "06444",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7c31df31655c7:0x966b95eefbe9fa43",
+            "google_id": "0x89e7c31df31655c7:0x966b95eefbe9fa43",
+            "place_id": "ChIJx1UW8x3D54kRQ_rp--6Va5Y",
+            "google_mid": "/g/11q255qlxx",
+            "phone_number": "+12035874132",
+            "name": "American Liquidations",
+            "latitude": 41.538663,
+            "longitude": -72.9766752,
+            "full_address": "American Liquidations, 204 Austin Rd, Waterbury, CT 06705",
+            "review_count": 130,
+            "rating": 4.5,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.americanliquidations.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7c31df31655c7:0x966b95eefbe9fa43",
+            "cid": "10838921781858400835",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJx1UW8x3D54kRQ_rp--6Va5Y&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "107392910772620751938",
+            "owner_link": "https://maps.google.com/maps/contrib/107392910772620751938",
+            "owner_name": "American Liquidations",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Wholesaler",
+            "subtypes": [
+                "Wholesaler"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMNfdNU1ifAYyGpo7oTUp0YDRRyolRIQE9dzAjG",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMNfdNU1ifAYyGpo7oTUp0YDRRyolRIQE9dzAjG",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMNfdNU1ifAYyGpo7oTUp0YDRRyolRIQE9dzAjG=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.5387862,
+                    "longitude": -72.9766041,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-06-06T00:00:00.000Z",
+                    "photo_timestamp": 1717632000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 71,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Debit cards": true,
+                        "NFC mobile payments": true,
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "204 Austin Rd, Waterbury, CT 06705",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "204 Austin Rd",
+            "city": "Waterbury",
+            "zipcode": "06705",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "sales@americanliquidations.com",
+                    "anitaephraim44@gmail.com",
+                    "michellemidred@gmail.com"
+                ],
+                "phone_numbers": [
+                    "2035874132",
+                    "19102274380"
+                ],
+                "facebook": "https://www.facebook.com/americanliquidation",
+                "instagram": "https://www.instagram.com/americanliquidations",
+                "yelp": "https://www.yelp.com/biz/american-liquidations-prospect",
+                "tiktok": "https://www.tiktok.com/@american.liquidations",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/americanliquidations",
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UC8oWWXf9lpMw3eTiGQtrFGA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7f90eef7e7ba7:0xa0b407bf783cc41c",
+            "google_id": "0x89e7f90eef7e7ba7:0xa0b407bf783cc41c",
+            "place_id": "ChIJp3t-7w7554kRHMQ8eL8HtKA",
+            "google_mid": "/g/1vpfkkm1",
+            "phone_number": "+12037751770",
+            "name": "The Wood Bin",
+            "latitude": 41.449445,
+            "longitude": -73.4019541,
+            "full_address": "The Wood Bin, 305 Federal Rd, Brookfield, CT 06804",
+            "review_count": 30,
+            "rating": 4.3,
+            "timezone": "America/New_York",
+            "opening_status": "Opens soon \u22c5 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20134 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": "http://woodbinfurniture.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7f90eef7e7ba7:0xa0b407bf783cc41c",
+            "cid": "11579889060813784092",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJp3t-7w7554kRHMQ8eL8HtKA&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "114386981242141805347",
+            "owner_link": "https://maps.google.com/maps/contrib/114386981242141805347",
+            "owner_name": "The Wood Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Furniture store",
+            "subtypes": [
+                "Furniture store",
+                "Amish furniture store",
+                "Unfinished furniture store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMgUErskQw6ZxO0IfGU02cXDSzOxCLw8xGTgphP",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMgUErskQw6ZxO0IfGU02cXDSzOxCLw8xGTgphP",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMgUErskQw6ZxO0IfGU02cXDSzOxCLw8xGTgphP=w649-h975-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.449475899999996,
+                    "longitude": -73.4021423,
+                    "type": "photo",
+                    "photo_datetime_utc": "2015-03-03T00:00:00.000Z",
+                    "photo_timestamp": 1425340800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": true,
+                        "In-store pickup": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Assembly service": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "305 Federal Rd, Brookfield, CT 06804",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "305 Federal Rd",
+            "city": "Brookfield",
+            "zipcode": "06804",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "2037751770"
+                ],
+                "facebook": "https://www.facebook.com/woodbinfurniture",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/the-wood-bin-brookfield",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x88f8bd11c38734c3:0xb4c5f753e75dca9b",
+            "google_id": "0x88f8bd11c38734c3:0xb4c5f753e75dca9b",
+            "place_id": "ChIJwzSHwxG9-IgRm8pd51P3xbQ",
+            "google_mid": "/g/11s38lv3_7",
+            "phone_number": "+18037285699",
+            "name": "The Bin Store Columbia",
+            "latitude": 33.980812199999995,
+            "longitude": -81.1111738,
+            "full_address": "The Bin Store Columbia, 2814 Augusta Rd, West Columbia, SC 29170",
+            "review_count": 190,
+            "rating": 4.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://shopbinstores.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x88f8bd11c38734c3:0xb4c5f753e75dca9b",
+            "cid": "13026089436975057563",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJwzSHwxG9-IgRm8pd51P3xbQ&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "105432690565972704949",
+            "owner_link": "https://maps.google.com/maps/contrib/105432690565972704949",
+            "owner_name": "The Bin Store Columbia",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Discount supermarket",
+                "Dollar store",
+                "Flea market",
+                "Home goods store",
+                "Liquidator",
+                "Outlet store",
+                "Store",
+                "Warehouse store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOtBrcTx1RJsEsUa6nvuShM1ya1tlXfwnmJHY1R",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOtBrcTx1RJsEsUa6nvuShM1ya1tlXfwnmJHY1R",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOtBrcTx1RJsEsUa6nvuShM1ya1tlXfwnmJHY1R=w4032-h2268-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.980747,
+                    "longitude": -81.1112622,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-27T00:00:00.000Z",
+                    "photo_timestamp": 1687824000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 141,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2814 Augusta Rd, West Columbia, SC 29170",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2814 Augusta Rd",
+            "city": "West Columbia",
+            "zipcode": "29170",
+            "state": "South Carolina",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "matt@shopbinstores.com"
+                ],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/TheBinStores",
+                "instagram": "https://www.instagram.com/shopbinstores",
+                "yelp": null,
+                "tiktok": "https://www.tiktok.com/@shopbinstores",
+                "snapchat": null,
+                "twitter": "https://twitter.com/shopbinstores",
+                "linkedin": "https://www.linkedin.com/company/the-bin-store",
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCAiFVZB0bO85I1bKOW7HcgQ",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e6e7213bb370cb:0x4590cfef9d41351d",
+            "google_id": "0x89e6e7213bb370cb:0x4590cfef9d41351d",
+            "place_id": "ChIJy3CzOyHn5okRHTVBne_PkEU",
+            "google_mid": "/g/11q4bl1t8k",
+            "phone_number": "+14133016716",
+            "name": "Treasure hunt liquidators",
+            "latitude": 42.0979473,
+            "longitude": -72.5832302,
+            "full_address": "Treasure hunt liquidators, 894 Main St, Springfield, MA 01103",
+            "review_count": 12,
+            "rating": 3.6,
+            "timezone": "America/New_York",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e6e7213bb370cb:0x4590cfef9d41351d",
+            "cid": "5012735013305791773",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJy3CzOyHn5okRHTVBne_PkEU&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "100472242957153832105",
+            "owner_link": "https://maps.google.com/maps/contrib/100472242957153832105",
+            "owner_name": "Treasure hunt liquidators",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPEwBUjMfpyBQ7doASHc013yN6PgynRg4TwwMfK",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPEwBUjMfpyBQ7doASHc013yN6PgynRg4TwwMfK",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPEwBUjMfpyBQ7doASHc013yN6PgynRg4TwwMfK=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 42.097994,
+                    "longitude": -72.58310759999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-12-02T00:00:00.000Z",
+                    "photo_timestamp": 1669939200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 60,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "894 Main St, Springfield, MA 01103",
+            "order_link": null,
+            "price_level": null,
+            "district": "South End",
+            "street_address": "894 Main St",
+            "city": "Springfield",
+            "zipcode": "01103",
+            "state": "Massachusetts",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7c158d55746d5:0x4f489c2f3f3ccb00",
+            "google_id": "0x89e7c158d55746d5:0x4f489c2f3f3ccb00",
+            "place_id": "ChIJ1UZX1VjB54kRAMs8Py-cSE8",
+            "google_mid": "/g/11txfksd36",
+            "phone_number": "+12035275962",
+            "name": "Deals on Wheels",
+            "latitude": 41.5604754,
+            "longitude": -73.0536944,
+            "full_address": "Deals on Wheels, 155 Thomaston Ave, Waterbury, CT 06702",
+            "review_count": 77,
+            "rating": 4.2,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7c158d55746d5:0x4f489c2f3f3ccb00",
+            "cid": "5712987854057818880",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ1UZX1VjB54kRAMs8Py-cSE8&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "114333288177246249745",
+            "owner_link": "https://maps.google.com/maps/contrib/114333288177246249745",
+            "owner_name": "Deals on Wheels",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOD_v5etVTBO9ijfJcdTlSWceRQ0t45AeQBdCM",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOD_v5etVTBO9ijfJcdTlSWceRQ0t45AeQBdCM",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOD_v5etVTBO9ijfJcdTlSWceRQ0t45AeQBdCM=w2268-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.560526499999995,
+                    "longitude": -73.0534678,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-10T00:00:00.000Z",
+                    "photo_timestamp": 1688947200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    }
+                }
+            },
+            "address": "155 Thomaston Ave, Waterbury, CT 06702",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "155 Thomaston Ave",
+            "city": "Waterbury",
+            "zipcode": "06702",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e87572cfacfa79:0xc609c10097d1758d",
+            "google_id": "0x89e87572cfacfa79:0xc609c10097d1758d",
+            "place_id": "ChIJefqsz3J16IkRjXXRlwDBCcY",
+            "google_mid": "/g/11tgdgw4vn",
+            "phone_number": "+18609643031",
+            "name": "Crazy hot deals",
+            "latitude": 41.2613631,
+            "longitude": -73.0025551,
+            "full_address": "Crazy hot deals, 200 Indian River Rd, Orange, CT 06477",
+            "review_count": 50,
+            "rating": 3.3,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e87572cfacfa79:0xc609c10097d1758d",
+            "cid": "14270149102591374733",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJefqsz3J16IkRjXXRlwDBCcY&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "111325828351897340890",
+            "owner_link": "https://maps.google.com/maps/contrib/111325828351897340890",
+            "owner_name": "Crazy hot deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMuQEDcCLWmBB47EXmozUkHgmJzId9pBX-JPlhw",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMuQEDcCLWmBB47EXmozUkHgmJzId9pBX-JPlhw",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMuQEDcCLWmBB47EXmozUkHgmJzId9pBX-JPlhw=w3456-h3456-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.2614564,
+                    "longitude": -73.0022753,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-28T00:00:00.000Z",
+                    "photo_timestamp": 1682640000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "200 Indian River Rd, Orange, CT 06477",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "200 Indian River Rd",
+            "city": "Orange",
+            "zipcode": "06477",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89dc27f08b03046b:0xe6f1fbed37dc5299",
+            "google_id": "0x89dc27f08b03046b:0xe6f1fbed37dc5299",
+            "place_id": "ChIJawQDi_An3IkRmVLcN-378eY",
+            "google_mid": "/g/11kbs0fnnn",
+            "phone_number": "+15188104675",
+            "name": "Bargain City Bin Store",
+            "latitude": 42.6797545,
+            "longitude": -74.4740237,
+            "full_address": "Bargain City Bin Store, 784 E Main St, Cobleskill, NY 12043",
+            "review_count": 19,
+            "rating": 4.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 3\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89dc27f08b03046b:0xe6f1fbed37dc5299",
+            "cid": "16641359094373700249",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJawQDi_An3IkRmVLcN-378eY&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "100494205042473215926",
+            "owner_link": "https://maps.google.com/maps/contrib/100494205042473215926",
+            "owner_name": "Bargain City Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipM9GDLJLI5sTMzhtEZ_m5W4x9Cg6nVNwEfWOAOg",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipM9GDLJLI5sTMzhtEZ_m5W4x9Cg6nVNwEfWOAOg",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipM9GDLJLI5sTMzhtEZ_m5W4x9Cg6nVNwEfWOAOg=w1284-h1406-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 42.6799679,
+                    "longitude": -74.4740904,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-10-06T00:00:00.000Z",
+                    "photo_timestamp": 1696550400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "784 E Main St, Cobleskill, NY 12043",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "784 E Main St",
+            "city": "Cobleskill",
+            "zipcode": "12043",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7d9d93dfc2401:0x3dfef3d61a4d763a",
+            "google_id": "0x89e7d9d93dfc2401:0x3dfef3d61a4d763a",
+            "place_id": "ChIJAST8PdnZ54kROnZNGtbz_j0",
+            "google_mid": "/g/1q66_41zn",
+            "phone_number": "+14848168243",
+            "name": "Vintanthro Modern & Vintage",
+            "latitude": 41.3272121,
+            "longitude": -72.96004529999999,
+            "full_address": "Vintanthro Modern & Vintage, 895 Whalley Ave, New Haven, CT 06515",
+            "review_count": 41,
+            "rating": 4.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "12\u20135 PM"
+                ],
+                "Wednesday": [
+                    "12\u20135 PM"
+                ],
+                "Thursday": [
+                    "12\u20135 PM"
+                ],
+                "Friday": [
+                    "12\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": "http://www.vintanthromodern.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d9d93dfc2401:0x3dfef3d61a4d763a",
+            "cid": "4467275981287945786",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJAST8PdnZ54kROnZNGtbz_j0&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "116070149499988241603",
+            "owner_link": "https://maps.google.com/maps/contrib/116070149499988241603",
+            "owner_name": "Vintanthro Modern & Vintage",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Vintage clothing store",
+            "subtypes": [
+                "Vintage clothing store",
+                "Children's store",
+                "Furniture store",
+                "Gift shop",
+                "Home goods store",
+                "Second hand store",
+                "Thrift store",
+                "Used furniture store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN0MNFstFjM3_rLamoc2JwrEQHzhgryXTOm1sDu",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN0MNFstFjM3_rLamoc2JwrEQHzhgryXTOm1sDu",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN0MNFstFjM3_rLamoc2JwrEQHzhgryXTOm1sDu=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.3270792,
+                    "longitude": -72.9601417,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-08-25T00:00:00.000Z",
+                    "photo_timestamp": 1661385600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 54,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as Latino-owned": true,
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true
+                    },
+                    "Offerings": {
+                        "Buys used goods": true
+                    },
+                    "Amenities": {
+                        "Wi-Fi": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "895 Whalley Ave, New Haven, CT 06515",
+            "order_link": null,
+            "price_level": null,
+            "district": "Westville",
+            "street_address": "895 Whalley Ave",
+            "city": "New Haven",
+            "zipcode": "06515",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "vintanthromodernvintage@gmail.com"
+                ],
+                "phone_numbers": [
+                    "4848168243"
+                ],
+                "facebook": "https://www.facebook.com/vintanthro",
+                "instagram": "https://www.instagram.com/vintanthromodern",
+                "yelp": "https://www.yelp.com/biz/vintanthro-modern-and-vintage-new-haven-2",
+                "tiktok": "https://www.tiktok.com/@vintanthromodern",
+                "snapchat": null,
+                "twitter": "https://twitter.com/vintanthromod",
+                "linkedin": "https://www.linkedin.com/company/vintanthromodern",
+                "github": null,
+                "youtube": null,
+                "pinterest": "https://www.pinterest.com/vintanthro"
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e654af7d71dd71:0xdb69e2d750b96330",
+            "google_id": "0x89e654af7d71dd71:0xdb69e2d750b96330",
+            "place_id": "ChIJcd1xfa9U5okRMGO5UNfiads",
+            "google_mid": "/g/1tggpnqs",
+            "phone_number": "+18607278712",
+            "name": "99\u00a2 PLU$ BARGAINS",
+            "latitude": 41.781162599999995,
+            "longitude": -72.6979197,
+            "full_address": "99\u00a2 PLU$ BARGAINS, 1291 Albany Ave #1, Hartford, CT 06112",
+            "review_count": 17,
+            "rating": 3.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e654af7d71dd71:0xdb69e2d750b96330",
+            "cid": "15810417381261009712",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJcd1xfa9U5okRMGO5UNfiads&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "104903647992097046552",
+            "owner_link": "https://maps.google.com/maps/contrib/104903647992097046552",
+            "owner_name": "99\u00a2 PLU$ BARGAINS",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Baby store",
+                "Bathroom supply store",
+                "Cleaners",
+                "Curtain store",
+                "Health and beauty shop",
+                "Kitchen supply store",
+                "Luggage store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO8e42Ih4lYMqSptYUz6oGrssLo0DFPcZP5wkd-",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO8e42Ih4lYMqSptYUz6oGrssLo0DFPcZP5wkd-",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO8e42Ih4lYMqSptYUz6oGrssLo0DFPcZP5wkd-=w4160-h3120-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.781425999999996,
+                    "longitude": -72.69795839999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-11-05T00:00:00.000Z",
+                    "photo_timestamp": 1509840000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "1291 Albany Ave #1, Hartford, CT 06112",
+            "order_link": null,
+            "price_level": null,
+            "district": "Upper Albany",
+            "street_address": "1291 Albany Ave #1",
+            "city": "Hartford",
+            "zipcode": "06112",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89c2fdcae2cc2dd1:0x7e03c24f14c2d32c",
+            "google_id": "0x89c2fdcae2cc2dd1:0x7e03c24f14c2d32c",
+            "place_id": "ChIJ0S3M4sr9wokRLNPCFE_CA34",
+            "google_mid": "/g/1v_ndfpn",
+            "phone_number": "+19737421819",
+            "name": "US One Bargain Store",
+            "latitude": 40.9177317,
+            "longitude": -74.17325989999999,
+            "full_address": "US One Bargain Store, 180 Main St, Paterson, NJ 07505",
+            "review_count": 11,
+            "rating": 4.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6:30\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136:30 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137:30 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137:30 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137:30 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137:30 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137:30 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137:30 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89c2fdcae2cc2dd1:0x7e03c24f14c2d32c",
+            "cid": "9080314918615569196",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ0S3M4sr9wokRLNPCFE_CA34&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "109363239053857850280",
+            "owner_link": "https://maps.google.com/maps/contrib/109363239053857850280",
+            "owner_name": "US One Bargain Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOqrQn7Je8HoQ5QSJ3o93RhM9l2sLATr0L7oH9Q",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOqrQn7Je8HoQ5QSJ3o93RhM9l2sLATr0L7oH9Q",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOqrQn7Je8HoQ5QSJ3o93RhM9l2sLATr0L7oH9Q=w4032-h2268-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 40.9177416,
+                    "longitude": -74.1730958,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-06-12T00:00:00.000Z",
+                    "photo_timestamp": 1654992000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "180 Main St, Paterson, NJ 07505",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "180 Main St",
+            "city": "Paterson",
+            "zipcode": "07505",
+            "state": "New Jersey",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89c2942e6583ec37:0x802cc5b32e497bf1",
+            "google_id": "0x89c2942e6583ec37:0x802cc5b32e497bf1",
+            "place_id": "ChIJN-yDZS6UwokR8XtJLrPFLIA",
+            "google_mid": "/g/1tdw8_9j",
+            "phone_number": "+19149464767",
+            "name": "The Container Store",
+            "latitude": 41.0323911,
+            "longitude": -73.757654,
+            "full_address": "The Container Store, 145 Westchester Ave, White Plains, NY 10601",
+            "review_count": 494,
+            "rating": 4.4,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.containerstore.com/stores/ny/white-plains/145-westchester-avenue?cid=ns:maps:google:main-store:26-WHP",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89c2942e6583ec37:0x802cc5b32e497bf1",
+            "cid": "9235974309196430321",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJN-yDZS6UwokR8XtJLrPFLIA&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "114091946625257630527",
+            "owner_link": "https://maps.google.com/maps/contrib/114091946625257630527",
+            "owner_name": "The Container Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Home goods store",
+            "subtypes": [
+                "Home goods store",
+                "Contractor",
+                "Furniture store",
+                "Kitchen supply store",
+                "Office supply store",
+                "Shelving store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMh_Vo9jHU8SIXSOFTDvAwmBXXvVRSaf_aKC6IV",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMh_Vo9jHU8SIXSOFTDvAwmBXXvVRSaf_aKC6IV",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMh_Vo9jHU8SIXSOFTDvAwmBXXvVRSaf_aKC6IV=w500-h500-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.032374499999996,
+                    "longitude": -73.7572447,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-11-04T00:00:00.000Z",
+                    "photo_timestamp": 1509753600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 247,
+            "about": {
+                "summary": "Chain retailer specializing in storage & organization supplies, including closet & shelving systems.",
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Same-day delivery": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Assembly service": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "145 Westchester Ave, White Plains, NY 10601",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "145 Westchester Ave",
+            "city": "White Plains",
+            "zipcode": "10601",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e3797c54334be3:0xbf5ae6125a1b6dcf",
+            "google_id": "0x89e3797c54334be3:0xbf5ae6125a1b6dcf",
+            "place_id": "ChIJ40szVHx544kRz20bWhLmWr8",
+            "google_mid": "/g/11sb87j02d",
+            "phone_number": "+15085621304",
+            "name": "BinStar",
+            "latitude": 42.1287701,
+            "longitude": -71.06598989999999,
+            "full_address": "BinStar, 20 Stockwell Dr, Avon, MA 02322",
+            "review_count": 222,
+            "rating": 4,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "http://shopbinstar.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e3797c54334be3:0xbf5ae6125a1b6dcf",
+            "cid": "13788586175643741647",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ40szVHx544kRz20bWhLmWr8&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "103677892864232742675",
+            "owner_link": "https://maps.google.com/maps/contrib/103677892864232742675",
+            "owner_name": "BinStar",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOqC60VACtFpB_vv-22WxUjRSWSeYB5g0SDTi5J",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOqC60VACtFpB_vv-22WxUjRSWSeYB5g0SDTi5J",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOqC60VACtFpB_vv-22WxUjRSWSeYB5g0SDTi5J=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 42.1283508,
+                    "longitude": -71.0664982,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-18T00:00:00.000Z",
+                    "photo_timestamp": 1689638400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": false
+                    },
+                    "Amenities": {
+                        "Gender-neutral restroom": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "20 Stockwell Dr, Avon, MA 02322",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "20 Stockwell Dr",
+            "city": "Avon",
+            "zipcode": "02322",
+            "state": "Massachusetts",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "hello@shopbinstar.com",
+                    "hiring@shopbinstar.com"
+                ],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/shopbinstar",
+                "instagram": "https://www.instagram.com/shopbinstar",
+                "yelp": "https://www.yelp.com/biz/binstar-boston",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89c2ed3ae53a37ff:0x3e3a3d57364a9fce",
+            "google_id": "0x89c2ed3ae53a37ff:0x3e3a3d57364a9fce",
+            "place_id": "ChIJ_zc65TrtwokRzp9KNlc9Oj4",
+            "google_mid": "/g/11b8tx4lft",
+            "phone_number": "+19144654010",
+            "name": "The Container Store",
+            "latitude": 40.9617542,
+            "longitude": -73.85565,
+            "full_address": "The Container Store, 48 Market Street, Yonkers, NY 10710",
+            "review_count": 354,
+            "rating": 4.5,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.containerstore.com/stores/ny/yonkers/48-market-street?cid=ns:maps:google:main-store:86-YON",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89c2ed3ae53a37ff:0x3e3a3d57364a9fce",
+            "cid": "4483963823783059406",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ_zc65TrtwokRzp9KNlc9Oj4&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "107644980306611776008",
+            "owner_link": "https://maps.google.com/maps/contrib/107644980306611776008",
+            "owner_name": "The Container Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Home goods store",
+            "subtypes": [
+                "Home goods store",
+                "Contractor",
+                "Furniture store",
+                "Kitchen supply store",
+                "Office supply store",
+                "Shelving store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOjACW9anm-7sJaftU8blDaEifaFhZv0vcaLgsf",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOjACW9anm-7sJaftU8blDaEifaFhZv0vcaLgsf",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOjACW9anm-7sJaftU8blDaEifaFhZv0vcaLgsf=w1728-h972-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 40.9617952,
+                    "longitude": -73.8560088,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-11-12T00:00:00.000Z",
+                    "photo_timestamp": 1510444800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 228,
+            "about": {
+                "summary": "Chain retailer specializing in storage & organization supplies, including closet & shelving systems.",
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Same-day delivery": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Assembly service": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "48 Market Street, Yonkers, NY 10710",
+            "order_link": null,
+            "price_level": null,
+            "district": "Northeast Yonkers",
+            "street_address": "48 Market Street",
+            "city": "Yonkers",
+            "zipcode": "10710",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7c1a8e4fc0d31:0xa080d982acc09818",
+            "google_id": "0x89e7c1a8e4fc0d31:0xa080d982acc09818",
+            "place_id": "ChIJMQ385KjB54kRGJjArILZgKA",
+            "google_mid": "/g/12628w3cy",
+            "phone_number": "+12035730750",
+            "name": "Connecticut Liquidators",
+            "latitude": 41.5499422,
+            "longitude": -73.04447379999999,
+            "full_address": "Connecticut Liquidators, 153 Meadow St, Waterbury, CT 06702",
+            "review_count": 0,
+            "rating": null,
+            "timezone": "America/New_York",
+            "opening_status": null,
+            "working_hours": null,
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7c1a8e4fc0d31:0xa080d982acc09818",
+            "cid": "11565482998354712600",
+            "reviews_link": null,
+            "owner_id": "116955351301396205251",
+            "owner_link": "https://maps.google.com/maps/contrib/116955351301396205251",
+            "owner_name": "Connecticut Liquidators",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Liquidator",
+            "subtypes": [
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "xiinTJDgaKYO-ibL2lQMEA",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xiinTJDgaKYO-ibL2lQMEA&cb_client=search.gws-prod.gps&w=86&h=86&yaw=186.70792&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 41.55034725192515,
+                    "longitude": -73.04441014296084,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-28T00:00:00.000Z",
+                    "photo_timestamp": 1730073600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "153 Meadow St, Waterbury, CT 06702",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "153 Meadow St",
+            "city": "Waterbury",
+            "zipcode": "06702",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7da65c8f272c7:0xbe14ede593b94952",
+            "google_id": "0x89e7da65c8f272c7:0xbe14ede593b94952",
+            "place_id": "ChIJx3LyyGXa54kRUkm5k-XtFL4",
+            "google_mid": "/g/1vn19k97",
+            "phone_number": "+12032302910",
+            "name": "Goodwill Hamden Store and Donation Center",
+            "latitude": 41.3698756,
+            "longitude": -72.9180678,
+            "full_address": "Goodwill Hamden Store and Donation Center, 2175 Dixwell Ave, Hamden, CT 06514",
+            "review_count": 204,
+            "rating": 4.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.goodwillsne.org/locations",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7da65c8f272c7:0xbe14ede593b94952",
+            "cid": "13696833937022208338",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJx3LyyGXa54kRUkm5k-XtFL4&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "116627994847526974114",
+            "owner_link": "https://maps.google.com/maps/contrib/116627994847526974114",
+            "owner_name": "Goodwill Hamden Store and Donation Center",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPgDE4u75KqfxvqzZEXN25KufovSOLJHSQujY8K",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPgDE4u75KqfxvqzZEXN25KufovSOLJHSQujY8K",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPgDE4u75KqfxvqzZEXN25KufovSOLJHSQujY8K=w1080-h1920-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.37005,
+                    "longitude": -72.9182378,
+                    "type": "photo",
+                    "photo_datetime_utc": "2018-01-03T00:00:00.000Z",
+                    "photo_timestamp": 1514937600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 54,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, furniture, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2175 Dixwell Ave, Hamden, CT 06514",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2175 Dixwell Ave",
+            "city": "Hamden",
+            "zipcode": "06514",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7b734d23da847:0xc1098b2463fd6ea9",
+            "google_id": "0x89e7b734d23da847:0xc1098b2463fd6ea9",
+            "place_id": "ChIJR6g90jS354kRqW79YySLCcE",
+            "google_mid": "/g/11bv5q2n29",
+            "phone_number": "+18608555047",
+            "name": "Bricks and Minifigs",
+            "latitude": 41.6475727,
+            "longitude": -72.871734,
+            "full_address": "Bricks and Minifigs, 1173 Queen St, Southington, CT 06489",
+            "review_count": 313,
+            "rating": 4.6,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20138 PM"
+                ]
+            },
+            "website": "https://bricksandminifigs.com/southington-ct",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7b734d23da847:0xc1098b2463fd6ea9",
+            "cid": "13909801912523124393",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJR6g90jS354kRqW79YySLCcE&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "105177350638046541445",
+            "owner_link": "https://maps.google.com/maps/contrib/105177350638046541445",
+            "owner_name": "Bricks and Minifigs",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Toy store",
+            "subtypes": [
+                "Toy store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMXmEpHFxU4CXLVTio-w0Tt7W5DjhnlEzyTR5x7",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMXmEpHFxU4CXLVTio-w0Tt7W5DjhnlEzyTR5x7",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMXmEpHFxU4CXLVTio-w0Tt7W5DjhnlEzyTR5x7=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.64757256962641,
+                    "longitude": -72.87174427963014,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-08-28T00:00:00.000Z",
+                    "photo_timestamp": 1630108800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 114,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1173 Queen St, Southington, CT 06489",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1173 Queen St",
+            "city": "Southington",
+            "zipcode": "06489",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7d9c9ffc56ecd:0x5e121fc4921bc249",
+            "google_id": "0x89e7d9c9ffc56ecd:0x5e121fc4921bc249",
+            "place_id": "ChIJzW7F_8nZ54kRScIbksQfEl4",
+            "google_mid": "/g/1wj_71gt",
+            "phone_number": "+12035627714",
+            "name": "OddBins Bottle Shop",
+            "latitude": 41.3107243,
+            "longitude": -72.9223707,
+            "full_address": "OddBins Bottle Shop, 1 Whitney Ave, New Haven, CT 06511",
+            "review_count": 27,
+            "rating": 4.7,
+            "timezone": "America/New_York",
+            "opening_status": "Opens soon \u22c5 12\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "12\u20136 PM"
+                ],
+                "Monday": [
+                    "11 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "11 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "11 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "11 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "11 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "11 AM\u20139 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d9c9ffc56ecd:0x5e121fc4921bc249",
+            "cid": "6778515318271361609",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJzW7F_8nZ54kRScIbksQfEl4&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "111271333500815545101",
+            "owner_link": "https://maps.google.com/maps/contrib/111271333500815545101",
+            "owner_name": "OddBins Bottle Shop",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Wine store",
+            "subtypes": [
+                "Wine store",
+                "Beer store",
+                "Delivery service",
+                "Liquor store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNIAfbCqDx2rc9JFoeiGaVZRdZxgcJm5OpRkxFQ",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNIAfbCqDx2rc9JFoeiGaVZRdZxgcJm5OpRkxFQ",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNIAfbCqDx2rc9JFoeiGaVZRdZxgcJm5OpRkxFQ=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.310724305763635,
+                    "longitude": -72.92237070325959,
+                    "type": "photo",
+                    "photo_datetime_utc": "2016-07-10T00:00:00.000Z",
+                    "photo_timestamp": 1468108800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Checks": true,
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1 Whitney Ave, New Haven, CT 06511",
+            "order_link": null,
+            "price_level": null,
+            "district": "Downtown",
+            "street_address": "1 Whitney Ave",
+            "city": "New Haven",
+            "zipcode": "06511",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7f59a5786d42d:0x43857cbf57b00edc",
+            "google_id": "0x89e7f59a5786d42d:0x43857cbf57b00edc",
+            "place_id": "ChIJLdSGV5r154kR3A6wV798hUM",
+            "google_mid": "/g/11lfldx6tj",
+            "phone_number": "+18607990100",
+            "name": "BD Provisions",
+            "latitude": 41.5787607,
+            "longitude": -73.4119205,
+            "full_address": "BD Provisions, 43 Main St, New Milford, CT 06776",
+            "review_count": 64,
+            "rating": 4.8,
+            "timezone": "America/New_York",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.bdprovisions.com/new-milford-store",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7f59a5786d42d:0x43857cbf57b00edc",
+            "cid": "4865432133695442652",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJLdSGV5r154kR3A6wV798hUM&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "105410405187730022654",
+            "owner_link": "https://maps.google.com/maps/contrib/105410405187730022654",
+            "owner_name": "BD Provisions",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Gourmet grocery store",
+            "subtypes": [
+                "Gourmet grocery store",
+                "Dry fruit store",
+                "Natural goods store",
+                "Nut store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMR_opyNDvLeERr6peYhCT-KXQlKqUbK6Y_lk5N",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMR_opyNDvLeERr6peYhCT-KXQlKqUbK6Y_lk5N",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMR_opyNDvLeERr6peYhCT-KXQlKqUbK6Y_lk5N=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.578788538152594,
+                    "longitude": -73.41181894494014,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-01-23T00:00:00.000Z",
+                    "photo_timestamp": 1642896000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 66,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Offerings": {
+                        "Organic products": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "43 Main St, New Milford, CT 06776",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "43 Main St",
+            "city": "New Milford",
+            "zipcode": "06776",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e875b140183281:0x5573158aafabc3ce",
+            "google_id": "0x89e875b140183281:0x5573158aafabc3ce",
+            "place_id": "ChIJgTIYQLF16IkRzsOrr4oVc1U",
+            "google_mid": "/g/12ll3241c",
+            "phone_number": "+12038786242",
+            "name": "Goodwill Milford Store & Donation Station",
+            "latitude": 41.249181799999995,
+            "longitude": -73.0242981,
+            "full_address": "Goodwill Milford Store & Donation Station, 1712 Boston Post Rd, Milford, CT 06460",
+            "review_count": 106,
+            "rating": 3.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e875b140183281:0x5573158aafabc3ce",
+            "cid": "6157288800942539726",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJgTIYQLF16IkRzsOrr4oVc1U&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "112856326527290532417",
+            "owner_link": "https://maps.google.com/maps/contrib/112856326527290532417",
+            "owner_name": "Goodwill Milford Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPnnRlQEssVmFtVnIHfEgdb1rRy92ND6CKyA3ho",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPnnRlQEssVmFtVnIHfEgdb1rRy92ND6CKyA3ho",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPnnRlQEssVmFtVnIHfEgdb1rRy92ND6CKyA3ho=w2048-h1363-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.2488324,
+                    "longitude": -73.0236862,
+                    "type": "photo",
+                    "photo_datetime_utc": "2015-05-21T00:00:00.000Z",
+                    "photo_timestamp": 1432166400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1712 Boston Post Rd, Milford, CT 06460",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1712 Boston Post Rd",
+            "city": "Milford",
+            "zipcode": "06460",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7ffa65832bc63:0x524199e0a25b7b19",
+            "google_id": "0x89e7ffa65832bc63:0x524199e0a25b7b19",
+            "place_id": "ChIJY7wyWKb_54kRGXtbouCZQVI",
+            "google_mid": "/g/11l8n49g68",
+            "phone_number": "+14753295516",
+            "name": "Kathalow Warehouse Treasures",
+            "latitude": 41.378242199999995,
+            "longitude": -73.4236841,
+            "full_address": "Kathalow Warehouse Treasures, 4 Paul St 4b 2 fl, Bethel, CT 06801",
+            "review_count": 58,
+            "rating": 4.5,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 5:30\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20135:30 PM"
+                ],
+                "Monday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10:30 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7ffa65832bc63:0x524199e0a25b7b19",
+            "cid": "5927187774671911705",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJY7wyWKb_54kRGXtbouCZQVI&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "115071694830343614936",
+            "owner_link": "https://maps.google.com/maps/contrib/115071694830343614936",
+            "owner_name": "Kathalow Warehouse Treasures",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Warehouse store",
+            "subtypes": [
+                "Warehouse store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPgcRF6MrXAR3bmuSwfM34-_hm-IWo18eq5u5ME",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPgcRF6MrXAR3bmuSwfM34-_hm-IWo18eq5u5ME",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPgcRF6MrXAR3bmuSwfM34-_hm-IWo18eq5u5ME=w2048-h1536-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.3782971,
+                    "longitude": -73.4232469,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-01-19T00:00:00.000Z",
+                    "photo_timestamp": 1705622400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "4 Paul St 4b 2 fl, Bethel, CT 06801",
+            "order_link": null,
+            "price_level": null,
+            "district": "Bethel",
+            "street_address": "4 Paul St 4b 2 fl",
+            "city": "Bethel",
+            "zipcode": "06801",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e87603b71bea83:0x13cff5c5ad2f78dc",
+            "google_id": "0x89e87603b71bea83:0x13cff5c5ad2f78dc",
+            "place_id": "ChIJg-obtwN26IkR3HgvrcX1zxM",
+            "google_mid": "/g/11hy_44fgf",
+            "phone_number": null,
+            "name": "Big Bargain Convenience",
+            "latitude": 41.2735437,
+            "longitude": -72.98561579999999,
+            "full_address": "Big Bargain Convenience, 221 Bull Hill Ln, West Haven, CT 06516",
+            "review_count": 0,
+            "rating": null,
+            "timezone": "America/New_York",
+            "opening_status": null,
+            "working_hours": null,
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e87603b71bea83:0x13cff5c5ad2f78dc",
+            "cid": "1427629836262668508",
+            "reviews_link": null,
+            "owner_id": "102950944416152048236",
+            "owner_link": "https://maps.google.com/maps/contrib/102950944416152048236",
+            "owner_name": "Big Bargain Convenience",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Convenience store",
+            "subtypes": [
+                "Convenience store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "Yjt3sDvOUSzOk9DTe3rvdA",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yjt3sDvOUSzOk9DTe3rvdA&cb_client=search.gws-prod.gps&w=86&h=86&yaw=39.72783&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 41.27348257212821,
+                    "longitude": -72.98568339126915,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-28T00:00:00.000Z",
+                    "photo_timestamp": 1730073600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "221 Bull Hill Ln, West Haven, CT 06516",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "221 Bull Hill Ln",
+            "city": "West Haven",
+            "zipcode": "06516",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e80fcca7b1f71b:0xaa3e54c57662f2e7",
+            "google_id": "0x89e80fcca7b1f71b:0xaa3e54c57662f2e7",
+            "place_id": "ChIJG_exp8wP6IkR5_JidsVUPqo",
+            "google_mid": "/g/11dftscxm0",
+            "phone_number": "+12036831603",
+            "name": "Goodwill Fairfield Store & Donation Station",
+            "latitude": 41.171352999999996,
+            "longitude": -73.2302263,
+            "full_address": "Goodwill Fairfield Store & Donation Station, 500 Kings Hwy E, Fairfield, CT 06825",
+            "review_count": 141,
+            "rating": 4.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e80fcca7b1f71b:0xaa3e54c57662f2e7",
+            "cid": "12267335642075296487",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJG_exp8wP6IkR5_JidsVUPqo&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "111861031537373454712",
+            "owner_link": "https://maps.google.com/maps/contrib/111861031537373454712",
+            "owner_name": "Goodwill Fairfield Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOia90iiq_U5x9laKVDEnFIU3gwoHiHIOOQ0if2",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOia90iiq_U5x9laKVDEnFIU3gwoHiHIOOQ0if2",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOia90iiq_U5x9laKVDEnFIU3gwoHiHIOOQ0if2=w912-h683-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.1716632,
+                    "longitude": -73.2297993,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-10-21T00:00:00.000Z",
+                    "photo_timestamp": 1508544000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true,
+                        "Electronics": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "500 Kings Hwy E, Fairfield, CT 06825",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "500 Kings Hwy E",
+            "city": "Fairfield",
+            "zipcode": "06825",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7c5d8d7fbb8b3:0x97b5228e4ae7f802",
+            "google_id": "0x89e7c5d8d7fbb8b3:0x97b5228e4ae7f802",
+            "place_id": "ChIJs7j719jF54kRAvjnSo4itZc",
+            "google_mid": "/g/11h4yds38w",
+            "phone_number": "+14752222750",
+            "name": "Goodwill Cheshire Store and Donation Center",
+            "latitude": 41.4798107,
+            "longitude": -72.90671549999999,
+            "full_address": "Goodwill Cheshire Store and Donation Center, 935 S Main St, Cheshire, CT 06410",
+            "review_count": 107,
+            "rating": 4.4,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.goodwillsne.org/locations",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7c5d8d7fbb8b3:0x97b5228e4ae7f802",
+            "cid": "10931681665049163778",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJs7j719jF54kRAvjnSo4itZc&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "113929777995449044319",
+            "owner_link": "https://maps.google.com/maps/contrib/113929777995449044319",
+            "owner_name": "Goodwill Cheshire Store and Donation Center",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOOlhGY9ccTuPO9gKAELVSzOd5jioDe08Wl0lkC",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOOlhGY9ccTuPO9gKAELVSzOd5jioDe08Wl0lkC",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOOlhGY9ccTuPO9gKAELVSzOd5jioDe08Wl0lkC=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.4798824,
+                    "longitude": -72.9066268,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-05-12T00:00:00.000Z",
+                    "photo_timestamp": 1620777600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 51,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "935 S Main St, Cheshire, CT 06410",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "935 S Main St",
+            "city": "Cheshire",
+            "zipcode": "06410",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x808fb9fc37e80b1b:0x6a45f286a9e1e0ff",
+            "google_id": "0x808fb9fc37e80b1b:0x6a45f286a9e1e0ff",
+            "place_id": "ChIJGwvoN_y5j4AR_-DhqYbyRWo",
+            "google_mid": "/g/1x5qtt61",
+            "phone_number": "+18606578195",
+            "name": "Goodwill Glastonbury Store & Donation Station",
+            "latitude": 41.7166561,
+            "longitude": -72.6127324,
+            "full_address": "Goodwill Glastonbury Store & Donation Station, 2709 Main St, Glastonbury, CT 06033",
+            "review_count": 211,
+            "rating": 4.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x808fb9fc37e80b1b:0x6a45f286a9e1e0ff",
+            "cid": "7657793401603088639",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJGwvoN_y5j4AR_-DhqYbyRWo&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "100201776029438396280",
+            "owner_link": "https://maps.google.com/maps/contrib/100201776029438396280",
+            "owner_name": "Goodwill Glastonbury Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMv9K0Wh61I6UlUk8H1Bi_rR-agDFSO9AtMS5ZD",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMv9K0Wh61I6UlUk8H1Bi_rR-agDFSO9AtMS5ZD",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMv9K0Wh61I6UlUk8H1Bi_rR-agDFSO9AtMS5ZD=w1920-h1080-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.71665609592307,
+                    "longitude": -72.6127323770541,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-11-14T00:00:00.000Z",
+                    "photo_timestamp": 1510617600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 46,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2709 Main St, Glastonbury, CT 06033",
+            "order_link": null,
+            "price_level": null,
+            "district": "Glastonbury Center",
+            "street_address": "2709 Main St",
+            "city": "Glastonbury",
+            "zipcode": "06033",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7d946fe6d3fdb:0xd10b2dc6ffb469a2",
+            "google_id": "0x89e7d946fe6d3fdb:0xd10b2dc6ffb469a2",
+            "place_id": "ChIJ2z9t_kbZ54kRomm0_8YtC9E",
+            "google_mid": "/g/1thmgf3t",
+            "phone_number": "+12033972735",
+            "name": "Goodwill Westville Store and Donation Center",
+            "latitude": 41.3363607,
+            "longitude": -72.9774235,
+            "full_address": "Goodwill Westville Store and Donation Center, 61 Amity Rd # 4, New Haven, CT 06515",
+            "review_count": 100,
+            "rating": 4.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 6\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.goodwillsne.org/locations",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d946fe6d3fdb:0xd10b2dc6ffb469a2",
+            "cid": "15063183711387543970",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ2z9t_kbZ54kRomm0_8YtC9E&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "118053688632089235425",
+            "owner_link": "https://maps.google.com/maps/contrib/118053688632089235425",
+            "owner_name": "Goodwill Westville Store and Donation Center",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNPdYRf_9jaUAtVyo8XZUxM1shPSDs2FF5lyvcT",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNPdYRf_9jaUAtVyo8XZUxM1shPSDs2FF5lyvcT",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNPdYRf_9jaUAtVyo8XZUxM1shPSDs2FF5lyvcT=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.3363434,
+                    "longitude": -72.9775219,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-08-28T00:00:00.000Z",
+                    "photo_timestamp": 1630108800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 65,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "61 Amity Rd # 4, New Haven, CT 06515",
+            "order_link": null,
+            "price_level": null,
+            "district": "West New Haven",
+            "street_address": "61 Amity Rd # 4",
+            "city": "New Haven",
+            "zipcode": "06515",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7adc3f03d8ead:0xffb179384d14fc8f",
+            "google_id": "0x89e7adc3f03d8ead:0xffb179384d14fc8f",
+            "place_id": "ChIJrY498MOt54kRj_wUTTh5sf8",
+            "google_mid": "/g/11v00fvm46",
+            "phone_number": "+18602240885",
+            "name": "Goodwill New Britain Store and Donation Center",
+            "latitude": 41.7144724,
+            "longitude": -72.7629992,
+            "full_address": "Goodwill New Britain Store and Donation Center, 615 Hartford Rd, New Britain, CT 06053",
+            "review_count": 30,
+            "rating": 3.7,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.goodwillsne.org/locations",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7adc3f03d8ead:0xffb179384d14fc8f",
+            "cid": "18424640833267760271",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJrY498MOt54kRj_wUTTh5sf8&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "109643567262493858286",
+            "owner_link": "https://maps.google.com/maps/contrib/109643567262493858286",
+            "owner_name": "Goodwill New Britain Store and Donation Center",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOQ0kv5ZlemKL_4QVNt876IbGciM83c-BxYmgOk",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOQ0kv5ZlemKL_4QVNt876IbGciM83c-BxYmgOk",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOQ0kv5ZlemKL_4QVNt876IbGciM83c-BxYmgOk=w4000-h1868-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.7146933,
+                    "longitude": -72.7633007,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-11T00:00:00.000Z",
+                    "photo_timestamp": 1689033600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 57,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "615 Hartford Rd, New Britain, CT 06053",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "615 Hartford Rd",
+            "city": "New Britain",
+            "zipcode": "06053",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x808fb9fc37e80b1b:0x25e3528c5411a922",
+            "google_id": "0x808fb9fc37e80b1b:0x25e3528c5411a922",
+            "place_id": "ChIJGwvoN_y5j4ARIqkRVIxS4yU",
+            "google_mid": "/g/1tt0s4q4",
+            "phone_number": "+12038400361",
+            "name": "Goodwill Norwalk Store & Donation Station",
+            "latitude": 41.1201569,
+            "longitude": -73.4136931,
+            "full_address": "Goodwill Norwalk Store & Donation Station, 15 Cross St, Norwalk, CT 06851",
+            "review_count": 239,
+            "rating": 3.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x808fb9fc37e80b1b:0x25e3528c5411a922",
+            "cid": "2730116561775995170",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJGwvoN_y5j4ARIqkRVIxS4yU&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "117884108190287634618",
+            "owner_link": "https://maps.google.com/maps/contrib/117884108190287634618",
+            "owner_name": "Goodwill Norwalk Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center",
+                "Employment center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPoGxCaq2XdxMY2lOMcMnUiYrNDtHMiDOuB6wNb",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPoGxCaq2XdxMY2lOMcMnUiYrNDtHMiDOuB6wNb",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPoGxCaq2XdxMY2lOMcMnUiYrNDtHMiDOuB6wNb=w2048-h1363-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.120153099999996,
+                    "longitude": -73.41407210000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2015-05-21T00:00:00.000Z",
+                    "photo_timestamp": 1432166400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 53,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true,
+                        "Electronics": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "15 Cross St, Norwalk, CT 06851",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "15 Cross St",
+            "city": "Norwalk",
+            "zipcode": "06851",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7a20e54ea77c3:0xf73f6a1974c30585",
+            "google_id": "0x89e7a20e54ea77c3:0xf73f6a1974c30585",
+            "place_id": "ChIJw3fqVA6i54kRhQXDdBlqP_c",
+            "google_mid": "/g/1wz53q_l",
+            "phone_number": "+18604898670",
+            "name": "Goodwill Torrington Store & Donation Station",
+            "latitude": 41.8217029,
+            "longitude": -73.0787011,
+            "full_address": "Goodwill Torrington Store & Donation Station, 1849 E Main St, Torrington, CT 06790",
+            "review_count": 114,
+            "rating": 3.8,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7a20e54ea77c3:0xf73f6a1974c30585",
+            "cid": "17816075308466636165",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJw3fqVA6i54kRhQXDdBlqP_c&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "108301413778816679654",
+            "owner_link": "https://maps.google.com/maps/contrib/108301413778816679654",
+            "owner_name": "Goodwill Torrington Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center",
+                "Employment center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOHvCvkvndiTtLfvF6EIbRy-qgO1a84_BuN9Fnu",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOHvCvkvndiTtLfvF6EIbRy-qgO1a84_BuN9Fnu",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOHvCvkvndiTtLfvF6EIbRy-qgO1a84_BuN9Fnu=w2048-h1536-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.821035699999996,
+                    "longitude": -73.0787082,
+                    "type": "photo",
+                    "photo_datetime_utc": "2014-11-01T00:00:00.000Z",
+                    "photo_timestamp": 1414800000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 48,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1849 E Main St, Torrington, CT 06790",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1849 E Main St",
+            "city": "Torrington",
+            "zipcode": "06790",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x808fb9fc37e80b1b:0xa23923e85f56adea",
+            "google_id": "0x808fb9fc37e80b1b:0xa23923e85f56adea",
+            "place_id": "ChIJGwvoN_y5j4AR6q1WX-gjOaI",
+            "google_mid": "/g/126084hk2",
+            "phone_number": "+12037756861",
+            "name": "Goodwill Brookfield Store & Donation Station",
+            "latitude": 41.4394474,
+            "longitude": -73.406033,
+            "full_address": "Goodwill Brookfield Store & Donation Station, 165 Federal Rd, Brookfield, CT 06804",
+            "review_count": 235,
+            "rating": 3.9,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.gwct.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x808fb9fc37e80b1b:0xa23923e85f56adea",
+            "cid": "11689413788755733994",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJGwvoN_y5j4AR6q1WX-gjOaI&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "102799108909107386179",
+            "owner_link": "https://maps.google.com/maps/contrib/102799108909107386179",
+            "owner_name": "Goodwill Brookfield Store & Donation Station",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO156Z6vnHm7HpB_ScuQW_Pmc75O_xomQpbKl6D",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO156Z6vnHm7HpB_ScuQW_Pmc75O_xomQpbKl6D",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO156Z6vnHm7HpB_ScuQW_Pmc75O_xomQpbKl6D=w3968-h2976-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.4394473663441,
+                    "longitude": -73.40603296648133,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-07-27T00:00:00.000Z",
+                    "photo_timestamp": 1501113600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "165 Federal Rd, Brookfield, CT 06804",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "165 Federal Rd",
+            "city": "Brookfield",
+            "zipcode": "06804",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "mkelly@gwct.org",
+                    "media@gwct.org"
+                ],
+                "phone_numbers": [
+                    "2033359326",
+                    "2033686511"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/gwct_northants",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCNUN4M8-J-YUgZuqE7jrLIA",
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7b714e79754c7:0x2f97108134b8b85f",
+            "google_id": "0x89e7b714e79754c7:0x2f97108134b8b85f",
+            "place_id": "ChIJx1SX5xS354kRX7i4NIEQly8",
+            "google_mid": "/g/1tk8pmb_",
+            "phone_number": "+18606210775",
+            "name": "Goodwill Southington Store and Donation Center",
+            "latitude": 41.6262731,
+            "longitude": -72.8745301,
+            "full_address": "Goodwill Southington Store and Donation Center, 350 Queen St, Southington, CT 06489",
+            "review_count": 177,
+            "rating": 3.9,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "https://www.goodwillsne.org",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7b714e79754c7:0x2f97108134b8b85f",
+            "cid": "3429227788387268703",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJx1SX5xS354kRX7i4NIEQly8&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "116633275288833459948",
+            "owner_link": "https://maps.google.com/maps/contrib/116633275288833459948",
+            "owner_name": "Goodwill Southington Store and Donation Center",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store",
+                "Donations center"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOe_QvucwC38Gpnh5n_d06CxXegoLY2lchq1tnS",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOe_QvucwC38Gpnh5n_d06CxXegoLY2lchq1tnS",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOe_QvucwC38Gpnh5n_d06CxXegoLY2lchq1tnS=w1937-h1291-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.625974,
+                    "longitude": -72.8746671,
+                    "type": "photo",
+                    "photo_datetime_utc": "2016-04-09T00:00:00.000Z",
+                    "photo_timestamp": 1460160000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": "Long-standing nonprofit chain with a range of pre-owned clothing, furniture, housewares & more.",
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Offerings": {
+                        "Buys used goods": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Clothing": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "350 Queen St, Southington, CT 06489",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "350 Queen St",
+            "city": "Southington",
+            "zipcode": "06489",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "hr@goodwillsne.org",
+                    "rborer@goodwillsne.org",
+                    "sbarba@goodwillsne.org"
+                ],
+                "phone_numbers": [
+                    "2037772000",
+                    "8889098188",
+                    "2034956108"
+                ],
+                "facebook": "https://www.facebook.com/goodwillsne",
+                "instagram": "https://www.instagram.com/goodwill_sne",
+                "yelp": "https://www.yelp.com/biz/goodwill-plainville",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/goodwillsne",
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": "https://www.pinterest.com/goodwillsne"
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89c2e9bad5779703:0x4da3b7d0444acd82",
+            "google_id": "0x89c2e9bad5779703:0x4da3b7d0444acd82",
+            "place_id": "ChIJA5d31brpwokRgs1KRNC3o00",
+            "google_mid": "/g/11vq2h79tj",
+            "phone_number": "+13322738699",
+            "name": "Mystery Bins",
+            "latitude": 41.0980296,
+            "longitude": -73.95664699999999,
+            "full_address": "Mystery Bins, 1403 Palisades Center Dr, West Nyack, NY 10994",
+            "review_count": 103,
+            "rating": 4.1,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 7\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20139:30 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20139:30 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89c2e9bad5779703:0x4da3b7d0444acd82",
+            "cid": "5594517267251121538",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJA5d31brpwokRgs1KRNC3o00&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "113321403896207330734",
+            "owner_link": "https://maps.google.com/maps/contrib/113321403896207330734",
+            "owner_name": "Mystery Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Appliance store",
+                "Clothing store",
+                "Mattress store",
+                "Shoe store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOBp3DrqL15u5bvnwmOr_SmoKYpVbuEQua1zkYw",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOBp3DrqL15u5bvnwmOr_SmoKYpVbuEQua1zkYw",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOBp3DrqL15u5bvnwmOr_SmoKYpVbuEQua1zkYw=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.0982778,
+                    "longitude": -73.9570273,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-03-23T00:00:00.000Z",
+                    "photo_timestamp": 1711152000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 119,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Same-day delivery": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": true
+                    },
+                    "Amenities": {
+                        "Gender-neutral restroom": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1403 Palisades Center Dr, West Nyack, NY 10994",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1403 Palisades Center Dr",
+            "city": "West Nyack",
+            "zipcode": "10994",
+            "state": "New York",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7ec4b1244a717:0xd5c04d6d889cec7e",
+            "google_id": "0x89e7ec4b1244a717:0xd5c04d6d889cec7e",
+            "place_id": "ChIJF6dEEkvs54kRfuyciG1NwNU",
+            "google_mid": "/g/11gbvmpw97",
+            "phone_number": "+12035861223",
+            "name": "The Hidden Acorn",
+            "latitude": 41.5696862,
+            "longitude": -73.2276988,
+            "full_address": "The Hidden Acorn, 385 Washington Rd, Woodbury, CT 06798",
+            "review_count": 49,
+            "rating": 4.9,
+            "timezone": "America/New_York",
+            "opening_status": "Open \u22c5 Closes 4\u202fPM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "11 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "11 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "11 AM\u20135 PM"
+                ]
+            },
+            "website": "https://www.hiddenacorn.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7ec4b1244a717:0xd5c04d6d889cec7e",
+            "cid": "15402395858445855870",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJF6dEEkvs54kRfuyciG1NwNU&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "115015485963672540273",
+            "owner_link": "https://maps.google.com/maps/contrib/115015485963672540273",
+            "owner_name": "The Hidden Acorn",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Antique store",
+            "subtypes": [
+                "Antique store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMBqTDLia4WiTg6fCKMxOJFMgd-wGCL2OGJxog8",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMBqTDLia4WiTg6fCKMxOJFMgd-wGCL2OGJxog8",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMBqTDLia4WiTg6fCKMxOJFMgd-wGCL2OGJxog8=w4032-h2269-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.5698745,
+                    "longitude": -73.22758309999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2019-07-26T00:00:00.000Z",
+                    "photo_timestamp": 1564099200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 111,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Curbside pickup": true,
+                        "Delivery": true,
+                        "In-store pickup": true,
+                        "In-store shopping": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": false
+                    },
+                    "Offerings": {
+                        "Buys used goods": true,
+                        "Repair services": true
+                    },
+                    "Amenities": {
+                        "Restroom": true,
+                        "Wi-Fi": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Checks": true,
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "385 Washington Rd, Woodbury, CT 06798",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "385 Washington Rd",
+            "city": "Woodbury",
+            "zipcode": "06798",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "2035861223"
+                ],
+                "facebook": "https://www.facebook.com/thehiddenacorn",
+                "instagram": "https://www.instagram.com/thehiddenacorn",
+                "yelp": "https://www.yelp.com/biz/the-hidden-acorn-woodbury-2",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": "https://www.linkedin.com/company/the-hidden-acorn",
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 196
+        },
+        {
+            "business_id": "0x89e7d670df460cb5:0xbac132d5685884cc",
+            "google_id": "0x89e7d670df460cb5:0xbac132d5685884cc",
+            "place_id": "ChIJtQxG33DW54kRzIRYaNUywbo",
+            "google_mid": "/g/1tkmnl8w",
+            "phone_number": "+12034814052",
+            "name": "Sarah's Cupboard",
+            "latitude": 41.2769237,
+            "longitude": -72.8102442,
+            "full_address": "Sarah's Cupboard, 155 Meadow St, Branford, CT 06405",
+            "review_count": 48,
+            "rating": 4.7,
+            "timezone": "America/New_York",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20134 PM"
+                ]
+            },
+            "website": "http://www.sarahfoundation.org",
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x89e7d670df460cb5:0xbac132d5685884cc",
+            "cid": "13457093053719807180",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtQxG33DW54kRzIRYaNUywbo&q=bin+stores+in+connecticut&authuser=0&hl=en&gl=US",
+            "owner_id": "103482410857930044434",
+            "owner_link": "https://maps.google.com/maps/contrib/103482410857930044434",
+            "owner_name": "Sarah's Cupboard",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Thrift store",
+            "subtypes": [
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPkHiOPhqDGAoT6roRvsd_g4gtvh72fyZqVlMI",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPkHiOPhqDGAoT6roRvsd_g4gtvh72fyZqVlMI",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPkHiOPhqDGAoT6roRvsd_g4gtvh72fyZqVlMI=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 41.2768498,
+                    "longitude": -72.8104081,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-10-01T00:00:00.000Z",
+                    "photo_timestamp": 1633046400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 46,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "155 Meadow St, Branford, CT 06405",
+            "order_link": null,
+            "price_level": null,
+            "district": "Branford Center",
+            "street_address": "155 Meadow St",
+            "city": "Branford",
+            "zipcode": "06405",
+            "state": "Connecticut",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "info@sarahfoundation.org",
+                    "kim@sarahfoundation.org",
+                    "ken@sarahfoundation.org"
+                ],
+                "phone_numbers": [
+                    "2034536531",
+                    "2033153770",
+                    "2034814052"
+                ],
+                "facebook": "https://www.facebook.com/sarahfoundationct",
+                "instagram": "https://www.instagram.com/sarahfoundation",
+                "yelp": "https://www.yelp.com/biz/sarah-endowment-foundation-guilford",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": "https://twitter.com/sarahfoundinc",
+                "linkedin": "https://www.linkedin.com/company/sarah-foundation-inc",
+                "github": null,
+                "youtube": "https://www.youtube.com/channel/UCJYOT7MDQKKW7m83aeZXxTQ",
+                "pinterest": null
+            },
+            "no": 196
+        }
+    ]
+};
+  res.status(200).json(storesData);
+}

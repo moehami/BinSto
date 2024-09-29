@@ -1,0 +1,4447 @@
+export default function handler(req, res) {
+  const storesData = {
+    "status": "OK",
+    "request_id": "a1bd4a44-3315-4da8-aa7b-e81e2eb2b24a",
+    "parameters": {
+        "query": "bin stores in california",
+        "language": "en",
+        "region": "us",
+        "lat": 37.09024,
+        "lng": -95.712891,
+        "zoom": 13,
+        "limit": 40,
+        "offset": 0,
+        "extract_emails_and_contacts": true
+    },
+    "data": [
+        {
+            "business_id": "0x80d949b50f8357a1:0x71826a9ac884e2dc",
+            "google_id": "0x80d949b50f8357a1:0x71826a9ac884e2dc",
+            "place_id": "ChIJoVeDD7VJ2YAR3OKEyJpqgnE",
+            "google_mid": "/g/11qgb68zsb",
+            "phone_number": "+16193294187",
+            "name": "California Bin Store",
+            "latitude": 32.6766394,
+            "longitude": -117.10634689999999,
+            "full_address": "California Bin Store, 706 A Ave, National City, CA 91950",
+            "review_count": 113,
+            "rating": 4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "Closed"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": "http://www.californiabinstore.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80d949b50f8357a1:0x71826a9ac884e2dc",
+            "cid": "8179217086279901916",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJoVeDD7VJ2YAR3OKEyJpqgnE&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "105669105075147575111",
+            "owner_link": "https://maps.google.com/maps/contrib/105669105075147575111",
+            "owner_name": "California Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipM-5uCXNUKWWHrMKKmd5h-0J_aqoEC6kXC4jW91",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipM-5uCXNUKWWHrMKKmd5h-0J_aqoEC6kXC4jW91",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipM-5uCXNUKWWHrMKKmd5h-0J_aqoEC6kXC4jW91=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.676752,
+                    "longitude": -117.106122,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-06-14T00:00:00.000Z",
+                    "photo_timestamp": 1655164800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 55,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as Black-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "706 A Ave, National City, CA 91950",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "706 A Ave",
+            "city": "National City",
+            "zipcode": "91950",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "6193294187"
+                ],
+                "facebook": "https://www.facebook.com/californiabinstore",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/california-bin-store-national-city",
+                "tiktok": "https://www.tiktok.com/@californiabinstore",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c257b923542d49:0xb77d22e9b2474bb",
+            "google_id": "0x80c257b923542d49:0xb77d22e9b2474bb",
+            "place_id": "ChIJSS1UI7lXwoARu3Qkmy7Sdws",
+            "google_mid": "/g/11k42r2kk_",
+            "phone_number": "+16619493493",
+            "name": "Super Mega Deals Bin Store",
+            "latitude": 34.5807901,
+            "longitude": -118.09224139999999,
+            "full_address": "Super Mega Deals Bin Store, 2049 E Palmdale Blvd, Palmdale, CA 93550",
+            "review_count": 41,
+            "rating": 4.2,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 9:30\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9:30 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "9:30 AM\u20135:30 PM"
+                ],
+                "Tuesday": [
+                    "9:30 AM\u20135:30 PM"
+                ],
+                "Wednesday": [
+                    "9:30 AM\u20135:30 PM"
+                ],
+                "Thursday": [
+                    "9:30 AM\u20135:30 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c257b923542d49:0xb77d22e9b2474bb",
+            "cid": "826360154258961595",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJSS1UI7lXwoARu3Qkmy7Sdws&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "104706261009888909305",
+            "owner_link": "https://maps.google.com/maps/contrib/104706261009888909305",
+            "owner_name": "Super Mega Deals Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPCBRQuLFH8OlictdnzshnowUxIOXFT43W2pr9W",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPCBRQuLFH8OlictdnzshnowUxIOXFT43W2pr9W",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPCBRQuLFH8OlictdnzshnowUxIOXFT43W2pr9W=w1280-h960-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.5806452,
+                    "longitude": -118.09223800000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-12-19T00:00:00.000Z",
+                    "photo_timestamp": 1671408000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": false,
+                        "Wheelchair accessible seating": false
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2049 E Palmdale Blvd, Palmdale, CA 93550",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2049 E Palmdale Blvd",
+            "city": "Palmdale",
+            "zipcode": "93550",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2d32a6d368b83:0x7abd572675251586",
+            "google_id": "0x80c2d32a6d368b83:0x7abd572675251586",
+            "place_id": "ChIJg4s2bSrTwoARhhUldSZXvXo",
+            "google_mid": "/g/11kbttltj_",
+            "phone_number": null,
+            "name": "Mr. Liquidation",
+            "latitude": 33.9230374,
+            "longitude": -118.10047429999999,
+            "full_address": "Mr. Liquidation, 10917 Firestone Blvd, Norwalk, CA 90650",
+            "review_count": 36,
+            "rating": 4.1,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20132 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2d32a6d368b83:0x7abd572675251586",
+            "cid": "8844321065911260550",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJg4s2bSrTwoARhhUldSZXvXo&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "108248754152376464565",
+            "owner_link": "https://maps.google.com/maps/contrib/108248754152376464565",
+            "owner_name": "Mr. Liquidation",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNzWa2Rmrfsk9hsHmmTWXlwsY0UQnMBalU9digb",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNzWa2Rmrfsk9hsHmmTWXlwsY0UQnMBalU9digb",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNzWa2Rmrfsk9hsHmmTWXlwsY0UQnMBalU9digb=w2448-h3264-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.923037404348264,
+                    "longitude": -118.10047429246343,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-23T00:00:00.000Z",
+                    "photo_timestamp": 1682208000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "10917 Firestone Blvd, Norwalk, CA 90650",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "10917 Firestone Blvd",
+            "city": "Norwalk",
+            "zipcode": "90650",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80daf95cfed7add5:0xf397b4500ea7d9f1",
+            "google_id": "0x80daf95cfed7add5:0xf397b4500ea7d9f1",
+            "place_id": "ChIJ1a3X_lz52oAR8dmnDlC0l_M",
+            "google_mid": "/g/11v192nbrn",
+            "phone_number": "+17607604235",
+            "name": "7 Days Liquidation Bin Store",
+            "latitude": 33.7081553,
+            "longitude": -116.23908979999999,
+            "full_address": "7 Days Liquidation Bin Store, 81691 CA-111, Indio, CA 92201",
+            "review_count": 63,
+            "rating": 4.5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": "http://7daysliquidation.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80daf95cfed7add5:0xf397b4500ea7d9f1",
+            "cid": "17552696328636062193",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ1a3X_lz52oAR8dmnDlC0l_M&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "110297913659285218355",
+            "owner_link": "https://maps.google.com/maps/contrib/110297913659285218355",
+            "owner_name": "7 Days Liquidation Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN6JR35wenxTAQYzlxthyCZfaT7Kwgw1Kn1Qcga",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN6JR35wenxTAQYzlxthyCZfaT7Kwgw1Kn1Qcga",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN6JR35wenxTAQYzlxthyCZfaT7Kwgw1Kn1Qcga=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7081531,
+                    "longitude": -116.2395593,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-11-23T00:00:00.000Z",
+                    "photo_timestamp": 1700697600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "81691 CA-111, Indio, CA 92201",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "81691 CA-111",
+            "city": "Indio",
+            "zipcode": "92201",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/7daysliquidation",
+                "yelp": "https://www.yelp.com/biz/7-days-liquidation-bin-store-indio",
+                "tiktok": "https://www.tiktok.com/@7daysliquidation",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dcad48c6ed5c8d:0xb647420e29e693dc",
+            "google_id": "0x80dcad48c6ed5c8d:0xb647420e29e693dc",
+            "place_id": "ChIJjVztxkit3IAR3JPmKQ5CR7Y",
+            "google_mid": "/g/11sv8h43bt",
+            "phone_number": "+19092643168",
+            "name": "Opan Bins Colton",
+            "latitude": 34.0664734,
+            "longitude": -117.3191968,
+            "full_address": "Opan Bins Colton, 401 E Valley Blvd, Colton, CA 92324",
+            "review_count": 40,
+            "rating": 4.3,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20139 PM"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20139 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dcad48c6ed5c8d:0xb647420e29e693dc",
+            "cid": "13134539466849293276",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJjVztxkit3IAR3JPmKQ5CR7Y&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "115377655805246720432",
+            "owner_link": "https://maps.google.com/maps/contrib/115377655805246720432",
+            "owner_name": "Opan Bins Colton",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOl4Fj9WlkCCsNc7Q7C0lRL93o6S54nnLagJmRr",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOl4Fj9WlkCCsNc7Q7C0lRL93o6S54nnLagJmRr",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOl4Fj9WlkCCsNc7Q7C0lRL93o6S54nnLagJmRr=w4080-h3072-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0662483,
+                    "longitude": -117.31924409999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-10-04T00:00:00.000Z",
+                    "photo_timestamp": 1696377600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "401 E Valley Blvd, Colton, CA 92324",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "401 E Valley Blvd",
+            "city": "Colton",
+            "zipcode": "92324",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dcb9511eff9a5f:0xa3adaffa74a5eb34",
+            "google_id": "0x80dcb9511eff9a5f:0xa3adaffa74a5eb34",
+            "place_id": "ChIJX5r_HlG53IARNOuldPqvraM",
+            "google_mid": "/g/11v5t8rd_1",
+            "phone_number": null,
+            "name": "Bin & Liquidation Store",
+            "latitude": 33.7988904,
+            "longitude": -117.5013991,
+            "full_address": "Bin & Liquidation Store, 9022 Pulsar Ct suite c, Corona, CA 92883",
+            "review_count": 5,
+            "rating": 4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dcb9511eff9a5f:0xa3adaffa74a5eb34",
+            "cid": "11794276489386912564",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJX5r_HlG53IARNOuldPqvraM&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "103437328793560443774",
+            "owner_link": "https://maps.google.com/maps/contrib/103437328793560443774",
+            "owner_name": "Bin & Liquidation Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "General store",
+            "subtypes": [
+                "General store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOWItstXuPzVJ3tAa30CPMhSQDmVnWiUhj52YPr",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOWItstXuPzVJ3tAa30CPMhSQDmVnWiUhj52YPr",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOWItstXuPzVJ3tAa30CPMhSQDmVnWiUhj52YPr=w4032-h1816-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7988066,
+                    "longitude": -117.5016838,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-08-15T00:00:00.000Z",
+                    "photo_timestamp": 1692057600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "9022 Pulsar Ct suite c, Corona, CA 92883",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "9022 Pulsar Ct suite c",
+            "city": "Corona",
+            "zipcode": "92883",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c353fd4a9623d3:0x46ce12e728e58d8a",
+            "google_id": "0x80c353fd4a9623d3:0x46ce12e728e58d8a",
+            "place_id": "ChIJ0yOWSv1Tw4ARio3lKOcSzkY",
+            "google_mid": "/g/11s7bx1p__",
+            "phone_number": "+19095723018",
+            "name": "Bin & Win",
+            "latitude": 34.0910949,
+            "longitude": -117.3143432,
+            "full_address": "Bin & Win, Ave, 570 S Mt Vernon Ave Unit A, San Bernardino, CA 92410",
+            "review_count": 42,
+            "rating": 4.2,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c353fd4a9623d3:0x46ce12e728e58d8a",
+            "cid": "5102036211890228618",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ0yOWSv1Tw4ARio3lKOcSzkY&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "116639317474653383534",
+            "owner_link": "https://maps.google.com/maps/contrib/116639317474653383534",
+            "owner_name": "Bin & Win",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMvUn6pQxvi-NLwLa0vHVZ-jdWchnjlLePxo8_F",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMvUn6pQxvi-NLwLa0vHVZ-jdWchnjlLePxo8_F",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMvUn6pQxvi-NLwLa0vHVZ-jdWchnjlLePxo8_F=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0912729,
+                    "longitude": -117.31491700000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-09-30T00:00:00.000Z",
+                    "photo_timestamp": 1664496000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "Ave, 570 S Mt Vernon Ave Unit A, San Bernardino, CA 92410",
+            "order_link": null,
+            "price_level": null,
+            "district": "Valley College",
+            "street_address": "Ave, 570 S Mt Vernon Ave Unit A",
+            "city": "San Bernardino",
+            "zipcode": "92410",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80eacafcd5693797:0x66e96f207f0f9d2c",
+            "google_id": "0x80eacafcd5693797:0x66e96f207f0f9d2c",
+            "place_id": "ChIJlzdp1fzK6oARLJ0PfyBv6WY",
+            "google_mid": "/g/11vl7jsv3q",
+            "phone_number": null,
+            "name": "Liquidation Bin Store",
+            "latitude": 36.202895999999996,
+            "longitude": -119.08964139999999,
+            "full_address": "Liquidation Bin Store, 137 E Honolulu St, Lindsay, CA 93247",
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": null,
+            "working_hours": null,
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80eacafcd5693797:0x66e96f207f0f9d2c",
+            "cid": "7415580446803598636",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJlzdp1fzK6oARLJ0PfyBv6WY&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "100675937608456655599",
+            "owner_link": "https://maps.google.com/maps/contrib/100675937608456655599",
+            "owner_name": "Liquidation Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "location",
+            "subtypes": null,
+            "photos_sample": [
+                {
+                    "photo_id": "HPxF7rvsG3TlMmRnhhXGcw",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HPxF7rvsG3TlMmRnhhXGcw&cb_client=search.gws-prod.gps&w=86&h=86&yaw=339.8667&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 36.202749075266645,
+                    "longitude": -119.08957464875577,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-23T00:00:00.000Z",
+                    "photo_timestamp": 1729641600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "137 E Honolulu St, Lindsay, CA 93247",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "137 E Honolulu St",
+            "city": "Lindsay",
+            "zipcode": "93247",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80db7f4b0778409f:0x7e39ed7be804ad06",
+            "google_id": "0x80db7f4b0778409f:0x7e39ed7be804ad06",
+            "place_id": "ChIJn0B4B0t_24ARBq0E6HvtOX4",
+            "google_mid": "/g/11sg4_yp27",
+            "phone_number": "+17602143107",
+            "name": "Overstocked Bins",
+            "latitude": 33.7027934,
+            "longitude": -117.35468429999999,
+            "full_address": "Overstocked Bins, 17600 Collier Ave STE J195, Lake Elsinore, CA 92530",
+            "review_count": 171,
+            "rating": 4.1,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20135:50 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20138 PM"
+                ]
+            },
+            "website": "http://www.overstockedbins.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80db7f4b0778409f:0x7e39ed7be804ad06",
+            "cid": "9095562038880808198",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJn0B4B0t_24ARBq0E6HvtOX4&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "110306336457503025919",
+            "owner_link": "https://maps.google.com/maps/contrib/110306336457503025919",
+            "owner_name": "Overstocked Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Dollar store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPHRPtjF8Kf8mT6WHZ1Q99500d7xjh561WJxkUA",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPHRPtjF8Kf8mT6WHZ1Q99500d7xjh561WJxkUA",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPHRPtjF8Kf8mT6WHZ1Q99500d7xjh561WJxkUA=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7001603224357,
+                    "longitude": -117.35090435669586,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-01-06T00:00:00.000Z",
+                    "photo_timestamp": 1672963200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 75,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "17600 Collier Ave STE J195, Lake Elsinore, CA 92530",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "17600 Collier Ave STE J195",
+            "city": "Lake Elsinore",
+            "zipcode": "92530",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/Overstockedbins",
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/overstocked-bins-lake-elsinore",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dcb91708dcfb21:0x6e706696db404ff3",
+            "google_id": "0x80dcb91708dcfb21:0x6e706696db404ff3",
+            "place_id": "ChIJIfvcCBe53IAR809A25ZmcG4",
+            "google_mid": "/g/11v0k41q61",
+            "phone_number": "+19513380049",
+            "name": "Black Friday Everyday Bin Store and Liquidation Outlet",
+            "latitude": 33.7988904,
+            "longitude": -117.5013991,
+            "full_address": "Black Friday Everyday Bin Store and Liquidation Outlet, 9022 Pulsar Ct suite c, Corona, CA 92883",
+            "review_count": 22,
+            "rating": 4.4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dcb91708dcfb21:0x6e706696db404ff3",
+            "cid": "7957973339673219059",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJIfvcCBe53IAR809A25ZmcG4&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "108557980545608493203",
+            "owner_link": "https://maps.google.com/maps/contrib/108557980545608493203",
+            "owner_name": "Black Friday Everyday Bin Store and Liquidation Outlet",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Dollar store",
+                "General store",
+                "Liquidator",
+                "Outlet store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPzzLwLEHmtqpwkWcOQnZuGISKtewAPq1cPX171",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPzzLwLEHmtqpwkWcOQnZuGISKtewAPq1cPX171",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPzzLwLEHmtqpwkWcOQnZuGISKtewAPq1cPX171=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7987734,
+                    "longitude": -117.5016625,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-11T00:00:00.000Z",
+                    "photo_timestamp": 1689033600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true
+                    }
+                }
+            },
+            "address": "9022 Pulsar Ct suite c, Corona, CA 92883",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "9022 Pulsar Ct suite c",
+            "city": "Corona",
+            "zipcode": "92883",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80d959d4f3e9b8c5:0x4346e5309eb62aa2",
+            "google_id": "0x80d959d4f3e9b8c5:0x4346e5309eb62aa2",
+            "place_id": "ChIJxbjp89RZ2YARoiq2njDlRkM",
+            "google_mid": "/g/11khdzdr8p",
+            "phone_number": "+16193057862",
+            "name": "TREASURE BIN STORE",
+            "latitude": 32.7862298,
+            "longitude": -116.9770329,
+            "full_address": "TREASURE BIN STORE, 800 El Cajon Blvd UNIT 101, El Cajon, CA 92020",
+            "review_count": 36,
+            "rating": 3.4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10:30\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10:30 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10:30 AM\u20136 PM"
+                ]
+            },
+            "website": "http://treasurebinstoresd.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80d959d4f3e9b8c5:0x4346e5309eb62aa2",
+            "cid": "4847814045894847138",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJxbjp89RZ2YARoiq2njDlRkM&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "105447967475654198003",
+            "owner_link": "https://maps.google.com/maps/contrib/105447967475654198003",
+            "owner_name": "TREASURE BIN STORE",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOA0I1a7oZXJ_leiNJOiXudg45GR_VtoUaip0Xd",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOA0I1a7oZXJ_leiNJOiXudg45GR_VtoUaip0Xd",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOA0I1a7oZXJ_leiNJOiXudg45GR_VtoUaip0Xd=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.786162700000006,
+                    "longitude": -116.9768735,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-26T00:00:00.000Z",
+                    "photo_timestamp": 1682467200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "800 El Cajon Blvd UNIT 101, El Cajon, CA 92020",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "800 El Cajon Blvd UNIT 101",
+            "city": "El Cajon",
+            "zipcode": "92020",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "treasurebinstoresd@gmail.com"
+                ],
+                "phone_numbers": [
+                    "6193057862"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/treasurebinstoresd",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c297e82dc60349:0x560f3c4b2e8d236f",
+            "google_id": "0x80c297e82dc60349:0x560f3c4b2e8d236f",
+            "place_id": "ChIJSQPGLeiXwoARbyONLks8D1Y",
+            "google_mid": "/g/11y75hssx_",
+            "phone_number": "+17472600550",
+            "name": "bins and deals",
+            "latitude": 34.1878891,
+            "longitude": -118.44895489999999,
+            "full_address": "bins and deals, 6453 Van Nuys Blvd, Van Nuys, CA 91401",
+            "review_count": 2,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20134 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c297e82dc60349:0x560f3c4b2e8d236f",
+            "cid": "6201241505513677679",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJSQPGLeiXwoARbyONLks8D1Y&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "110544070114377297479",
+            "owner_link": "https://maps.google.com/maps/contrib/110544070114377297479",
+            "owner_name": "bins and deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "BBOhukboAUN3ARxEWsZosQ",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BBOhukboAUN3ARxEWsZosQ&cb_client=search.gws-prod.gps&w=86&h=86&yaw=281.41525&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 34.187852376574206,
+                    "longitude": -118.4487350279937,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-28T00:00:00.000Z",
+                    "photo_timestamp": 1730073600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true
+                    }
+                }
+            },
+            "address": "6453 Van Nuys Blvd, Van Nuys, CA 91401",
+            "order_link": null,
+            "price_level": null,
+            "district": "Van Nuys",
+            "street_address": "6453 Van Nuys Blvd",
+            "city": "Van Nuys",
+            "zipcode": "91401",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x808df9bb10f27e75:0x6003413f47c9bb2e",
+            "google_id": "0x808df9bb10f27e75:0x6003413f47c9bb2e",
+            "place_id": "ChIJdX7yELv5jYARLrvJRz9BA2A",
+            "google_mid": "/g/11trty2jkj",
+            "phone_number": null,
+            "name": "Salinas Liquidations",
+            "latitude": 36.672904599999995,
+            "longitude": -121.6531308,
+            "full_address": "Salinas Liquidations, 329 Monterey St, Salinas, CA 93901",
+            "review_count": 155,
+            "rating": 4.1,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x808df9bb10f27e75:0x6003413f47c9bb2e",
+            "cid": "6918445192614361902",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJdX7yELv5jYARLrvJRz9BA2A&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "114263621204898053973",
+            "owner_link": "https://maps.google.com/maps/contrib/114263621204898053973",
+            "owner_name": "Salinas Liquidations",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNtrTX1ducFiJOS7jGR-S0YnA5vncAU7BXsxjZj",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNtrTX1ducFiJOS7jGR-S0YnA5vncAU7BXsxjZj",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNtrTX1ducFiJOS7jGR-S0YnA5vncAU7BXsxjZj=w2184-h4608-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.6728875,
+                    "longitude": -121.6535081,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-11T00:00:00.000Z",
+                    "photo_timestamp": 1681171200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Amenities": {
+                        "Gender-neutral restroom": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "329 Monterey St, Salinas, CA 93901",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "329 Monterey St",
+            "city": "Salinas",
+            "zipcode": "93901",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dcb90004e777f1:0x3fa8d8b9b8afbb60",
+            "google_id": "0x80dcb90004e777f1:0x3fa8d8b9b8afbb60",
+            "place_id": "ChIJ8XfnBAC53IARYLuvuLnYqD8",
+            "google_mid": "/g/11y38dvnyn",
+            "phone_number": null,
+            "name": "Daily Deals Liquidation Bin Store",
+            "latitude": 33.8645692,
+            "longitude": -117.54710809999999,
+            "full_address": "Daily Deals Liquidation Bin Store, 1183 Magnolia Ave, Corona, CA 92879",
+            "review_count": 32,
+            "rating": 4.1,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": "http://dailydealscorona.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dcb90004e777f1:0x3fa8d8b9b8afbb60",
+            "cid": "4587154512655924064",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ8XfnBAC53IARYLuvuLnYqD8&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "113432803715929337787",
+            "owner_link": "https://maps.google.com/maps/contrib/113432803715929337787",
+            "owner_name": "Daily Deals Liquidation Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "General store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPytsbHnU9kSn5ic5_t7Ei3VLhaXebOVGw3KmaV",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPytsbHnU9kSn5ic5_t7Ei3VLhaXebOVGw3KmaV",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPytsbHnU9kSn5ic5_t7Ei3VLhaXebOVGw3KmaV=w4080-h3072-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.8647522,
+                    "longitude": -117.54674039999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-08-12T00:00:00.000Z",
+                    "photo_timestamp": 1723420800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1183 Magnolia Ave, Corona, CA 92879",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1183 Magnolia Ave",
+            "city": "Corona",
+            "zipcode": "92879",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/daily.deals.corona",
+                "yelp": "https://www.yelp.com/biz/daily-deals-liquidation-bin-store-corona",
+                "tiktok": "https://www.tiktok.com/@daily.deals.corona",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c29d4a591bc47b:0xd46694ec0ba4d8fd",
+            "google_id": "0x80c29d4a591bc47b:0xd46694ec0ba4d8fd",
+            "place_id": "ChIJe8QbWUqdwoAR_dikC-yUZtQ",
+            "google_mid": "/g/11w9s2kgfr",
+            "phone_number": "+14243877489",
+            "name": "Bins & Deals",
+            "latitude": 34.200768499999995,
+            "longitude": -118.5925796,
+            "full_address": "Bins & Deals, 21054 Sherman Way #103, Canoga Park, CA 91303",
+            "review_count": 4,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c29d4a591bc47b:0xd46694ec0ba4d8fd",
+            "cid": "15305084125193754877",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJe8QbWUqdwoAR_dikC-yUZtQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "102727385285192251397",
+            "owner_link": "https://maps.google.com/maps/contrib/102727385285192251397",
+            "owner_name": "Bins & Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNPGtpLqhkHyZP_kqX3WXAzFuWXyvthwXdLQcMX",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNPGtpLqhkHyZP_kqX3WXAzFuWXyvthwXdLQcMX",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNPGtpLqhkHyZP_kqX3WXAzFuWXyvthwXdLQcMX=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.2009784,
+                    "longitude": -118.59258049999998,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-09-08T00:00:00.000Z",
+                    "photo_timestamp": 1725753600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": null,
+            "address": "21054 Sherman Way #103, Canoga Park, CA 91303",
+            "order_link": null,
+            "price_level": null,
+            "district": "Canoga Park",
+            "street_address": "21054 Sherman Way #103",
+            "city": "Canoga Park",
+            "zipcode": "91303",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2d18ba11643c7:0xc47d8175e5c658e2",
+            "google_id": "0x80c2d18ba11643c7:0xc47d8175e5c658e2",
+            "place_id": "ChIJx0MWoYvRwoAR4ljG5XWBfcQ",
+            "google_mid": "/g/11w5b2xk58",
+            "phone_number": "+16267581607",
+            "name": "Bins & Deals",
+            "latitude": 34.0630737,
+            "longitude": -118.02031389999999,
+            "full_address": "Bins & Deals, 11912 Valley Blvd Unit D, El Monte, CA 91732",
+            "review_count": 8,
+            "rating": 3.4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2d18ba11643c7:0xc47d8175e5c658e2",
+            "cid": "14158615146888845538",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJx0MWoYvRwoAR4ljG5XWBfcQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "108086023581900055876",
+            "owner_link": "https://maps.google.com/maps/contrib/108086023581900055876",
+            "owner_name": "Bins & Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPtQCUgJ80xhZoQGU39qO7yRBAvQRssxTe6XyXC",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPtQCUgJ80xhZoQGU39qO7yRBAvQRssxTe6XyXC",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPtQCUgJ80xhZoQGU39qO7yRBAvQRssxTe6XyXC=w3000-h4000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0632536,
+                    "longitude": -118.02032319999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-08-25T00:00:00.000Z",
+                    "photo_timestamp": 1724544000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": null,
+            "address": "11912 Valley Blvd Unit D, El Monte, CA 91732",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "11912 Valley Blvd Unit D",
+            "city": "El Monte",
+            "zipcode": "91732",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c24586f2df3b41:0xe4b8e17702790f5d",
+            "google_id": "0x80c24586f2df3b41:0xe4b8e17702790f5d",
+            "place_id": "ChIJQTvf8oZFwoARXQ95AnfhuOQ",
+            "google_mid": "/g/11vbgbcz0z",
+            "phone_number": "+17062472499",
+            "name": "Bin Store Gems",
+            "latitude": 34.698878799999996,
+            "longitude": -118.17359289999999,
+            "full_address": "Bin Store Gems, 44920 Valley Central Way, 44920 Lancaster Marketplace Bldg. 4, Unit 104, Lancaster, CA 93536",
+            "review_count": 39,
+            "rating": 4.6,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20138 PM"
+                ]
+            },
+            "website": "http://binstoregems.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c24586f2df3b41:0xe4b8e17702790f5d",
+            "cid": "16481170737621176157",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJQTvf8oZFwoARXQ95AnfhuOQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "114656374461836731520",
+            "owner_link": "https://maps.google.com/maps/contrib/114656374461836731520",
+            "owner_name": "Bin Store Gems",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNA4vuH48l0krnaIXTE2pqCVn5oG8fpHhe6S-ss",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNA4vuH48l0krnaIXTE2pqCVn5oG8fpHhe6S-ss",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNA4vuH48l0krnaIXTE2pqCVn5oG8fpHhe6S-ss=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.699037000000004,
+                    "longitude": -118.17338710000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-11-23T00:00:00.000Z",
+                    "photo_timestamp": 1700697600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "44920 Valley Central Way, 44920 Lancaster Marketplace Bldg. 4, Unit 104, Lancaster, CA 93536",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "44920 Valley Central Way, 44920 Lancaster Marketplace Bldg. 4, Unit 104",
+            "city": "Lancaster",
+            "zipcode": "93536",
+            "state": "CA",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/binstoregems",
+                "instagram": "https://www.instagram.com/binstore.gems",
+                "yelp": "https://www.yelp.com/biz/bin-store-gems-lancaster",
+                "tiktok": "https://www.tiktok.com/@bin.store.gems",
+                "snapchat": null,
+                "twitter": "https://twitter.com/BinStoreGems",
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x54d2c1cb5dfcd605:0x6e4122e91f1235ab",
+            "google_id": "0x54d2c1cb5dfcd605:0x6e4122e91f1235ab",
+            "place_id": "ChIJBdb8XcvB0lQRqzUSH-kiQW4",
+            "google_mid": "/g/11svwgjhbr",
+            "phone_number": "+17078329552",
+            "name": "Bargain Bins",
+            "latitude": 40.4341915,
+            "longitude": -122.28717169999999,
+            "full_address": "Bargain Bins, 1757 Arby Wy, Anderson, CA 96007",
+            "review_count": 47,
+            "rating": 4.2,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=100091876097280&mibextid=ZbWKwL",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x54d2c1cb5dfcd605:0x6e4122e91f1235ab",
+            "cid": "7944669602302277035",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJBdb8XcvB0lQRqzUSH-kiQW4&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "117344110070973415490",
+            "owner_link": "https://maps.google.com/maps/contrib/117344110070973415490",
+            "owner_name": "Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPaGhsxdQRzN30Ez9Ed0j9g0MiD3ED2RusmZl0L",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPaGhsxdQRzN30Ez9Ed0j9g0MiD3ED2RusmZl0L",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPaGhsxdQRzN30Ez9Ed0j9g0MiD3ED2RusmZl0L=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 40.4342068,
+                    "longitude": -122.2870806,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-28T00:00:00.000Z",
+                    "photo_timestamp": 1690502400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "1757 Arby Wy, Anderson, CA 96007",
+            "order_link": null,
+            "price_level": null,
+            "district": "Cascade",
+            "street_address": "1757 Arby Wy",
+            "city": "Anderson",
+            "zipcode": "96007",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80d953cb8cd429f9:0x44812f3460632032",
+            "google_id": "0x80d953cb8cd429f9:0x44812f3460632032",
+            "place_id": "ChIJ-SnUjMtT2YARMiBjYDQvgUQ",
+            "google_mid": "/g/11w44czx5c",
+            "phone_number": "+16197778281",
+            "name": "Bin Buster",
+            "latitude": 32.676733,
+            "longitude": -117.10468949999999,
+            "full_address": "Bin Buster, 205 E 8th St, National City, CA 91950",
+            "review_count": 102,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 9:30\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9:30 AM\u20134:30 PM"
+                ],
+                "Monday": [
+                    "11:30 AM\u20136:30 PM"
+                ],
+                "Tuesday": [
+                    "Closed"
+                ],
+                "Wednesday": [
+                    "Closed"
+                ],
+                "Thursday": [
+                    "11:30 AM\u20136:30 PM"
+                ],
+                "Friday": [
+                    "11:30 AM\u20136:30 PM"
+                ],
+                "Saturday": [
+                    "9:30 AM\u20134:30 PM"
+                ]
+            },
+            "website": "https://www.binbustersandiego.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80d953cb8cd429f9:0x44812f3460632032",
+            "cid": "4936278568576688178",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ-SnUjMtT2YARMiBjYDQvgUQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "107393041096141465890",
+            "owner_link": "https://maps.google.com/maps/contrib/107393041096141465890",
+            "owner_name": "Bin Buster",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMZUuUvT9zD5J4p2l6xPWhG7jZTNP4xCToU1pVa",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMZUuUvT9zD5J4p2l6xPWhG7jZTNP4xCToU1pVa",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMZUuUvT9zD5J4p2l6xPWhG7jZTNP4xCToU1pVa=w1080-h1920-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.6765182,
+                    "longitude": -117.10467919999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-09-03T00:00:00.000Z",
+                    "photo_timestamp": 1725321600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "205 E 8th St, National City, CA 91950",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "205 E 8th St",
+            "city": "National City",
+            "zipcode": "91950",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": "https://www.yelp.com/biz/bin-busters-national-city",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80e82f2e4fbde3a3:0x6a266542a04dceb6",
+            "google_id": "0x80e82f2e4fbde3a3:0x6a266542a04dceb6",
+            "place_id": "ChIJo-O9Ty4v6IARts5NoEJlJmo",
+            "google_mid": "/g/11v53ksbpb",
+            "phone_number": "+18054228010",
+            "name": "Simi Bargain Bins",
+            "latitude": 34.2723881,
+            "longitude": -118.7855355,
+            "full_address": "Simi Bargain Bins, 589 E Los Angeles Ave, Simi Valley, CA 93065",
+            "review_count": 23,
+            "rating": 4.8,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20132 PM"
+                ]
+            },
+            "website": "https://www.simibargainbins.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80e82f2e4fbde3a3:0x6a266542a04dceb6",
+            "cid": "7648912353967066806",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJo-O9Ty4v6IARts5NoEJlJmo&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "116076127478392759883",
+            "owner_link": "https://maps.google.com/maps/contrib/116076127478392759883",
+            "owner_name": "Simi Bargain Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMqSTSNkOhqwaHPWVWxwW673ukXp1j3_1pHSYG6",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMqSTSNkOhqwaHPWVWxwW673ukXp1j3_1pHSYG6",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMqSTSNkOhqwaHPWVWxwW673ukXp1j3_1pHSYG6=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.2723809,
+                    "longitude": -118.7857017,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-09-19T00:00:00.000Z",
+                    "photo_timestamp": 1695081600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "589 E Los Angeles Ave, Simi Valley, CA 93065",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "589 E Los Angeles Ave",
+            "city": "Simi Valley",
+            "zipcode": "93065",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": "https://www.facebook.com/simibargainbins",
+                "instagram": "https://www.instagram.com/simibargainbins",
+                "yelp": "https://www.yelp.com/biz/simi-bargain-bins-simi-valley",
+                "tiktok": "https://www.tiktok.com/@simibargainbins",
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2d79500b73d11:0xd6c9927f65ea9cc2",
+            "google_id": "0x80c2d79500b73d11:0xd6c9927f65ea9cc2",
+            "place_id": "ChIJET23AJXXwoARwpzqZX-SydY",
+            "google_mid": "/g/11v9_qx8fl",
+            "phone_number": null,
+            "name": "Golden Bin",
+            "latitude": 34.089181599999996,
+            "longitude": -117.9616562,
+            "full_address": "Golden Bin, 4239 Maine Ave Unit B, Baldwin Park, CA 91706",
+            "review_count": 10,
+            "rating": 4.6,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10:30\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10:30 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10:30 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10:30 AM\u20137 PM"
+                ]
+            },
+            "website": "https://www.instagram.com/golden_bins/?hl=en",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2d79500b73d11:0xd6c9927f65ea9cc2",
+            "cid": "15477062670303796418",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJET23AJXXwoARwpzqZX-SydY&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "107882242587373795011",
+            "owner_link": "https://maps.google.com/maps/contrib/107882242587373795011",
+            "owner_name": "Golden Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Liquidator"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOtvX8G2o6EUs76gULKeR55u-dqVTIc6BtC9Lri",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOtvX8G2o6EUs76gULKeR55u-dqVTIc6BtC9Lri",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOtvX8G2o6EUs76gULKeR55u-dqVTIc6BtC9Lri=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0891839,
+                    "longitude": -117.96138930000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-10-03T00:00:00.000Z",
+                    "photo_timestamp": 1696291200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 3,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true
+                    }
+                }
+            },
+            "address": "4239 Maine Ave Unit B, Baldwin Park, CA 91706",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "4239 Maine Ave Unit B",
+            "city": "Baldwin Park",
+            "zipcode": "91706",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dd353c7301a363:0x486a2158088a49a",
+            "google_id": "0x80dd353c7301a363:0x486a2158088a49a",
+            "place_id": "ChIJY6MBczw13YARmqSIgBWihgQ",
+            "google_mid": "/g/11lds18v7n",
+            "phone_number": null,
+            "name": "LA Bin Store",
+            "latitude": 33.778377299999995,
+            "longitude": -118.2626245,
+            "full_address": "LA Bin Store, 645 N Avalon Blvd, Wilmington, CA 90744",
+            "review_count": 2,
+            "rating": 3,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135:30 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dd353c7301a363:0x486a2158088a49a",
+            "cid": "326126236265391258",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJY6MBczw13YARmqSIgBWihgQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "116096396711379848607",
+            "owner_link": "https://maps.google.com/maps/contrib/116096396711379848607",
+            "owner_name": "LA Bin Store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "mpiNBxWm2Y6Hk2t9i99qQg",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mpiNBxWm2Y6Hk2t9i99qQg&cb_client=search.gws-prod.gps&w=86&h=86&yaw=273.99496&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 33.77836037215128,
+                    "longitude": -118.26233288907659,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-28T00:00:00.000Z",
+                    "photo_timestamp": 1730073600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true
+                    }
+                }
+            },
+            "address": "645 N Avalon Blvd, Wilmington, CA 90744",
+            "order_link": null,
+            "price_level": null,
+            "district": "Wilmington",
+            "street_address": "645 N Avalon Blvd",
+            "city": "Wilmington",
+            "zipcode": "90744",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c3657cee7cc1b1:0x84a19269d19ce115",
+            "google_id": "0x80c3657cee7cc1b1:0x84a19269d19ce115",
+            "place_id": "ChIJscF87nxlw4ARFeGc0WmSoYQ",
+            "google_mid": "/g/11vcl6tt1m",
+            "phone_number": "+17605960148",
+            "name": "Bin & Win",
+            "latitude": 34.5159084,
+            "longitude": -117.315221,
+            "full_address": "Bin & Win, 14580 7th St unit c, Victorville, CA 92395",
+            "review_count": 54,
+            "rating": 4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20138 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20138 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c3657cee7cc1b1:0x84a19269d19ce115",
+            "cid": "9557080867442843925",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJscF87nxlw4ARFeGc0WmSoYQ&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "110502528965412958698",
+            "owner_link": "https://maps.google.com/maps/contrib/110502528965412958698",
+            "owner_name": "Bin & Win",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPmsisTEboatRyHK1aLUXhs82vu3hFkXTkT7hiF",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPmsisTEboatRyHK1aLUXhs82vu3hFkXTkT7hiF",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPmsisTEboatRyHK1aLUXhs82vu3hFkXTkT7hiF=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.515909799999996,
+                    "longitude": -117.3151128,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-10-15T00:00:00.000Z",
+                    "photo_timestamp": 1728950400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "14580 7th St unit c, Victorville, CA 92395",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "14580 7th St unit c",
+            "city": "Victorville",
+            "zipcode": "92395",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80d65904f2592a05:0xf9e7f56aadc509c4",
+            "google_id": "0x80d65904f2592a05:0xf9e7f56aadc509c4",
+            "place_id": "ChIJBSpZ8gRZ1oARxAnFrWr15_k",
+            "google_mid": "/g/11shhyjwlv",
+            "phone_number": "+19282764480",
+            "name": "Yuma Bins",
+            "latitude": 32.6716908,
+            "longitude": -114.6221199,
+            "full_address": "Yuma Bins, 320 W 32nd St Suite C, Yuma, AZ 85364",
+            "review_count": 28,
+            "rating": 3.5,
+            "timezone": "America/Phoenix",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "1\u20136 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20132 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20133 PM",
+                    "5\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80d65904f2592a05:0xf9e7f56aadc509c4",
+            "cid": "18007631473594927556",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJBSpZ8gRZ1oARxAnFrWr15_k&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "116070773508067307638",
+            "owner_link": "https://maps.google.com/maps/contrib/116070773508067307638",
+            "owner_name": "Yuma Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNUUyslCh7jk4wbU3EG-X1BmBjTNglHYYHSSmGH",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNUUyslCh7jk4wbU3EG-X1BmBjTNglHYYHSSmGH",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNUUyslCh7jk4wbU3EG-X1BmBjTNglHYYHSSmGH=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.6713332,
+                    "longitude": -114.62231869999998,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-03-01T00:00:00.000Z",
+                    "photo_timestamp": 1677628800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "320 W 32nd St Suite C, Yuma, AZ 85364",
+            "order_link": null,
+            "price_level": null,
+            "district": "Big Curve",
+            "street_address": "320 W 32nd St Suite C",
+            "city": "Yuma",
+            "zipcode": "85364",
+            "state": "Arizona",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dcd9acbf3861ff:0xc5c620694fc321b1",
+            "google_id": "0x80dcd9acbf3861ff:0xc5c620694fc321b1",
+            "place_id": "ChIJ_2E4v6zZ3IARsSHDT2kgxsU",
+            "google_mid": "/g/11sz25_z5q",
+            "phone_number": "+13234822941",
+            "name": "Majestic Deals",
+            "latitude": 33.772710499999995,
+            "longitude": -117.92146749999999,
+            "full_address": "Majestic Deals, 13107 Harbor Blvd, Garden Grove, CA 92843",
+            "review_count": 38,
+            "rating": 4.4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "9:30 AM\u20138 PM"
+                ],
+                "Tuesday": [
+                    "9:30 AM\u20138 PM"
+                ],
+                "Wednesday": [
+                    "9:30 AM\u20138 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9:30 AM\u20138 PM"
+                ],
+                "Saturday": [
+                    "9:30 AM\u20138 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dcd9acbf3861ff:0xc5c620694fc321b1",
+            "cid": "14251113707542356401",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ_2E4v6zZ3IARsSHDT2kgxsU&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "100094830528659145869",
+            "owner_link": "https://maps.google.com/maps/contrib/100094830528659145869",
+            "owner_name": "Majestic Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipN0T_bJVq1hX8HVkn14Q9nu46Nd4RZDmD1MIgeR",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipN0T_bJVq1hX8HVkn14Q9nu46Nd4RZDmD1MIgeR",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipN0T_bJVq1hX8HVkn14Q9nu46Nd4RZDmD1MIgeR=w4032-h1816-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.772606599999996,
+                    "longitude": -117.9214657,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-01-04T00:00:00.000Z",
+                    "photo_timestamp": 1704326400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    },
+                    "Parking": {
+                        "Free parking lot": true,
+                        "Free street parking": true
+                    }
+                }
+            },
+            "address": "13107 Harbor Blvd, Garden Grove, CA 92843",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "13107 Harbor Blvd",
+            "city": "Garden Grove",
+            "zipcode": "92843",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c25b0d76ef3797:0x616798d4fced30cb",
+            "google_id": "0x80c25b0d76ef3797:0x616798d4fced30cb",
+            "place_id": "ChIJlzfvdg1bwoARyzDt_NSYZ2E",
+            "google_mid": "/g/11kqcdqrvg",
+            "phone_number": "+17472575691",
+            "name": "Super Catch",
+            "latitude": 34.7040801,
+            "longitude": -118.1487303,
+            "full_address": "Super Catch, 1015 W Ave I, Lancaster, CA 93534",
+            "review_count": 8,
+            "rating": 3.9,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c25b0d76ef3797:0x616798d4fced30cb",
+            "cid": "7018746584824099019",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJlzfvdg1bwoARyzDt_NSYZ2E&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "104793734557313678552",
+            "owner_link": "https://maps.google.com/maps/contrib/104793734557313678552",
+            "owner_name": "Super Catch",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPTgIKv1qUUoC6H_orys7-3YtQ214YtWZ8Bzsyw",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPTgIKv1qUUoC6H_orys7-3YtQ214YtWZ8Bzsyw",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPTgIKv1qUUoC6H_orys7-3YtQ214YtWZ8Bzsyw=w4032-h2268-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.7040788,
+                    "longitude": -118.1488115,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-07-19T00:00:00.000Z",
+                    "photo_timestamp": 1689724800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1015 W Ave I, Lancaster, CA 93534",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1015 W Ave I",
+            "city": "Lancaster",
+            "zipcode": "93534",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c32daca6ebc703:0x254025aac4c60d27",
+            "google_id": "0x80c32daca6ebc703:0x254025aac4c60d27",
+            "place_id": "ChIJA8frpqwtw4ARJw3GxKolQCU",
+            "google_mid": "/g/11v02b72q5",
+            "phone_number": "+19092727238",
+            "name": "BIG BIN SALE",
+            "latitude": 34.0335635,
+            "longitude": -117.7509891,
+            "full_address": "California, Pomona, S Garey Ave, BIG BIN SALE\u90ae\u653f\u7f16\u7801: 91766",
+            "review_count": 19,
+            "rating": 3.9,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "11 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c32daca6ebc703:0x254025aac4c60d27",
+            "cid": "2684186793288797479",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJA8frpqwtw4ARJw3GxKolQCU&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "115995694051580368401",
+            "owner_link": "https://maps.google.com/maps/contrib/115995694051580368401",
+            "owner_name": "BIG BIN SALE",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOLrQTry9GC2ZVhdBobck5L0nvy0AB279njtN68",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOLrQTry9GC2ZVhdBobck5L0nvy0AB279njtN68",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOLrQTry9GC2ZVhdBobck5L0nvy0AB279njtN68=w3024-h4032-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0335666,
+                    "longitude": -117.75082760000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-06-17T00:00:00.000Z",
+                    "photo_timestamp": 1686960000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 48,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "2085 S Garey Ave, Pomona, CA 91766",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2085 S Garey Ave",
+            "city": "Pomona",
+            "zipcode": "91766",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c3353ae8367a2b:0x99dcfe1d43c7bd77",
+            "google_id": "0x80c3353ae8367a2b:0x99dcfe1d43c7bd77",
+            "place_id": "ChIJK3o26Do1w4ARd73HQx3-3Jk",
+            "google_mid": "/g/11svdwqn3x",
+            "phone_number": "+18436665000",
+            "name": "Bin Shop Ontario",
+            "latitude": 34.0289583,
+            "longitude": -117.6083946,
+            "full_address": "Bin Shop Ontario, 2409 S Vineyard Ave J, Ontario, CA 91761",
+            "review_count": 5,
+            "rating": 2.6,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 1\u202fPM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "1\u20136 PM"
+                ],
+                "Tuesday": [
+                    "1\u20136 PM"
+                ],
+                "Wednesday": [
+                    "1\u20136 PM"
+                ],
+                "Thursday": [
+                    "1\u20136 PM"
+                ],
+                "Friday": [
+                    "1\u20136 PM"
+                ],
+                "Saturday": [
+                    "Closed"
+                ]
+            },
+            "website": "https://www.facebook.com/profile.php?id=100093380198343",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c3353ae8367a2b:0x99dcfe1d43c7bd77",
+            "cid": "11087015784323988855",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJK3o26Do1w4ARd73HQx3-3Jk&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "114553787096775623072",
+            "owner_link": "https://maps.google.com/maps/contrib/114553787096775623072",
+            "owner_name": "Bin Shop Ontario",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNfS7yD43zxV5g9G_x2e_dlqDlNNXwzdfgN96wQ",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNfS7yD43zxV5g9G_x2e_dlqDlNNXwzdfgN96wQ",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNfS7yD43zxV5g9G_x2e_dlqDlNNXwzdfgN96wQ=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.0291201,
+                    "longitude": -117.60840859999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-06-08T00:00:00.000Z",
+                    "photo_timestamp": 1717804800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "2409 S Vineyard Ave J, Ontario, CA 91761",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "2409 S Vineyard Ave J",
+            "city": "Ontario",
+            "zipcode": "91761",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2c99cf7162169:0x592bd205f9cd6f8e",
+            "google_id": "0x80c2c99cf7162169:0x592bd205f9cd6f8e",
+            "place_id": "ChIJaSEW95zJwoARjm_N-QXSK1k",
+            "google_mid": "/g/1tdw3rkb",
+            "phone_number": "+15626936533",
+            "name": "Bargain Bin",
+            "latitude": 33.95438,
+            "longitude": -118.25661,
+            "full_address": "Bargain Bin, 9011 S Central Ave, Los Angeles, CA 90002",
+            "review_count": 3,
+            "rating": 2.7,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Opens soon \u22c5 9\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Monday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Tuesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Wednesday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Thursday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20139 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20139 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2c99cf7162169:0x592bd205f9cd6f8e",
+            "cid": "6425460216481804174",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJaSEW95zJwoARjm_N-QXSK1k&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "113273556309789461167",
+            "owner_link": "https://maps.google.com/maps/contrib/113273556309789461167",
+            "owner_name": "Bargain Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipPGiijCVHYwZiBFdXwpSfmg-soQ7eyNrEheejar",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipPGiijCVHYwZiBFdXwpSfmg-soQ7eyNrEheejar",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipPGiijCVHYwZiBFdXwpSfmg-soQ7eyNrEheejar=w1836-h3264-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.954379599999996,
+                    "longitude": -118.2564422,
+                    "type": "photo",
+                    "photo_datetime_utc": "2017-04-24T00:00:00.000Z",
+                    "photo_timestamp": 1492992000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "9011 S Central Ave, Los Angeles, CA 90002",
+            "order_link": null,
+            "price_level": null,
+            "district": "South Los Angeles",
+            "street_address": "9011 S Central Ave",
+            "city": "Los Angeles",
+            "zipcode": "90002",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80d959ad12a78d15:0x2f5e5f00fc0adec2",
+            "google_id": "0x80d959ad12a78d15:0x2f5e5f00fc0adec2",
+            "place_id": "ChIJFY2nEq1Z2YARwt4K_ABfXi8",
+            "google_mid": "/g/11sstts9lj",
+            "phone_number": "+16195593187",
+            "name": "Hot Deals 4 you. Bin store. Liquidation store",
+            "latitude": 32.7884843,
+            "longitude": -116.9296171,
+            "full_address": "Hot Deals 4 you. Bin store. Liquidation store, 670 Jamacha Rd, El Cajon, CA 92019",
+            "review_count": 23,
+            "rating": 3.8,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80d959ad12a78d15:0x2f5e5f00fc0adec2",
+            "cid": "3413270025426624194",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJFY2nEq1Z2YARwt4K_ABfXi8&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "117642511995923615793",
+            "owner_link": "https://maps.google.com/maps/contrib/117642511995923615793",
+            "owner_name": "Hot Deals 4 you. Bin store. Liquidation store",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMU-BTQxmqETJ3joDK3wco7tFp6F2hLYu-m5CIB",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMU-BTQxmqETJ3joDK3wco7tFp6F2hLYu-m5CIB",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMU-BTQxmqETJ3joDK3wco7tFp6F2hLYu-m5CIB=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 32.7884003,
+                    "longitude": -116.9293464,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-08-26T00:00:00.000Z",
+                    "photo_timestamp": 1693008000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store pickup": true,
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true,
+                        "Wheelchair accessible restroom": true,
+                        "Wheelchair accessible seating": false
+                    },
+                    "Crowd": {
+                        "LGBTQ+ friendly": true,
+                        "Transgender safespace": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Recycling": {
+                        "Electronics": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "670 Jamacha Rd, El Cajon, CA 92019",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "670 Jamacha Rd",
+            "city": "El Cajon",
+            "zipcode": "92019",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x809adb1b2b8d47b5:0x5cdfc5434603645b",
+            "google_id": "0x809adb1b2b8d47b5:0x5cdfc5434603645b",
+            "place_id": "ChIJtUeNKxvbmoARW2QDRkPF31w",
+            "google_mid": "/g/11vycfcs75",
+            "phone_number": "+16193735560",
+            "name": "Bargain Bin Discounted Merchandise",
+            "latitude": 38.536752899999996,
+            "longitude": -121.40570459999999,
+            "full_address": "Bargain Bin Discounted Merchandise, 8175 Alpine Ave Suite I, Sacramento, CA 95826",
+            "review_count": 0,
+            "rating": null,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": "https://bargainbindiscounts.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x809adb1b2b8d47b5:0x5cdfc5434603645b",
+            "cid": "6692284464023954523",
+            "reviews_link": null,
+            "owner_id": "103569750366901160374",
+            "owner_link": "https://maps.google.com/maps/contrib/103569750366901160374",
+            "owner_name": "Bargain Bin Discounted Merchandise",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Warehouse store",
+            "subtypes": [
+                "Warehouse store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNo_tNVtXdDZr5KRKHMWp1OknRhNBocH44Jsm0",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNo_tNVtXdDZr5KRKHMWp1OknRhNBocH44Jsm0",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNo_tNVtXdDZr5KRKHMWp1OknRhNBocH44Jsm0=w1600-h1200-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 38.5367527,
+                    "longitude": -121.4061568,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-05-18T00:00:00.000Z",
+                    "photo_timestamp": 1715990400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as Black-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "8175 Alpine Ave Suite I, Sacramento, CA 95826",
+            "order_link": null,
+            "price_level": null,
+            "district": "Belvedere",
+            "street_address": "8175 Alpine Ave Suite I",
+            "city": "Sacramento",
+            "zipcode": "95826",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [
+                    "bargainbinmerch@gmail.com"
+                ],
+                "phone_numbers": [
+                    "6193735560"
+                ],
+                "facebook": null,
+                "instagram": "https://www.instagram.com/bargainbinmerch",
+                "yelp": "https://www.yelp.com/biz/bargain-bin-sacramento-5",
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80952bc68f550af1:0x59860821989afb12",
+            "google_id": "0x80952bc68f550af1:0x59860821989afb12",
+            "place_id": "ChIJ8QpVj8YrlYAREvuamCEIhlk",
+            "google_mid": "/g/11sjf_8qwr",
+            "phone_number": "+15593667458",
+            "name": "Crazy Deals",
+            "latitude": 36.2142203,
+            "longitude": -119.3487183,
+            "full_address": "Crazy Deals, 110 E Cross Ave, Tulare, CA 93274",
+            "review_count": 53,
+            "rating": 3.5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20132 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "9 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "9 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80952bc68f550af1:0x59860821989afb12",
+            "cid": "6450852456642050834",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ8QpVj8YrlYAREvuamCEIhlk&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "103747794007317856302",
+            "owner_link": "https://maps.google.com/maps/contrib/103747794007317856302",
+            "owner_name": "Crazy Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Store",
+            "subtypes": [
+                "Store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOuHZkYIrHn87ToCEPIUQ_sbEdQUTi5UuB2GGwY",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOuHZkYIrHn87ToCEPIUQ_sbEdQUTi5UuB2GGwY",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOuHZkYIrHn87ToCEPIUQ_sbEdQUTi5UuB2GGwY=w4000-h3000-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 36.2138967,
+                    "longitude": -119.3486236,
+                    "type": "photo",
+                    "photo_datetime_utc": "2023-04-17T00:00:00.000Z",
+                    "photo_timestamp": 1681689600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "110 E Cross Ave, Tulare, CA 93274",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "110 E Cross Ave",
+            "city": "Tulare",
+            "zipcode": "93274",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x809053b0c9f71ecd:0x3cd5dd09afda55aa",
+            "google_id": "0x809053b0c9f71ecd:0x3cd5dd09afda55aa",
+            "place_id": "ChIJzR73ybBTkIARqlXarwnd1Tw",
+            "google_mid": "/g/11rvgz46_c",
+            "phone_number": "+15109937396",
+            "name": "Catch The Deals",
+            "latitude": 37.6265289,
+            "longitude": -121.0131219,
+            "full_address": "Catch The Deals, 452 Paradise Rd Suit B, Modesto, CA 95351",
+            "review_count": 100,
+            "rating": 4.6,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20133 PM"
+                ],
+                "Friday": [
+                    "9 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x809053b0c9f71ecd:0x3cd5dd09afda55aa",
+            "cid": "4383652845989811626",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJzR73ybBTkIARqlXarwnd1Tw&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "104542990264834305663",
+            "owner_link": "https://maps.google.com/maps/contrib/104542990264834305663",
+            "owner_name": "Catch The Deals",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Outlet store",
+            "subtypes": [
+                "Outlet store",
+                "Liquidator",
+                "Thrift store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOxFQoCKrQHJPgyHl7eDad1KvTfrLsT2oXzJonS",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOxFQoCKrQHJPgyHl7eDad1KvTfrLsT2oXzJonS",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOxFQoCKrQHJPgyHl7eDad1KvTfrLsT2oXzJonS=w1536-h2048-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 37.6266233,
+                    "longitude": -121.0132709,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-07-01T00:00:00.000Z",
+                    "photo_timestamp": 1656633600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 59,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "452 Paradise Rd Suit B, Modesto, CA 95351",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "452 Paradise Rd Suit B",
+            "city": "Modesto",
+            "zipcode": "95351",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80dd35a9d8cef163:0xdd0cec6928ea8513",
+            "google_id": "0x80dd35a9d8cef163:0xdd0cec6928ea8513",
+            "place_id": "ChIJY_HO2Kk13YARE4XqKGnsDN0",
+            "google_mid": "/g/11vr_wr61z",
+            "phone_number": "+13108701647",
+            "name": "Santa fe store bin outlet",
+            "latitude": 33.778377299999995,
+            "longitude": -118.2626245,
+            "full_address": "Santa fe store bin outlet, 645 N Avalon Blvd, Wilmington, CA 90744",
+            "review_count": 1,
+            "rating": 4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20135:30 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20135 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80dd35a9d8cef163:0xdd0cec6928ea8513",
+            "cid": "15928365918504781075",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJY_HO2Kk13YARE4XqKGnsDN0&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "106045683926196826496",
+            "owner_link": "https://maps.google.com/maps/contrib/106045683926196826496",
+            "owner_name": "Santa fe store bin outlet",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Outlet store",
+            "subtypes": [
+                "Outlet store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOh6a9wgaIg1Cx12PJ7CdPmiDeGrOiwtJKIv_wu",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOh6a9wgaIg1Cx12PJ7CdPmiDeGrOiwtJKIv_wu",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOh6a9wgaIg1Cx12PJ7CdPmiDeGrOiwtJKIv_wu=w1080-h1094-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 33.7783927,
+                    "longitude": -118.26232730000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-02-21T00:00:00.000Z",
+                    "photo_timestamp": 1708473600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "645 N Avalon Blvd, Wilmington, CA 90744",
+            "order_link": null,
+            "price_level": null,
+            "district": "Wilmington",
+            "street_address": "645 N Avalon Blvd",
+            "city": "Wilmington",
+            "zipcode": "90744",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c365bba18e71a7:0x7e142fd2ff91c1f7",
+            "google_id": "0x80c365bba18e71a7:0x7e142fd2ff91c1f7",
+            "place_id": "ChIJp3GOobtlw4AR98GR_9IvFH4",
+            "google_mid": "/g/11vs51z5hm",
+            "phone_number": null,
+            "name": "Lucky Day Bins",
+            "latitude": 34.520013999999996,
+            "longitude": -117.3077747,
+            "full_address": "Lucky Day Bins, 14829 7th St #E, Victorville, CA 92395",
+            "review_count": 2,
+            "rating": 3,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Thursday": [
+                    "Closed"
+                ],
+                "Friday": [
+                    "10 AM\u20137 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20137 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c365bba18e71a7:0x7e142fd2ff91c1f7",
+            "cid": "9084938931590513143",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJp3GOobtlw4AR98GR_9IvFH4&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "101920690697782874716",
+            "owner_link": "https://maps.google.com/maps/contrib/101920690697782874716",
+            "owner_name": "Lucky Day Bins",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipNBQ4jv_b7peHw-42r-lseCb9uUgIEtxfDH1zbM",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipNBQ4jv_b7peHw-42r-lseCb9uUgIEtxfDH1zbM",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipNBQ4jv_b7peHw-42r-lseCb9uUgIEtxfDH1zbM=w800-h594-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.520148899999995,
+                    "longitude": -117.30777609999998,
+                    "type": "photo",
+                    "photo_datetime_utc": "2024-02-26T00:00:00.000Z",
+                    "photo_timestamp": 1708905600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "14829 7th St #E, Victorville, CA 92395",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "14829 7th St #E",
+            "city": "Victorville",
+            "zipcode": "92395",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2510039d50dc5:0x134f066f4cc686a8",
+            "google_id": "0x80c2510039d50dc5:0x134f066f4cc686a8",
+            "place_id": "ChIJxQ3VOQBRwoARqIbGTG8GTxM",
+            "google_mid": "/g/11vyj16rdq",
+            "phone_number": null,
+            "name": "Bins Plus",
+            "latitude": 34.6901371,
+            "longitude": -118.110903,
+            "full_address": "Bins Plus, 1061 E Ave. J, Lancaster, CA 93535",
+            "review_count": 1,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": null,
+            "working_hours": null,
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2510039d50dc5:0x134f066f4cc686a8",
+            "cid": "1391337884979988136",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJxQ3VOQBRwoARqIbGTG8GTxM&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "106423679898258163485",
+            "owner_link": "https://maps.google.com/maps/contrib/106423679898258163485",
+            "owner_name": "Bins Plus",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Home goods store",
+            "subtypes": [
+                "Home goods store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "Mxp_niOre-G43U2JXW_BrQ",
+                    "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Mxp_niOre-G43U2JXW_BrQ&cb_client=search.gws-prod.gps&w=86&h=86&yaw=8.333922&pitch=0&thumbfov=100",
+                    "photo_url_large": null,
+                    "video_thumbnail_url": null,
+                    "latitude": 34.69009602329911,
+                    "longitude": -118.11091031813835,
+                    "type": "street_view",
+                    "photo_datetime_utc": "2024-10-27T00:00:00.000Z",
+                    "photo_timestamp": 1729987200
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 1,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Payments": {
+                        "Credit cards": true
+                    }
+                }
+            },
+            "address": "1061 E Ave. J, Lancaster, CA 93535",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "1061 E Ave. J",
+            "city": "Lancaster",
+            "zipcode": "93535",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x809ac56f4193ec73:0xc2e697c294dde9b6",
+            "google_id": "0x809ac56f4193ec73:0xc2e697c294dde9b6",
+            "place_id": "ChIJc-yTQW_FmoARtundlMKX5sI",
+            "google_mid": "/g/11d_78l403",
+            "phone_number": "+19166267849",
+            "name": "Bargain Bin",
+            "latitude": 38.5016508,
+            "longitude": -121.43338949999999,
+            "full_address": "Bargain Bin, 6930 65th St, Sacramento, CA 95823",
+            "review_count": 11,
+            "rating": 5,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 11\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Monday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "11 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "11 AM\u20136 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x809ac56f4193ec73:0xc2e697c294dde9b6",
+            "cid": "14044079349978491318",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJc-yTQW_FmoARtundlMKX5sI&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "117969652356363274827",
+            "owner_link": "https://maps.google.com/maps/contrib/117969652356363274827",
+            "owner_name": "Bargain Bin",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Clothing store",
+            "subtypes": [
+                "Clothing store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipMsyWCezfycyVcNEuxdjnXW4CrX2rpFnMvbSIPu",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipMsyWCezfycyVcNEuxdjnXW4CrX2rpFnMvbSIPu",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipMsyWCezfycyVcNEuxdjnXW4CrX2rpFnMvbSIPu=w4032-h3024-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 38.5012857,
+                    "longitude": -121.43335809999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-07-07T00:00:00.000Z",
+                    "photo_timestamp": 1657152000
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as Asian-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "6930 65th St, Sacramento, CA 95823",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "6930 65th St",
+            "city": "Sacramento",
+            "zipcode": "95823",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x809adf2b73e6ccc3:0x8aa81d6633c3a05",
+            "google_id": "0x809adf2b73e6ccc3:0x8aa81d6633c3a05",
+            "place_id": "ChIJw8zmcyvfmoARBTo8Y9aBqgg",
+            "google_mid": "/g/11q8jqwsg4",
+            "phone_number": "+12792350388",
+            "name": "The Discount Store - Citrus Heights, CA",
+            "latitude": 38.7204578,
+            "longitude": -121.29130479999999,
+            "full_address": "The Discount Store - Citrus Heights, CA, 8481 Auburn Blvd, Citrus Heights, CA 95610",
+            "review_count": 336,
+            "rating": 4.2,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM",
+            "working_hours": {
+                "Sunday": [
+                    "10 AM\u20135 PM"
+                ],
+                "Monday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20136 PM"
+                ]
+            },
+            "website": "https://www.thediscountstoreca.com",
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x809adf2b73e6ccc3:0x8aa81d6633c3a05",
+            "cid": "624454256132110853",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJw8zmcyvfmoARBTo8Y9aBqgg&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "104733615548279578908",
+            "owner_link": "https://maps.google.com/maps/contrib/104733615548279578908",
+            "owner_name": "The Discount Store - Citrus Heights, CA",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store",
+                "Bedding store",
+                "Clothing store",
+                "Furniture store",
+                "Home goods store",
+                "Outlet store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOuFKi1cgnS9fRYpNAXDMzLaEqDm7vltbGj05J6",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOuFKi1cgnS9fRYpNAXDMzLaEqDm7vltbGj05J6",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOuFKi1cgnS9fRYpNAXDMzLaEqDm7vltbGj05J6=w1280-h960-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 38.7206215,
+                    "longitude": -121.29121219999999,
+                    "type": "photo",
+                    "photo_datetime_utc": "2022-12-03T00:00:00.000Z",
+                    "photo_timestamp": 1670025600
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 2427,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Identifies as women-owned": true,
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "In-store shopping": true,
+                        "Onsite services": true,
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    },
+                    "Payments": {
+                        "Credit cards": true,
+                        "Debit cards": true,
+                        "NFC mobile payments": true
+                    }
+                }
+            },
+            "address": "8481 Auburn Blvd, Citrus Heights, CA 95610",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "8481 Auburn Blvd",
+            "city": "Citrus Heights",
+            "zipcode": "95610",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [
+                    "2792350388"
+                ],
+                "facebook": "https://www.facebook.com/thediscountstoreca",
+                "instagram": "https://www.instagram.com/thediscountstoreca",
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x80c2c63736953ae1:0xfe005c2e51aef845",
+            "google_id": "0x80c2c63736953ae1:0xfe005c2e51aef845",
+            "place_id": "ChIJ4TqVNjfGwoARRfiuUS5cAP4",
+            "google_mid": "/g/11c59wlkhm",
+            "phone_number": "+12138789009",
+            "name": "The BIN",
+            "latitude": 34.0429746,
+            "longitude": -118.2426959,
+            "full_address": "The BIN, 507 Towne Ave, Los Angeles, CA 90013",
+            "review_count": 158,
+            "rating": 4.4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 8\u202fAM Mon",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Tuesday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Wednesday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Thursday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Friday": [
+                    "8 AM\u20135 PM"
+                ],
+                "Saturday": [
+                    "8 AM\u20131 PM"
+                ]
+            },
+            "website": null,
+            "verified": false,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x80c2c63736953ae1:0xfe005c2e51aef845",
+            "cid": "18302730239642368069",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4TqVNjfGwoARRfiuUS5cAP4&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "111920777370568849692",
+            "owner_link": "https://maps.google.com/maps/contrib/111920777370568849692",
+            "owner_name": "The BIN",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Storage facility",
+            "subtypes": [
+                "Storage facility"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipOohS7CpfmMR_sdh8E3ETXwA8cSHMH323gqiPx6",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipOohS7CpfmMR_sdh8E3ETXwA8cSHMH323gqiPx6",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipOohS7CpfmMR_sdh8E3ETXwA8cSHMH323gqiPx6=w5312-h2988-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 34.042989899999995,
+                    "longitude": -118.24234260000001,
+                    "type": "photo",
+                    "photo_datetime_utc": "2018-04-01T00:00:00.000Z",
+                    "photo_timestamp": 1522540800
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 4,
+            "about": {
+                "summary": null,
+                "details": {
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    }
+                }
+            },
+            "address": "507 Towne Ave, Los Angeles, CA 90013",
+            "order_link": null,
+            "price_level": null,
+            "district": "Skid Row",
+            "street_address": "507 Towne Ave",
+            "city": "Los Angeles",
+            "zipcode": "90013",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        },
+        {
+            "business_id": "0x8090813c8e6989fd:0xf73a8af14f5eda5a",
+            "google_id": "0x8090813c8e6989fd:0xf73a8af14f5eda5a",
+            "place_id": "ChIJ_YlpjjyBkIARWtpeT_GKOvc",
+            "google_mid": "/g/11nxnq6fmh",
+            "phone_number": "+12099203546",
+            "name": "Treasure Bin Thrift",
+            "latitude": 38.1912962,
+            "longitude": -120.8259071,
+            "full_address": "Treasure Bin Thrift, 200 CA-12 suite c-10, Valley Springs, CA 95252",
+            "review_count": 15,
+            "rating": 4,
+            "timezone": "America/Los_Angeles",
+            "opening_status": "Closed \u22c5 Opens 10\u202fAM Tue",
+            "working_hours": {
+                "Sunday": [
+                    "Closed"
+                ],
+                "Monday": [
+                    "Closed"
+                ],
+                "Tuesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Wednesday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Thursday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Friday": [
+                    "10 AM\u20136 PM"
+                ],
+                "Saturday": [
+                    "10 AM\u20133 PM"
+                ]
+            },
+            "website": null,
+            "verified": true,
+            "place_link": "https://www.google.com/maps/place/data=!3m1!4b1!4m2!3m1!1s0x8090813c8e6989fd:0xf73a8af14f5eda5a",
+            "cid": "17814704045040786010",
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ_YlpjjyBkIARWtpeT_GKOvc&q=bin+stores+in+california&authuser=0&hl=en&gl=US",
+            "owner_id": "108775251164420622091",
+            "owner_link": "https://maps.google.com/maps/contrib/108775251164420622091",
+            "owner_name": "Treasure Bin Thrift",
+            "booking_link": null,
+            "reservations_link": null,
+            "business_status": "OPEN",
+            "type": "Discount store",
+            "subtypes": [
+                "Discount store"
+            ],
+            "photos_sample": [
+                {
+                    "photo_id": "AF1QipO_miamxc79Ejp0CyvftObzvFtigPvoPD0QOisG",
+                    "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO_miamxc79Ejp0CyvftObzvFtigPvoPD0QOisG",
+                    "photo_url_large": "https://lh5.googleusercontent.com/p/AF1QipO_miamxc79Ejp0CyvftObzvFtigPvoPD0QOisG=w1200-h1600-k-no",
+                    "video_thumbnail_url": null,
+                    "latitude": 38.191344099999995,
+                    "longitude": -120.8259836,
+                    "type": "photo",
+                    "photo_datetime_utc": "2021-08-17T00:00:00.000Z",
+                    "photo_timestamp": 1629158400
+                }
+            ],
+            "reviews_per_rating": null,
+            "photo_count": 43,
+            "about": {
+                "summary": null,
+                "details": {
+                    "From the business": {
+                        "Small business": true
+                    },
+                    "Service options": {
+                        "Delivery": false,
+                        "Same-day delivery": false
+                    },
+                    "Accessibility": {
+                        "Wheelchair accessible entrance": true,
+                        "Wheelchair accessible parking lot": true
+                    },
+                    "Amenities": {
+                        "Wi-Fi": true
+                    },
+                    "Planning": {
+                        "Quick visit": true
+                    }
+                }
+            },
+            "address": "200 CA-12 suite c-10, Valley Springs, CA 95252",
+            "order_link": null,
+            "price_level": null,
+            "district": null,
+            "street_address": "200 CA-12 suite c-10",
+            "city": "Valley Springs",
+            "zipcode": "95252",
+            "state": "California",
+            "country": "US",
+            "emails_and_contacts": {
+                "emails": [],
+                "phone_numbers": [],
+                "facebook": null,
+                "instagram": null,
+                "yelp": null,
+                "tiktok": null,
+                "snapchat": null,
+                "twitter": null,
+                "linkedin": null,
+                "github": null,
+                "youtube": null,
+                "pinterest": null
+            },
+            "no": 140
+        }
+    ]
+};
+  res.status(200).json(storesData);
+}
