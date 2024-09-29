@@ -3,7 +3,6 @@ import Montana from '../components/Montana'
 
 export default function Home() {
   return (
-    <ErrorBoundary>
     <div className="min-h-screen bg-gray-100">
       <Head>
         <title>Montana Bin Stores</title>
@@ -18,6 +17,6 @@ export default function Home() {
       <footer className="text-center py-4">
         <p>&copy; 2024 Montana Bin Stores Directory</p>
       </footer>
-    </div></ErrorBoundary>
+    </div>
   )
 }
