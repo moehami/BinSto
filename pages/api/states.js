@@ -4,7 +4,7 @@ import { url } from "url";
 // pages/api/states.js
 export default function handler(req, res) {
     const states = [
-      { name: "Alabama", abbreviation: "AL" },
+      { name: "Alabama", abbreviation: "AL", url: "alabama"},
       { name: "Alaska", abbreviation: "AK" },
       { name: "Colorado", abbreviation: "CO", url: "colorado"},
       { name: "Montana", abbreviation: "CO", url: "montana"},
