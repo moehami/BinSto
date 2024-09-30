@@ -85,4 +85,17 @@ function Colorado() {
 
   const offset = currentPage * ITEMS_PER_PAGE;
   const currentItems = storesData.data.slice(offset, offset + ITEMS_PER_PAGE);
-  const pageCount = Math
+  const pageCount = Math.ceil(storesData.data.length / ITEMS_PER_PAGE);
+
+  return (
+    <div className="container mx-2 px-4 py-8">
+      <h1 className="text-3xl font-bold mb-6">Bin Stores in Colorado</h1>
+      <div className="mb-2">There are {storesData.data.length} Bins in Colorado</div>
+      <LazyStoresList stores={currentItems} />
+      <Pagination pageCount={pageCount} onPageChange={handlePageClick} />
+    </div>
+  );
+}
+Colorado.displayName = 'Colorado';
+
+export default Colorado;
