@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import useSWR from 'swr';
 import { useInView } from 'react-intersection-observer';
+import Pagination from '/components/Pagination';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -67,6 +68,9 @@ function Colorado() {
     revalidateOnReconnect: false,
   });
 
+  const [currentPage, setCurrentPage] = useState(0);
+  const ITEMS_PER_PAGE = 10;
+
   if (!storesData) {
     return <div className="text-center text-xl font-bold mt-8">Loading Colorado Bin Stores...</div>;
   }
@@ -75,14 +79,10 @@ function Colorado() {
     return <div className="text-center text-xl text-red-600 mt-8">Error: {error.message}</div>;
   }
 
-  return (
-    <div className="container mx-2 px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Bin Stores in Colorado</h1>
-      <div className="mb-2">There are {storesData.data.length} Bins in Colorado</div>
-      <LazyStoresList stores={storesData.data} />
-    </div>
-  );
-}
-Colorado.displayName = 'Colorado';
+  const handlePageClick = (data) => {
+    setCurrentPage(data.selected);
+  };
 
-export default Colorado;
+  const offset = currentPage * ITEMS_PER_PAGE;
+  const currentItems = storesData.data.slice(offset, offset + ITEMS_PER_PAGE);
+  const pageCount = Math
