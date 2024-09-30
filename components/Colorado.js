@@ -1,7 +1,7 @@
 import React from 'react';
 import useSWR from 'swr';
 import { useInView } from 'react-intersection-observer';
-
+Colorado.displayName = "Colorado";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const StoreCard = React.memo(({ store }) => (
@@ -70,4 +70,3 @@ export default function Colorado() {
   );
 }
 
-Colorado.displayName = "Colorado";
