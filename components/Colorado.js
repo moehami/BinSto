@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
 import useSWR from 'swr';
 import { useInView } from 'react-intersection-observer';
 
@@ -20,27 +20,36 @@ const StoreCard = React.memo(({ store }) => (
 ));
 StoreCard.displayName = 'StoreCard';
 
-const LazyStoresList = ({ stores }) => {
-  const [visibleStores, setVisibleStores] = React.useState([]);
+const LazyStoresList = React.memo(({ stores }) => {
+  const [visibleStores, setVisibleStores] = useState([]);
   const [ref, inView] = useInView({
     triggerOnce: false,
     rootMargin: '200px 0px',
   });
 
-  React.useEffect(() => {
+  const loadMoreStores = useCallback(() => {
     if (inView) {
-      setVisibleStores(prevStores => 
-        [...new Set([...prevStores, ...stores.slice(prevStores.length, prevStores.length + 10)])]
-      );
+      setVisibleStores(prevStores => {
+        const newStores = stores.slice(prevStores.length, prevStores.length + 10);
+        return [...prevStores, ...newStores];
+      });
     }
   }, [inView, stores]);
+
+  React.useEffect(() => {
+    loadMoreStores();
+  }, [loadMoreStores]);
+
+  const storeCards = useMemo(() => (
+    visibleStores.map((store) => (
+      <StoreCard key={store.business_id} store={store} />
+    ))
+  ), [visibleStores]);
 
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-        {visibleStores.map((store) => (
-          <StoreCard key={store.business_id} store={store} />
-        ))}
+        {storeCards}
       </div>
       {visibleStores.length < stores.length && (
         <div ref={ref} className="h-20 flex items-center justify-center">
@@ -49,11 +58,14 @@ const LazyStoresList = ({ stores }) => {
       )}
     </>
   );
-};
+});
 LazyStoresList.displayName = 'LazyStoresList';
 
 function Colorado() {
-  const { data: storesData, error } = useSWR('/api/colorado', fetcher);
+  const { data: storesData, error } = useSWR('/api/colorado', fetcher, {
+    revalidateOnFocus: false,
+    revalidateOnReconnect: false,
+  });
 
   if (!storesData) {
     return <div className="text-center text-xl font-bold mt-8">Loading Colorado Bin Stores...</div>;
