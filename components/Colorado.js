@@ -36,7 +36,7 @@ const LazyStoresList = ({ stores }) => {
   }, [inView, stores]);
 
   return (
-    <>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {visibleStores.map((store) => (
           <StoreCard key={store.business_id} store={store} />
@@ -47,7 +47,7 @@ const LazyStoresList = ({ stores }) => {
           <p className="text-gray-500">Loading more stores...</p>
         </div>
       )}
-    </>
+
   );
 };
 
@@ -70,5 +70,4 @@ const Colorado = () => {
       <LazyStoresList stores={storesData.data} />
     </div>
   );
-}
 }
