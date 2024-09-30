@@ -51,6 +51,7 @@ const LazyStoresList = ({ stores }) => {
 };
 
 const Colorado = () => {
+  Colorado.displayName = "Colorado";
   const { data: storesData, error } = useSWR('/api/colorado', fetcher);
 
   if (!storesData) {
