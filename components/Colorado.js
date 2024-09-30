@@ -50,7 +50,7 @@ const LazyStoresList = ({ stores }) => {
   );
 };
 
-export default function Colorado() {
+const Colorado = () => {
   const { data: storesData, error } = useSWR('/api/colorado', fetcher);
 
   if (!storesData) {
@@ -68,4 +68,6 @@ export default function Colorado() {
       <LazyStoresList stores={storesData.data} />
     </div>
   );
-}
+};
+
+export default Colorado;
