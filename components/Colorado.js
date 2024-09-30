@@ -1,7 +1,8 @@
 import React from 'react';
 import useSWR from 'swr';
 import { useInView } from 'react-intersection-observer';
-
+export default function Colorado() {
+  const [storesData, setStoresData] =
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const StoreCard = React.memo(({ store }) => (
@@ -69,6 +70,4 @@ const Colorado = () => {
       <LazyStoresList stores={storesData.data} />
     </div>
   );
-};
-
-export default Colorado;
+}
