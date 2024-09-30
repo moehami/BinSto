@@ -1,7 +1,6 @@
 import React from 'react';
 import useSWR from 'swr';
 import { useInView } from 'react-intersection-observer';
-export default function Colorado() {
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -19,6 +18,7 @@ const StoreCard = React.memo(({ store }) => (
     </div>
   </div>
 ));
+StoreCard.displayName = 'StoreCard';
 
 const LazyStoresList = ({ stores }) => {
   const [visibleStores, setVisibleStores] = React.useState([]);
@@ -50,8 +50,9 @@ const LazyStoresList = ({ stores }) => {
     </>
   );
 };
+LazyStoresList.displayName = 'LazyStoresList';
 
-
+function Colorado() {
   const { data: storesData, error } = useSWR('/api/colorado', fetcher);
 
   if (!storesData) {
@@ -70,4 +71,6 @@ const LazyStoresList = ({ stores }) => {
     </div>
   );
 }
+Colorado.displayName = 'Colorado';
 
+export default Colorado;
