@@ -5,8 +5,7 @@ import { useInView } from ‘react-intersection-observer’;
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 const StoreCard = React.memo(({ store }) > (
-export default function Example() {
-  return (
+
     <div>
       <div className="px-4 sm:px-0">
         <h3 className="text-base font-semibold leading-7 text-gray-900">Applicant Information</h3>
@@ -35,6 +34,6 @@ export default function Example() {
 
 
       </div>
-    </div>
-  )
-}
+    </div> ));
+
+
