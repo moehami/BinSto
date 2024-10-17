@@ -1,7 +1,7 @@
-import { PaperClipIcon } from '@heroicons/react/20/solid'
-import React from ‘react’; 
-import useSWR from ‘swr’; 
-import { useInView } from ‘react-intersection-observer’;
+import { PaperClipIcon } from '@heroicons/react/20/solid';
+import React from 'react'; 
+import useSWR from 'swr'; 
+import { useInView } from 'react-intersection-observer';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 const StoreCard = React.memo(({ store }) > (
