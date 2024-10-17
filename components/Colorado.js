@@ -33,4 +33,16 @@ const StoreCard = React.memo(({ store }) > (
             
     </div> ));
 
+const LazyStoresList = ({ stores }) => { const [visibleStores, setVisibleStores] = React.useState([]); const [ref, inView] = useInView({ triggerOnce: false, rootMargin: ‘200px 0px’, });
 
+React.useEffect(() => { if (inView) { setVisibleStores(prevStores => […new Set([…prevStores, …stores.slice(prevStores.length, prevStores.length + 10)])] ); } }, [inView, stores]);
+
+return ( <> <div className=”grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6”> {visibleStores.map((store) => ( <StoreCard key={store.business_id} store={store} /> ))} </div> {visibleStores.length < stores.length && ( <div ref={ref} className=”h-20 flex items-center justify-center”> <p className=”text-gray-500”>Loading more stores…</p> </div> )} </> ); };
+
+export default function Colorado() { const { data: storesData, error } = useSWR(‘/api/colorado’, fetcher);
+
+if (!storesData) { return <div className=”text-center text-xl font-bold mt-8”>Loading Colorado Bin Stores…</div>; }
+
+if (error) { return <div className=”text-center text-xl text-red-600 mt-8”>Error: {error.message}</div>; }
+
+return ( <div className=”container mx-2 px-4 py-8”> <h1 className=”text-3xl font-bold mb-6”>Bin Stores in Colorado</h1> <div className=”mb-2”>There are {storesData.data.length} Bins in Colorado</div> <LazyStoresList stores={storesData.data} /> </div> ); }
