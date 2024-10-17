@@ -30,10 +30,7 @@ const StoreCard = React.memo(({ store }) > (
             <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0"> {store.phone_number}</dd>
           </div>
 
-              
-
-
-      </div>
+            
     </div> ));
 
 
